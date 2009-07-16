@@ -1,0 +1,4717 @@
+# Language en-US translations for addons.mozilla.org package.
+# Copyright (C) 2009 THE addons.mozilla.org'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the addons.mozilla.org package.
+# Automatically generated, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: addons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-16 11:45-0800\n"
+"PO-Revision-Date: 2009-02-26 15:08-0800\n"
+"Last-Translator: Jesper Kristensen <www.mozilladanmark.dk>\n"
+"Language-Team: Danish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "a_cancel_installation"
+msgstr "Annuller installation"
+
+#. This is the text that appears on buttons to download add-ons.
+#. %$1s is an optional string that only appears if the add-on is only available for
+#. a certain platform.  Examples:  (Windows)  or  (Linux)
+#. Note that the parenthesis are included in the string. :(
+#, php-format
+msgid "a_download"
+msgstr "Download nu %s"
+
+msgid "a_eula_download"
+msgstr "Accepter og download"
+
+msgid "a_eula_install"
+msgstr "Accepter og installer"
+
+msgid "a_header_public"
+msgstr "Offentlig"
+
+msgid "a_header_sandbox"
+msgstr "Sandkasse"
+
+#. %s is a date in the _('date') format
+msgid "addon_detail_last_updated"
+msgstr "Opdateret %s"
+
+#. %s is the version of the add-on.  Example:  3.2a1
+#, php-format
+msgid "addon_display_header_version"
+msgstr "Version %s"
+
+msgid "addon_downloads"
+msgstr "downloads"
+
+msgid "addon_downloads_total"
+msgstr "downloads i alt"
+
+msgid "addon_downloads_weekly"
+msgstr "downloads pr. uge"
+
+#. %1 is the add-on count, %2 the category name
+#, php-format
+msgid "addon_list_category_totalcount"
+msgid_plural "addon_list_category_totalcount"
+msgstr[0] "%1$s tilføjelse"
+msgstr[1] "%1$s tilføjelser"
+
+msgid "addon_list_perpage"
+msgstr "pr. side"
+
+msgid "addon_list_sortby"
+msgstr "Sorter efter:"
+
+msgid "addon_listitem_flag_experimental"
+msgstr "eksperimentel"
+
+msgid "addon_listitem_flag_recommended"
+msgstr "anbefalet"
+
+#. %1 is the add-on name, %2 is the platform
+msgid "addon_not_available_for_platform"
+msgstr "%1$s er ikke tilgængelig til %2$s."
+
+#. %1 is the add-on name
+#, php-format
+msgid "addon_review_a_back_to_addon_x"
+msgstr "Tilbage til %1$s..."
+
+#. %1 is the add-on name
+#, php-format
+msgid "addon_review_a_back_to_reviews"
+msgstr "Tilbage til anmeldelser..."
+
+msgid "addon_review_add_rating_field"
+msgstr "Bedømmelse:"
+
+msgid "addon_review_add_review_field"
+msgstr "Anmeldelse:"
+
+msgid "addon_review_add_submit"
+msgstr "Indsend din anmeldelse"
+
+#. %s is the name of the add-on
+#, php-format
+msgid "addon_review_add_title"
+msgstr "Tilføj en anmeldelse af %s"
+
+msgid "addon_review_add_title_field"
+msgstr "Titel/resumé:"
+
+msgid "addon_review_admin_delete"
+msgstr "Slet"
+
+msgid "addon_review_author_reply_link"
+msgstr "Svar"
+
+msgid "addon_review_confirm_delete"
+msgstr "Er du sikker på, at du vil slette denne anmeldelse?"
+
+msgid "addon_review_confirm_no"
+msgstr "Nej"
+
+msgid "addon_review_confirm_yes"
+msgstr "Ja"
+
+msgid "addon_review_delete_header"
+msgstr "Slet anmeldelse"
+
+msgid "addon_review_deleted_successfully"
+msgstr "Anmeldelsen blev slettet."
+
+#. %s is the name of the add-on
+#, php-format
+msgid "addon_review_edit_title"
+msgstr "Ret anmeldelse af %s"
+
+#. %1 is the count of characters entered as notes for the review flag reason.
+msgid "addon_review_flag_error_other_length"
+msgstr ""
+"Problem ved rapporteringen af anmeldelse: Bemærkninger til rapporterede anmeldelser skal være på "
+"mellem 10 og 100 tegn. Du har skrevet %1$s tegn."
+
+#. Removing an extra comma
+msgid "addon_review_in_moderation"
+msgstr ""
+"Bemærk: Din anmeldelse vil blive gennemgået af en redaktør, før den kan ses "
+"på den offentlige side."
+
+msgid "addon_review_in_reply_to"
+msgstr "Udviklersvar til:"
+
+#. %1 is the review count, %2 is the nickname or full name of the user.
+#, php-format
+msgid "addon_review_others_by_user"
+msgid_plural "addon_review_others_by_user"
+msgstr[0] "Vis %1$s tidligere anmeldelse af denne tilføjelse indsendt af %2$s."
+msgstr[1] "Vis %1$s tidligere anmeldelser af denne tilføjelse indsendt af %2$s."
+
+#. %1 is the add-on name
+#, php-format
+msgid "addon_review_pagetitle"
+msgstr "Anmeldelser af %s"
+
+#. %1 is the user, %2 is the (localized) date
+#, php-format
+msgid "addon_review_reply_on_x_by_y"
+msgstr "Svar fra %1$s den %2$s"
+
+msgid "addon_review_reply_prefix"
+msgstr "Svar fra udvikleren:"
+
+msgid "addon_review_saved_successfully"
+msgstr "Din anmeldelse er gemt. Tak!"
+
+msgid "addon_reviewed_by_u_on_d"
+msgstr "af %1$s den %2$s"
+
+#. %1 is the user, %2 is the (localized) date, %3 is the rating
+#, php-format
+msgid "addon_reviewed_on_x_rated_y"
+msgstr "af %1$s den %2$s (bedømmelse %3$s)"
+
+msgid "addon_slider_tooltip_next"
+msgstr "Næste tilføjelse"
+
+msgid "addon_slider_tooltip_previous"
+msgstr "Forrige tilføjelse"
+
+msgid "addon_version_permalink"
+msgstr "Permanent link til denne version"
+
+#. %1 is the current Application name (e.g. Firefox)
+#. %2 is the Application's version number
+msgid "addon_versions_getlatestversion"
+msgstr "Seneste version, som er kompatibel med %1$s %2$s"
+
+msgid "addons_author_addons_submit"
+msgstr "Vis"
+
+msgid "addons_author_tooltip"
+msgstr "Vis forfatterens profil"
+
+#. %1 is the name of the Application (eg. Firefox)
+msgid "addons_browse_all_themes_title"
+msgstr "Gennemse alle temaer :: %1$s Add-ons"
+
+#. %s is the name of the category
+#, php-format
+msgid "addons_browse_browse_category"
+msgstr "Gennemse %s"
+
+#. %1 is the name of the theme category (eg. Modern)
+#. %2 is the name of the Application (eg. Firefox)
+msgid "addons_browse_categories_header_theme"
+msgstr "Gennemse temaer i kategorien %1$s :: %2$s Add-ons"
+
+msgid "addons_display_a_license_what"
+msgstr "Hvad er dette?"
+
+msgid "addons_display_add_review"
+msgstr "Tilføj en anmeldelse"
+
+msgid "addons_display_advanced_details"
+msgstr "Avancerede detaljer"
+
+msgid "addons_display_categories"
+msgstr "Kategorier"
+
+msgid "addons_display_detailed_review"
+msgstr "detaljeret anmeldelse"
+
+msgid "addons_display_dont_like_it"
+msgstr "Synes ikke om den"
+
+msgid "addons_display_edit_review"
+msgstr "Rediger din anmeldelse"
+
+msgid "addons_display_has_privacy"
+msgstr "Denne tilføjelse har en privatlivspolitik."
+
+msgid "addons_display_hate_it"
+msgstr "Hader den"
+
+msgid "addons_display_header_developer_comments"
+msgstr "Kommentarer fra udvikleren"
+
+msgid "addons_display_header_homepage"
+msgstr "Hjemmeside"
+
+msgid "addons_display_header_license"
+msgstr "Licens for kildekode"
+
+msgid "addons_display_header_reviews"
+msgstr "Anmeldelser"
+
+msgid "addons_display_header_support"
+msgstr "Support"
+
+msgid "addons_display_like_it"
+msgstr "Synes om den"
+
+msgid "addons_display_long_description"
+msgstr "Lang beskrivelse"
+
+msgid "addons_display_love_it"
+msgstr "Er vild med den"
+
+msgid "addons_display_more_images"
+msgstr "Flere billeder"
+
+#. %1$s is either an author's name or a comma separated list of authors. Using
+#. the list doesn't make sense in the English plural form so we ignore the
+#. variable.
+msgid "addons_display_other_addons_by"
+msgid_plural "addons_display_other_addons_by"
+msgstr[0] "Andre tilføjelser fra %1$s"
+msgstr[1] "Andre tilføjelser fra samme forfattere"
+
+#. %s is the name of the add-on and the add-on section.  Example:
+#.   Some Add-on :: Firefox Add-ons
+#. This should not be concatenated in the code and should be fixed.
+#, php-format
+msgid "addons_display_pagetitle"
+msgstr "%s"
+
+#. %s is an email address
+#, php-format
+msgid "addons_display_paragraph_supportinfoemail"
+msgstr "Support af denne tilføjelse tilbydes af udvikleren ved at kontakte %s"
+
+#. %$1s is a URL
+#. %$2s is an email address
+#, php-format
+msgid "addons_display_paragraph_supportinfoemailurl"
+msgstr ""
+"Support af denne tilføjelse tilbydes af udvikleren på %1$s eller ved at "
+"kontakte %2$s"
+
+#. %s is a URL
+#, php-format
+msgid "addons_display_paragraph_supportinfourl"
+msgstr "Support af denne tilføjelse tilbydes af udvikleren på %s"
+
+msgid "addons_display_rate_it"
+msgstr "Bedømmelse"
+
+msgid "addons_display_really_like_it"
+msgstr "Synes vældigt godt om den"
+
+msgid "addons_display_review_etiquette"
+msgstr ""
+"Lad venligst være med at sende fejlrapporter som anmeldelser. Vi videregiver ikke din e-mail-adresse "
+"til tilføjelsens udviklere, og de kan have behov for at kontakte dig for at "
+"løse problemet."
+
+#. %1 is the review guidelines link
+msgid "addons_display_review_guidelines_link"
+msgstr "<a href=\"%s\">Retningslinjer for anmeldelser</a>"
+
+#. %1 is the support section link
+msgid "addons_display_review_see_support"
+msgstr ""
+"Se <a href=\"%1$s\">supportafsnittet</a> for at finde ud af hvor du kan få "
+"hjælp til denne udvidelse."
+
+msgid "addons_display_review_submit"
+msgstr "Gem"
+
+#, php-format
+msgid "addons_display_see_all_addons"
+msgstr "Alle tilføjelser i kategorien %1$s"
+
+#. %1 is the number of reviews
+#, php-format
+msgid "addons_display_see_all_reviews"
+msgstr "Vis alle anmeldelser (%1$s)"
+
+msgid "addons_display_see_all_versions"
+msgstr "Vis alle versioner"
+
+msgid "addons_display_view_source"
+msgstr "Vis kildekoden"
+
+msgid "addons_display_view_stats"
+msgstr "Vis statistik"
+
+msgid "addons_display_what_do_you_think"
+msgstr "Hvad synes du?"
+
+msgid "addons_display_workswith"
+msgstr "Virker med:"
+
+msgid "addons_home_by"
+msgstr "af"
+
+msgid "addons_home_feature_head"
+msgstr "Vi anbefaler"
+
+#, php-format
+msgid "addons_home_header_details"
+msgstr ""
+"Tilføjelser udvider %1$s og giver dig mulighed for at skræddersy den efter "
+"dine behov. Se dig omkring, og gør %1$s til din egen."
+
+msgid "addons_home_newest_header"
+msgstr "Nyeste:"
+
+msgid "addons_home_other_applications"
+msgstr "Andre programmer"
+
+#. %1$s is the application the user is browsing.  Examples:  Thunderbird, Firefox,
+#. Sunbird
+#, php-format
+msgid "addons_home_pagetitle"
+msgstr "%1$s Add-ons"
+
+msgid "addons_home_popular_header"
+msgstr "Mest populære:"
+
+msgid "addons_home_recommended_header"
+msgstr "Vi anbefaler:"
+
+msgid "addons_home_updated_header"
+msgstr "Opdateret for nylig:"
+
+msgid "addons_home_view_all"
+msgstr "Vis alle"
+
+msgid "addons_home_view_all_newest_title"
+msgstr "Vis alle nyoprettede tilføjelser"
+
+msgid "addons_home_view_all_popular_title"
+msgstr "Vis alle populære tilføjelser"
+
+msgid "addons_home_view_all_recommended_title"
+msgstr "Vis alle anbefalede tilføjelser"
+
+msgid "addons_home_view_all_updated_title"
+msgstr "Vis alle nyligt opdaterede tilføjelser"
+
+msgid "addons_install_in_sunbird"
+msgstr ""
+"<ol><li>Klik på linket herunder for at gemme filen.</li><li>Åbn Mozilla Sunbird, "
+"og åbn Tilføjelser fra menuen Funktioner.</li><li>Klik på knappen "
+"Installer, find/marker filen, som du downloadede, og klik \"OK\".</li></ol>"
+
+msgid "addons_install_in_sunbird_title"
+msgstr "Hvordan du installerer i Sunbird"
+
+msgid "addons_install_in_thunderbird"
+msgstr ""
+"<ol><li>Klik på linket herunder for at gemme filen."
+"</li><li>Åbn Mozilla "
+"Thunderbird, og åbn Tilføjelser fra menuen Funktioner.</li><li>Klik på knappen "
+"Installer, find/marker filen, som du downloadede, og klik \"OK\".</li></ol>"
+
+msgid "addons_install_in_thunderbird_title"
+msgstr "Hvordan du installerer i Thunderbird"
+
+msgid "addons_options_show_experimental"
+msgstr "Vis eksperimentelle tilføjelser"
+
+msgid "addons_options_submit"
+msgstr "Opdater"
+
+msgid "addons_plugins_by"
+msgstr "Af"
+
+msgid "addons_plugins_for_linux"
+msgstr "til Linux"
+
+msgid "addons_plugins_for_macosx"
+msgstr "til Mac OS X"
+
+msgid "addons_plugins_for_windows"
+msgstr "til Windows"
+
+#. %1$s is a URL
+#, php-format
+msgid "addons_plugins_looking_for_more"
+msgstr ""
+"Denne side indeholder kun nogle af de mest almindelige og populære plugins. "
+"Besøg %1$s for at få mere at vide om andre plugins til Mozillabaserede "
+"browsere."
+
+msgid "addons_plugins_looking_for_plugin"
+msgstr "Leder du efter et plugin, som ikke er på listen?"
+
+msgid "addons_plugins_main_description"
+msgstr ""
+"Plugins hjælper din browser med specifikke funktioner, som fx at vise "
+"specielle grafikformater eller afspille multimediefiler. Plugins er en "
+"anelse anderledes end udvidelser, som ændrer eller udvider eksisterende funktionalitet."
+
+#. %1$s is the application name.  Example: Firefox, Thunderbird, Sunbird
+#, php-format
+msgid "addons_plugins_main_header"
+msgstr "Almindelige plugins til %1$s"
+
+msgid "addons_plugins_pagetitle"
+msgstr "Plugins"
+
+msgid "addons_plugins_support_documentation"
+msgstr "Hjælp og dokumentation: "
+
+#. %s is the name of the add-on
+#, php-format
+msgid "addons_policy_eula_require"
+msgstr ""
+"%s kræver, at du accepterer følgende slutbrugerlicensaftale, før "
+"installationen kan fortsætte:"
+
+#. %1 is the add-on name
+#, php-format
+msgid "addons_previews_pagetitle"
+msgstr "Skærmbilleder af %s"
+
+msgid "addons_recently_added"
+msgstr "Tilføjet fornyligt"
+
+msgid "addons_recommended_introduction"
+msgstr ""
+"Med så mange fantastiske tilføjelser er der noget for enhver smag. Her er en "
+"liste over nogle af de mest populære, så du kan komme godt i gang."
+
+msgid "addons_recommended_pagetitle"
+msgstr "Anbefalede tilføjelser"
+
+msgid "addons_recommended_title"
+msgstr "Anbefalede tilføjelser"
+
+msgid "addons_searchengines_additional_resources"
+msgstr "Yderligere kilder"
+
+#. link text devmo
+msgid "addons_searchengines_devmo_link"
+msgstr "Mozilla Developer Center"
+
+msgid "addons_searchengines_error_mozilla_browser_required"
+msgstr ""
+"Desværre, du skal bruge en Mozillabaseret browser (eksempelvis Firefox) for "
+"at installere et søgeplugin."
+
+msgid "addons_searchengines_error_nojavascript"
+msgstr ""
+"Der kræves JavaScript for at installere søgeplugins, men det ser ud til, at "
+"du har slået det fra. Slå JavaScript til før du forsøger at installere nogen "
+"af søgepluginsne herunder."
+
+#. %1 is "make your own" link
+#. %2 is MDC link
+msgid "addons_searchengines_learn_howto"
+msgstr "Lær hvordan du %1$s hos %2$s."
+
+#. link path to search plugins instructions, relative to devmo
+msgid "addons_searchengines_makeyourown_href"
+msgstr "/en/docs/Creating_OpenSearch_plugins_for_Firefox"
+
+#. link text for "make your own" (opensearch engine)
+msgid "addons_searchengines_makeyourown_link"
+msgstr "laver din egen"
+
+#. %1 is the link to mycroft.mozdev.org
+msgid "addons_searchengines_more"
+msgstr "Find flere søgetjenester hos %1$s"
+
+#. link text to mycroft.mozdev.org
+msgid "addons_searchengines_mycroft_link"
+msgstr "mycroft.mozdev.org"
+
+msgid "addons_searchengines_pagetitle"
+msgstr "Søgemasikner"
+
+msgid "addons_searchengines_thanks"
+msgstr ""
+"Særligt tak til Mycroftprojektet for deres arbejder med søgetjenester til "
+"Firefox."
+
+msgid "addons_share_button_text"
+msgstr "Del dette"
+
+msgid "addons_share_label_delicious"
+msgstr "Tilføj til Delicious"
+
+msgid "addons_share_label_digg"
+msgstr "Tilføj til Digg"
+
+msgid "addons_share_label_facebook"
+msgstr "Besked på Facebook"
+
+msgid "addons_share_label_friendfeed"
+msgstr "Del på FriendFeed"
+
+msgid "addons_share_label_myspace"
+msgstr "Besked på MySpace"
+
+msgid "addons_status_disabled"
+msgstr "Deaktiveret"
+
+msgid "addons_status_incomplete"
+msgstr "Inkompatibel version"
+
+msgid "addons_status_nominated"
+msgstr "I sandkassen; Nomineret til at blive offentliggjort"
+
+msgid "addons_status_pending"
+msgstr "I sandkassen; Venter på anmeldelser"
+
+msgid "addons_status_public"
+msgstr "Offentliggjort"
+
+msgid "addons_status_sandbox"
+msgstr "I sandkassen"
+
+msgid "addons_status_unknown"
+msgstr "Ukendt"
+
+msgid "addons_title_tooltip"
+msgstr "Lær mere om denne tilføjelse"
+
+msgid "addons_top_downloads"
+msgstr "Flest downloads"
+
+msgid "addons_top_rated"
+msgstr "Bedste bedømmelse"
+
+msgid "addons_versions_careful"
+msgstr "Pas på med gamle versioner"
+
+msgid "addons_versions_careful_introduction"
+msgstr ""
+"Disse versioner vises som reference og til brug for test. Du bør altid "
+"anvende den nyeste udgave af en tilføjelse."
+
+msgid "addons_versions_history"
+msgstr "Versionshistorik med beskrivelse af ændringer"
+
+#. %1$s is the add-on name
+#, php-format
+msgid "addons_versions_pagetitle"
+msgstr "Versionshistorik for %1$s"
+
+msgid "admin_group_add_pagetitle"
+msgstr "Tilføj gruppe"
+
+msgid "admin_group_delete_pagetitle"
+msgstr "Slet gruppe"
+
+#. %s is a number to identify the group
+#, php-format
+msgid "admin_group_deleted"
+msgstr "Gruppen med id %s er slettet"
+
+msgid "admin_group_edit_pagetitle"
+msgstr "Ret gruppe"
+
+msgid "admin_group_error_invalid_id"
+msgstr "Ugyldigt id til gruppe"
+
+msgid "admin_group_pagetitle"
+msgstr "Gruppeadministration"
+
+msgid "admin_group_saved"
+msgstr "Gruppen er gemt"
+
+msgid "advanced_search_form"
+msgstr "Avanceret"
+
+msgid "advanced_search_form_any_time"
+msgstr "Når som helst"
+
+msgid "advanced_search_form_any_type"
+msgstr "Enhver"
+
+msgid "advanced_search_form_any_version"
+msgstr "Enhver"
+
+msgid "advanced_search_form_application"
+msgstr "Program"
+
+msgid "advanced_search_form_keyword_match"
+msgstr "Relevans for søgningen"
+
+msgid "advanced_search_form_lastupdate"
+msgstr "Sidst opdateret"
+
+msgid "advanced_search_form_name"
+msgstr "Navn"
+
+msgid "advanced_search_form_newest"
+msgstr "Nyeste"
+
+msgid "advanced_search_form_past_3_months"
+msgstr "under 3 måneder siden"
+
+msgid "advanced_search_form_past_6_months"
+msgstr "under 6 måneder siden"
+
+msgid "advanced_search_form_past_day"
+msgstr "under et døgn siden"
+
+msgid "advanced_search_form_past_month"
+msgstr "under en måned siden"
+
+msgid "advanced_search_form_past_week"
+msgstr "under en uge siden"
+
+msgid "advanced_search_form_past_year"
+msgstr "under et år siden"
+
+msgid "advanced_search_form_perpage"
+msgstr "Pr. side"
+
+msgid "advanced_search_form_platform"
+msgstr "Platform"
+
+msgid "advanced_search_form_popularity"
+msgstr "Popularitet"
+
+msgid "advanced_search_form_rating"
+msgstr "Bedømmelse"
+
+msgid "advanced_search_form_sortby"
+msgstr "Sorter efter"
+
+msgid "advanced_search_form_to"
+msgstr "til"
+
+msgid "advanced_search_form_toggle_tooltip"
+msgstr "Skift mellem avanceret og simpel søgning"
+
+msgid "advanced_search_form_type"
+msgstr "Type"
+
+msgid "advanced_search_form_version"
+msgstr "version"
+
+msgid "app_compat_ignore_check"
+msgstr "Ignorer versionskontrol"
+
+msgid "app_compat_older_firefox_only"
+msgstr "Denne tilføjelse er til ældre versioner af Firefox"
+
+#. %1$s and %2$s are URLs
+msgid "app_compat_older_version_or_ignore_check"
+msgstr ""
+"Du kan <a href=\"%1$s\">prøve en ældre version</a> eller <a href=\"#\" onclick="
+"\"%2$s\">ignorere denne test</a>"
+
+#. %1$s is a URL
+msgid "app_compat_try_old_version"
+msgstr "En <a href=\"%1$s\">ældre version</a> vil måske virke"
+
+#. %1$s is a URL
+#. %2$s is a version number.  Example: 3.1
+msgid "app_compat_unreleased_version"
+msgstr ""
+"Denne tilføjelse kræver <a href=\"%1$s\">Firefox %2$s</a>, som endnu ikke er udgivet"
+
+msgid "app_compat_update_firefox"
+msgstr ""
+"<a href=\"http://getfirefox.com\">Opdater Firefox</a> for at bruge denne tilføjelse"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>addon name</a>
+#. %3$s is a status, like Public.
+msgid "audit_addon_status"
+msgstr "%1$s changed the status of %2$s to %3$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s an action string, but we don't know what it could be.
+#. %3$s is a numeric id.
+msgid "audit_admin_default"
+msgstr "%1$s committed unknown admin action %2$s to ID %3$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a numeric id.
+msgid "audit_admin_feature_remove"
+msgstr "%1$s removed feature %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is an application, like Firefox.
+msgid "audit_application_create"
+msgstr "%1$s created application %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is an application, like Firefox.
+msgid "audit_application_edit"
+msgstr "%1$s edited application %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a version number, like 3.5.
+#. %3$s is an application, like Firefox.
+msgid "audit_appversion_create"
+msgstr "%1$s created version %2$s for %3$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a version number, like 3.5.
+#. %3$s is an application, like Firefox.
+msgid "audit_appversion_delete"
+msgstr "%1$s deleted version %2$s for %3$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a config field, like "awesomeness".
+#. %3$s is a config value, like "off".
+#. %4$s is a config value, like "on".
+msgid "audit_config"
+msgstr "%1$s changed config '%2$s' from '%3$s' to '%4$s'"
+
+#. %1$s is <a>user name</a>
+#. %2$s an action string, but we don't know what it could be.
+#. %3$s is a numeric id.
+msgid "audit_editor_default"
+msgstr "%1$s committed unknown editor action %2$s to ID %3$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>addon name</a>
+msgid "audit_editor_feature_remove"
+msgstr "%1$s removed addon %2$s from feature list"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>addon name</a>
+msgid "audit_feature_add"
+msgstr "%1$s added addon %2$s to feature list"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a locale, like en-US.
+msgid "audit_feature_edit"
+msgstr "%1$s changed a feature for %2$s locale"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>addon name</a>
+msgid "audit_feature_locale_change"
+msgstr "%1$s changed locales for addon %2$s on feature list"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a numeric id.
+msgid "audit_file_recalchash"
+msgstr "%1$s recalculated the hash for file %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>user name</a>
+#. %3$s is <a>group name</a>
+msgid "audit_group_addmember"
+msgstr "%1$s added %2$s to group %3$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>group name</a>
+msgid "audit_group_associated"
+msgstr "%1$s associated themselves with %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>group name</a>
+msgid "audit_group_create"
+msgstr "%1s created group %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>group name</a>
+#. %2$s is a numeric id.
+msgid "audit_group_delete"
+msgstr "%1$s deleted group %2$s (ID %3$s)"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>group name</a>
+msgid "audit_group_edit"
+msgstr "%1$s edited group %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>user name</a>
+#. %3$s is <a>group name</a>
+msgid "audit_group_removemember"
+msgstr "%1$s removed %2$s from group %3$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s an action string, but we don't know what it could be.
+#. %3$s is a numeric id.
+msgid "audit_l10n_default"
+msgstr "%1$s committed unknown action %2$s for %3$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>group name</a>
+msgid "audit_modify_locked_group"
+msgstr "%1$s attempted to modify locked group %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a locale, like en-US.
+msgid "audit_modify_other_locale"
+msgstr "%1$s attempted to modify translations in %2$s without permission"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a platform, like <a>Windows</a>
+msgid "audit_platform_create"
+msgstr "%1$s created platform %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a platform, like <a>Windows</a>
+#. %3$s is a numeric id.
+msgid "audit_platform_delete"
+msgstr "%1$s deleted platform %2$s (ID %3$s)"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a platform, like <a>Windows</a>
+msgid "audit_platform_edit"
+msgstr "%1$s edited platform %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a part of the admin, like 'Site Config'
+msgid "audit_reauthentication_failure"
+msgstr "%1$s failed to re-authenticate to access %2$s."
+
+#. %1$s is <a>user name</a>
+#. %2$s is the name of a canned response, like 'Ready for the public'
+msgid "audit_response_create"
+msgstr "%1$s created response %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is the name of a canned response, like 'Ready for the public'
+#. %3$s is a numeric id.
+msgid "audit_response_delete"
+msgstr "%1$s deleted response %2$s (ID %3$s)"
+
+#. %1$s is <a>user name</a>
+#. %2$s is the name of a canned response, like 'Ready for the public'
+msgid "audit_response_edit"
+msgstr "%1$s edited response %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a numeric id.
+msgid "audit_review_approve"
+msgstr "%1$s approved review %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a numeric id.
+msgid "audit_review_delete"
+msgstr "%1$s deleted review %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s an action string, but we don't know what it could be.
+#. %3$s is a numeric id.
+msgid "audit_security_default"
+msgstr "%1$s committed unknown security action %2$s to ID %3$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a category name, like <a>Search Tools</a>
+msgid "audit_tag_create"
+msgstr "%1$s created tag %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a category name, like <a>Search Tools</a>
+#. %3$s is a numeric id.
+msgid "audit_tag_delete"
+msgstr "%1$s deleted category %2$s (ID %3$s)"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a category name, like <a>Search Tools</a>
+msgid "audit_tag_edit"
+msgstr "%1$s edited category %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a locale, like en-US.
+msgid "audit_update_applications"
+msgstr "%1$s updated application translations for %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a locale, like en-US.
+msgid "audit_update_blog"
+msgstr "%1$s updated blog post translations for %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a locale, like en-US.
+msgid "audit_update_platforms"
+msgstr "%1$s updated platform translations for %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is a locale, like en-US.
+msgid "audit_update_tags"
+msgstr "%1$s updated category translations for %2$s"
+
+#. %1$s is <a>user name</a>
+#. %2$s is <a>user name</a>
+msgid "audit_user_edit"
+msgstr "%1$s edited %2$s's user information"
+
+msgid "browse_addons_name"
+msgstr "Tilføjelser efter navn"
+
+msgid "browse_addons_newest"
+msgstr "Nyeste tilføjelser"
+
+msgid "browse_addons_popular"
+msgstr "Populære tilføjelser"
+
+msgid "browse_addons_rated"
+msgstr "Tilføjelser efter bedømmelse"
+
+msgid "browse_addons_updated"
+msgstr "Nyligt opdaterede tilføjelser"
+
+msgid "categories_current_title"
+msgstr "Nuværende kategori"
+
+msgid "categories_header"
+msgstr "Kategorier"
+
+msgid "categories_header_title"
+msgstr "Vælg en kategori"
+
+#. %1$s is the category name
+#, php-format
+msgid "category_extra_see_all"
+msgstr "Se alle tilføjelser i kategorien %1$s"
+
+msgid "collection_not_found"
+msgstr "Samlingen findes ikke!"
+
+#. %s is a date in the _('date') format
+#, php-format
+msgid "collections_interactive_addon_added"
+msgstr "Tilføjet %s"
+
+msgid "compatibility_dashboard_center_header"
+msgstr "Kompatibilitetscenter for tilføjelser"
+
+#. %1$s is the name of an application and a version.  Example: Firefox 3.0
+#. %2$s is the name of an application.  Example: Firefox
+msgid "compatibility_dashboard_intro"
+msgstr ""
+"Vær klar til udgivelsen af %1$s med værktøjerne og informationerne herunder."
+""
+
+msgid "compatibility_dashboard_loading"
+msgstr "Indlæser data..."
+
+msgid "compatibility_dashboard_main_link"
+msgstr "Tilbage til hovedsiden"
+
+msgid "compatibility_dashboard_report"
+msgstr "Kompatibilitetsrapport for tilføjelser"
+
+msgid "compatibility_developer_info"
+msgstr "Information til udviklere af tilføjelser"
+
+msgid "compatibility_developers_adjust_maxversion"
+msgstr "Juster maxVersion uden at uploade"
+
+msgid "compatibility_developers_check_status"
+msgstr "Kontroller status for mine tilføjelser"
+
+#. %1$s is a URL
+#. %2$s is an application and version.  Example:  Firefox 3.0
+msgid "compatibility_developers_login_first"
+msgstr ""
+"Hvis du har tilføjelser hostet på Mozilla Add-ons, kan du <a href=\"%1$s\">logge "
+"ind</a> for at se status for dine tilføjelser relateret til %2$s."
+
+msgid "compatibility_developers_mdclogo_alt"
+msgstr "Logo for Mozilla Developer Center"
+
+msgid "compatibility_developers_no_addons"
+msgstr "Du har ingen tilføjelser, som hostes af Mozilla Add-ons."
+
+msgid "compatibility_developers_results"
+msgstr "Resultat af statustjek"
+
+msgid "compatibility_developers_retrieving"
+msgstr "Indlæser status for tilføjelser..."
+
+#. %1$s is a number
+#. %2$s is an application name  
+#. %3$s is a number.
+#. Full example:   50 Firefox users (10% of total)
+msgid "compatibility_developers_user_count"
+msgstr "%1$s brugere af %2$s (%3$s&#37; af alle)"
+
+msgid "compatibility_report_detail_intro"
+msgstr ""
+"Tilføjelserne herunder udgør 95% af den del af tilføjelsesbrugen som Mozilla kender til og er "
+"ordnet efter antal brugere."
+
+msgid "compatibility_report_detailed_link"
+msgstr "Vis detaljeret rapport"
+
+#. %1$s and %2$s are numbers
+#. %3$s is an application name and version.  Example: Firefox 3.1
+msgid "compatibility_report_intro"
+msgstr ""
+"Af de %1$s tilføjelser, som udgør 95&#37; af den del af tilføjelsesbrugen som Mozilla kender til, "
+"er <b>%2$s&#37;</b> i øjeblikket kompatible med de seneste udgaver "
+"af %3$s."
+
+msgid "compatibility_report_legend_alpha"
+msgstr "Alfaversioner"
+
+#. %1$s is an application name and version.  Example: Firefox 3.1
+msgid "compatibility_report_legend_alpha_description"
+msgstr "Tilføjelser som er kompatible med en alfaversion af %1$s"
+
+msgid "compatibility_report_legend_beta"
+msgstr "Betaversioner"
+
+#. %1$s is an application name and version.  Example: Firefox 3.1
+msgid "compatibility_report_legend_beta_description"
+msgstr "Tilføjelser som er kompatible med en betaversion eller release candidate af %1$s"
+
+msgid "compatibility_report_legend_latest"
+msgstr "Seneste version"
+
+#. %1$s is an application name and version.  Example: Firefox 3.1
+msgid "compatibility_report_legend_latest_description"
+msgstr "Tilføjelser som er opdateret til de seneste udgaver af %1$s"
+
+msgid "compatibility_report_legend_other"
+msgstr "Andre versioner"
+
+#. %1$s is an application name and version.  Example: Firefox 3.1
+msgid "compatibility_report_legend_other_description"
+msgstr "Tilføjelser som ikke er kompatible med nogen versioner af %1$s"
+
+msgid "compatibility_report_title"
+msgstr "Kompatibilitetsrapport for tilføjelser"
+
+msgid "compatibility_user_info"
+msgstr "Information til brugere af tilføjelser"
+
+msgid "compatibility_view_report"
+msgstr "Vis kompatibilitetsrapport"
+
+#. %s is a URL
+#, php-format
+msgid "credits_contributing"
+msgstr "Se hvodan du selv kan bidrage på %s."
+
+msgid "credits_contributing_wikipage"
+msgstr "vores wikiside"
+
+msgid "credits_intro"
+msgstr ""
+"Mozilla vil gerne takke følgende personer for deres bidrag til "
+"addons.mozilla.org gennem årene:"
+
+msgid "credits_section_developers"
+msgstr "Udviklere"
+
+msgid "credits_section_editors"
+msgstr "Redaktører"
+
+msgid "credits_section_localizers"
+msgstr "Oversættere"
+
+msgid "credits_section_other_contributors"
+msgstr "Andre bidragydere"
+
+msgid "credits_section_past_developers"
+msgstr "Forhenværende udviklere"
+
+msgid "credits_section_software"
+msgstr "Software og billeder"
+
+msgid "credits_software_famfamfam"
+msgstr ""
+"Visse ikoner på siden er fra <a href=\"http://www.famfamfam.com/lab/icons/"
+"silk/\">famfamfam Silk Icon Set</a>, givet i licens under <a href=\"http://"
+"creativecommons.org/licenses/by/2.5/\">Creative Commons Navngivelse 2.5 "
+"Licens</a>."
+
+msgid "credits_software_timeplot"
+msgstr ""
+"Nogle sider bruger elementer fra <a href=\"http://www.simile-widgets.org/timeplot/"
+"\">Timeplot</a>, givet i licens under en <a href=\"http://simile.mit.edu/license."
+"html\">BSD-licens</a>."
+
+#. date format string as used in PHP's strftime():
+#. http://php.net/strftime
+msgid "date"
+msgstr "%e. %B %Y"
+
+#. date and time format string (strftime)
+#. http://php.net/strftime
+msgid "datetime"
+msgstr "%e. %B %Y, %H:%M"
+
+msgid "devcp_actionbar_link_details"
+msgstr "Detailed Info"
+
+msgid "devcp_actionbar_link_edit"
+msgstr "Edit Add-on"
+
+msgid "devcp_actionbar_link_newversion"
+msgstr "Upload New Version"
+
+msgid "devcp_actionbar_link_stats"
+msgstr "Statistics Dashboard"
+
+#. %1$s is a filename, e.g. "foo.txt"
+#. %2$s is the extension, e.g. ".txt"
+#. %3$s is a list of valid extensions, like ".png, .jpg, .gif"
+msgid "devcp_add_previews_extension_error"
+msgstr "File %1$s has an invalid extension (%2$s). Allowed extensions: %3$s"
+
+#. %s is the filename.
+msgid "devcp_add_previews_save_error"
+msgstr "File %s could not be saved to the database. Please try again."
+
+#. %1$s is the preview ID number, %2$s is the filename.
+msgid "devcp_add_previews_success_replace"
+msgstr "Preview %1$s was replaced with file %2$s successfully."
+
+#. %s is the filename.
+msgid "devcp_add_previews_success_upload"
+msgstr "File %s was uploaded successfully. You can add a caption below."
+
+msgid "devcp_additem_addontype_autodetect"
+msgstr "(auto-detect)"
+
+msgid "devcp_additem_linktitle_opensin_newwindow"
+msgstr "Opens in a new window"
+
+msgid "devcp_additem_sidebar_title"
+msgstr "Submit Add-on"
+
+msgid "devcp_additem_step0_newlink"
+msgstr "Developer Agreement"
+
+msgid "devcp_additem_step1_link"
+msgstr "Step 1: Upload"
+
+msgid "devcp_additem_step2_link"
+msgstr "Step 2: Add-on Details"
+
+msgid "devcp_additem_step3_link"
+msgstr "Step 3: Version Details"
+
+msgid "devcp_additem_step4_link"
+msgstr "Step 4: Localization"
+
+msgid "devcp_additem_step5_link"
+msgstr "Step 5: Success"
+
+msgid "devcp_additem_submissionhelp_link"
+msgstr "Submission Help"
+
+msgid "devcp_addon_field_preview_caption_displaytitle"
+msgstr "Preview Caption"
+
+msgid "devcp_addon_status_action_activate"
+msgstr "Make Active"
+
+msgid "devcp_addon_status_action_activate_description"
+msgstr ""
+"Make your add-on active for it to show up in public listings and enable the "
+"update check service."
+
+msgid "devcp_addon_status_action_complete"
+msgstr "Complete Add-on"
+
+msgid "devcp_addon_status_action_complete_description"
+msgstr "Complete your add-on and move to the Sandbox"
+
+msgid "devcp_addon_status_action_deactivate"
+msgstr "Make Inactive"
+
+msgid "devcp_addon_status_action_deactivate_description"
+msgstr ""
+"Make your add-on inactive to hide it from all public listings and disable "
+"the update check service."
+
+msgid "devcp_addon_status_action_move"
+msgstr "Move to Sandbox"
+
+msgid "devcp_addon_status_action_move_description"
+msgstr "Move your add-on back to the Sandbox. This is reversible."
+
+msgid "devcp_addon_status_action_nominate"
+msgstr "Nominate for Public"
+
+msgid "devcp_addon_status_action_nominate_description"
+msgstr "Nominate your add-on to become Public"
+
+msgid "devcp_addon_status_action_public"
+msgstr "Make Public"
+
+msgid "devcp_addon_status_action_public_description"
+msgstr "Make your add-on Public again."
+
+msgid "devcp_addon_status_active"
+msgstr ""
+"Your add-on is <span class=\"inactive-0\">Active</span>. This means your add-"
+"on is showing up in all available listings appropriate for its status above."
+
+msgid "devcp_addon_status_completion_disabled"
+msgstr ""
+"Please fulfill the criteria above before you can complete your add-on and "
+"move it to the <span class=\"status-1\">Sandbox</span>."
+
+msgid "devcp_addon_status_completion_enabled"
+msgstr ""
+"You may now complete your add-on and move it to the <span class=\"status-1"
+"\">Sandbox</span> by clicking the button below."
+
+msgid "devcp_addon_status_criteria_category"
+msgstr "At least one category selected"
+
+msgid "devcp_addon_status_criteria_description"
+msgstr "Add-on Description required"
+
+msgid "devcp_addon_status_criteria_name"
+msgstr "Add-on Name required"
+
+msgid "devcp_addon_status_criteria_prerelease"
+msgstr "Add-on is not marked as pre-release."
+
+msgid "devcp_addon_status_criteria_preview"
+msgstr "At least one preview image required for extensions and themes."
+
+msgid "devcp_addon_status_criteria_review"
+msgstr "Several user reviews of the add-on (may be external reviews)."
+
+msgid "devcp_addon_status_criteria_summary"
+msgstr "Add-on Summary required"
+
+#. %s is the status in a span, e.g. "<span>_('Public')</span>".
+msgid "devcp_addon_status_header"
+msgstr "Add-on Status: %s"
+
+msgid "devcp_addon_status_header_actions"
+msgstr "Available Actions"
+
+msgid "devcp_addon_status_header_active"
+msgstr "Active Status: <span class=\"inactive-0\">Active</span>"
+
+msgid "devcp_addon_status_header_criteria"
+msgstr "Add-on Completion Criteria"
+
+msgid "devcp_addon_status_header_inactive"
+msgstr "Active Status: <span class=\"inactive-1\">Inactive</span>"
+
+msgid "devcp_addon_status_header_nomination"
+msgstr "Public Nomination Criteria"
+
+msgid "devcp_addon_status_header_trusted"
+msgstr "Trusted Status: <span class=\"status-4\">Trusted</span>"
+
+msgid "devcp_addon_status_inactive"
+msgstr ""
+"Your add-on is <span class=\"inactive-1\">Inactive</span>. This means your "
+"add-on will not show up in any listing, regardless of its status above. "
+"Updates are <b>not</b> being provided to your add-on through the update "
+"check service."
+
+msgid "devcp_addon_status_nominate_disabled"
+msgstr ""
+"Please fulfill the criteria above before nominating your add-on to become "
+"<span class=\"status-4\">Public</span>."
+
+msgid "devcp_addon_status_nominate_enabled"
+msgstr ""
+"You may now nominate your add-on for <span class=\"status-4\">Public</span> "
+"by clicking the button below."
+
+msgid "devcp_addon_status_public"
+msgstr "Public"
+
+msgid "devcp_addon_status_sandbox"
+msgstr "Sandbox"
+
+#. %s is an email address.
+msgid "devcp_addon_status_switch_disabled"
+msgstr ""
+"Your add-on was <span class=\"status-5\">Disabled</span> by an administrator "
+"and cannot be used. If you have any questions, please e-mail %s."
+
+msgid "devcp_addon_status_switch_incomplete"
+msgstr ""
+"Your add-on is currently <span class=\"status-0\">Incomplete</span>. This "
+"means your add-on is not showing up on any portion of the site or update "
+"check service. You may come to this page to complete your add-on after it "
+"meets the criteria below for completion and transfer to the <span class="
+"\"status-1\">Sandbox</span>."
+
+#. %s is a number, perhaps 42.
+msgid "devcp_addon_status_switch_nominated"
+msgstr ""
+"Your add-on is currently nominated to become <span class=\"status-4"
+"\">Public</span> and is awaiting editor review. There are currently %s other "
+"add-ons in the nomination queue."
+
+#. %s is an email address.
+msgid "devcp_addon_status_switch_pending"
+msgstr ""
+"Your add-on is pending. This shouldn't have happened. Please e-mail %s with "
+"your add-on ID and state this error."
+
+msgid "devcp_addon_status_switch_public"
+msgstr ""
+"Your add-on is <span class=\"status-4\">Public</span>, which means it will "
+"show up in all listings and searches and can be downloaded without "
+"restriction. Updates are being provided to your add-on through the update "
+"check service."
+
+msgid "devcp_addon_status_switch_sandbox"
+msgstr ""
+"Your add-on is in the <span class=\"status-1\">Sandbox</span>, which means "
+"it will show up in listings and searches, but users must log in to download "
+"it. Updates are <b>not</b> being provided to your add-on through the update "
+"check service."
+
+#. %s is the add-on name.
+msgid "devcp_addon_status_title"
+msgstr "%s Status"
+
+msgid "devcp_addon_status_trusted"
+msgstr ""
+"Your add-on is <span class=\"status-4\">Trusted</span>. This means you can "
+"submit updates to your add-on without editor review."
+
+msgid "devcp_dashboard_active"
+msgstr "Active"
+
+#. %1$s is the add-on type string
+#. %2$s is Inactive or Active in a <span>
+#. %3$s is the addon's public status (Public, In Sandbox, ...) in a <span>
+msgid "devcp_dashboard_addontype_status"
+msgstr "%1$s currently %2$s and %3$s"
+
+msgid "devcp_dashboard_change_status"
+msgstr "Change Status"
+
+#. %s is the addons email address.
+msgid "devcp_dashboard_disabled_questions"
+msgstr ""
+"Your add-on was disabled by an administrator and cannot be used.  If you "
+"have any questions, please email %s."
+
+#. %s is the (localized) add-on status string in a span, e.g. "Disabled"
+msgid "devcp_dashboard_disabled_status"
+msgstr "Add-on Status: %s"
+
+msgid "devcp_dashboard_header_main"
+msgstr "Developer Dashboard"
+
+msgid "devcp_dashboard_header_welcome"
+msgstr "Welcome to the Developer Dashboard"
+
+msgid "devcp_dashboard_inactive"
+msgstr "Inactive"
+
+#. %s is a date in the _('date') format
+msgid "devcp_dashboard_last_edited"
+msgstr "Last edited on %s"
+
+msgid "devcp_dashboard_learn"
+msgstr ""
+"You don't currently have any add-ons hosted on Mozilla Add-ons. To learn how "
+"the process works and submit your first add-on, click Get Started below."
+
+msgid "devcp_dashboard_start"
+msgstr "Get Started"
+
+msgid "devcp_dashboard_versions"
+msgstr "Versions and Files"
+
+msgid "devcp_dashboard_versions_new"
+msgstr "Upload a new version"
+
+#. %s is the preview ID number.
+msgid "devcp_delete_previews_error"
+msgstr "Preview %s could not be deleted from the database. Please try again."
+
+#. %s is the preview ID number.
+msgid "devcp_delete_previews_success"
+msgstr "Preview %s has been deleted successfully."
+
+msgid "devcp_delete_version_priv_error"
+msgstr "You do not have privileges to delete versions or files."
+
+#. %1$s is the count of files, a number
+#. %2$s is a status string like _('Public') or _('Incomplete')
+msgid "devcp_describe_version_status"
+msgid_plural "devcp_describe_version_status"
+msgstr[0] "%1$s %2$s file"
+msgstr[1] "%1$s %2$s files"
+
+#. %s is a version number.  Example:  3.0
+#, php-format
+msgid "devcp_details_version"
+msgstr "Version %s"
+
+msgid "devcp_discuss_addreply_header"
+msgstr "Add Reply"
+
+msgid "devcp_discuss_allreplies_header"
+msgstr "Replies"
+
+#. notice when an error occurs saving a discussion reply
+#. %1 is the email address (linked) for the amo-editors list
+msgid "devcp_discuss_error_notice"
+msgstr ""
+"There was an error saving your reply. Please contact %1$s about the issue."
+
+#. %1 is the add-on name, %2 is the add-on's version number currently being reviewed by an editor
+msgid "devcp_discuss_intro"
+msgstr ""
+"A Mozilla Add-ons Editor requested further information from you regarding "
+"version %2$s of your add-on %1$s."
+
+#. %1 is the add-on name
+msgid "devcp_discuss_pagetitle"
+msgstr "Provide More Information For the Add-on Review of %1$s"
+
+#. submit button text
+msgid "devcp_discuss_submit_reply"
+msgstr "Submit Reply"
+
+msgid "devcp_discuss_success_message"
+msgstr ""
+"Your reply was successfully saved. The other participants of the discussion "
+"will be notified by email."
+
+#. in an author/editor discussion about an add-on to be reviewed:
+#. %1 is the commenter's user name (linked).
+#. %2 is the full date the comment was made.
+msgid "devcp_discuss_writtenby"
+msgstr "written by %1$s on %2$s"
+
+msgid "devcp_edit_authors_add_author"
+msgstr "Add New Author"
+
+msgid "devcp_edit_authors_add_author_button"
+msgstr "Add Author"
+
+msgid "devcp_edit_authors_add_email"
+msgstr "Author Account Email:"
+
+msgid "devcp_edit_authors_add_loading"
+msgstr "Checking account email..."
+
+msgid "devcp_edit_authors_click_save"
+msgstr "Click the Update Authors button below to save."
+
+msgid "devcp_edit_authors_header_current"
+msgstr "Current Authors"
+
+msgid "devcp_edit_authors_header_manage"
+msgstr "Manage Add-on Authors"
+
+msgid "devcp_edit_authors_label_add_listed"
+msgstr "List as author in public display pages"
+
+msgid "devcp_edit_authors_label_developer"
+msgstr ""
+"<strong>Developer</strong> - Can manage all aspects of the add-on listing, "
+"except for adding and removing other authors."
+
+msgid "devcp_edit_authors_label_owner"
+msgstr ""
+"<strong>Owner</strong> - Can manage all aspects of the add-on listing, "
+"including adding and removing other authors."
+
+msgid "devcp_edit_authors_label_viewer"
+msgstr ""
+"<strong>Viewer</strong> - Can view add-on developer listing and statistics, "
+"but can't make any changes."
+
+#. Placeholder for the empty option in a <select>.
+msgid "devcp_edit_authors_option_empty"
+msgstr "----------------"
+
+msgid "devcp_edit_authors_select_role"
+msgstr "Select a role for the author:"
+
+#. Column name in a table.
+msgid "devcp_edit_authors_th_author"
+msgstr "Author"
+
+#. Column name in a table.
+msgid "devcp_edit_authors_th_listed"
+msgstr "Listed"
+
+#. Column name in a table.
+msgid "devcp_edit_authors_th_role"
+msgstr "Role"
+
+msgid "devcp_edit_authors_update_author"
+msgstr "Update authors"
+
+msgid "devcp_edit_categories_button_update"
+msgstr "Update Categories"
+
+msgid "devcp_edit_categories_does_not_fit"
+msgstr "My add-on doesn't fit into any available categories."
+
+#. %s is the application name (Firefox, Thunderbird).
+msgid "devcp_edit_categories_header_application"
+msgstr "%s Categories"
+
+msgid "devcp_edit_categories_header_manage"
+msgstr "Manage Add-on Categories"
+
+msgid "devcp_edit_categories_hover"
+msgstr "Hover over a category to see its description."
+
+#. %s is the category number (1, 2, 3).
+msgid "devcp_edit_categories_label_category_num"
+msgstr "Category %s"
+
+msgid "devcp_edit_categories_none_available"
+msgstr "No categories are available for this add-on type and application."
+
+msgid "devcp_edit_categories_other"
+msgstr ""
+"Place your add-on into this category only if it does not fit into any other "
+"available categories."
+
+#. %s is the application name (Firefox, Thunderbird).
+msgid "devcp_edit_categories_select_application_categories"
+msgstr "Select up to three %s categories for your add-on"
+
+msgid "devcp_edit_dd_manage_authors"
+msgstr "Add or remove users that can manage this add-on."
+
+msgid "devcp_edit_dd_manage_categories"
+msgstr ""
+"Select the relevant categories for each application your add-on supports."
+
+msgid "devcp_edit_dd_manage_description"
+msgstr ""
+"Add and modify translations for your add-on's summary, description, end-user "
+"license, and privacy policy."
+
+msgid "devcp_edit_dd_manage_properties"
+msgstr "Change your add-on's name, homepage, icon, and other flags."
+
+msgid "devcp_edit_description_button_update"
+msgstr "Update Descriptions"
+
+msgid "devcp_edit_description_correct_error"
+msgstr "Please correct the errors above indicated in red."
+
+msgid "devcp_edit_descriptions_header"
+msgstr "Edit Add-on Descriptions"
+
+msgid "devcp_edit_descriptions_transbox_comments_description"
+msgstr ""
+"Any information end users may want to know that isn't necessarily applicable "
+"to the add-on summary or description. Common uses include listing known "
+"major bugs, information on how to report bugs, anticipated release date of a "
+"new version, etc."
+
+msgid "devcp_edit_descriptions_transbox_comments_name"
+msgstr "Developer Comments"
+
+msgid "devcp_edit_descriptions_transbox_description_description"
+msgstr ""
+"The description of your add-on is a longer explanation of features, "
+"functionality, and other relevant information. It is displayed under the "
+"summary on the add-on's display page."
+
+msgid "devcp_edit_descriptions_transbox_description_name"
+msgstr "Add-on Description"
+
+msgid "devcp_edit_descriptions_transbox_eula_description"
+msgstr ""
+"If your add-on has an End-User License Agreement (EULA), please enter its "
+"text below. If set below, users will be required to agree to this before "
+"installing your add-on. Please note that a EULA is not the same as a code "
+"license such as GPL or MPL."
+
+msgid "devcp_edit_descriptions_transbox_eula_name"
+msgstr "End-User License Agreement"
+
+msgid "devcp_edit_descriptions_transbox_privacy_description"
+msgstr ""
+"If your add-on has a privacy policy, enter its text here. Your add-on's "
+"display page will display a link to the policy."
+
+msgid "devcp_edit_descriptions_transbox_privacy_name"
+msgstr "Privacy Policy"
+
+msgid "devcp_edit_descriptions_transbox_summary_description"
+msgstr ""
+"The summary is a short explanation of your add-on's basic functionality that "
+"is displayed in search and browse listings, as well as at the top of your "
+"add-on's display page. <strong>Limit of 250 characters.</strong>"
+
+msgid "devcp_edit_descriptions_transbox_summary_name"
+msgstr "Add-on Summary"
+
+msgid "devcp_edit_dt_manage_authors"
+msgstr "Manage Add-on Authors"
+
+msgid "devcp_edit_dt_manage_categories"
+msgstr "Manage Add-on Categories"
+
+msgid "devcp_edit_dt_manage_descriptions"
+msgstr "Manage Add-on Descriptions"
+
+msgid "devcp_edit_dt_manage_properties"
+msgstr "Manage Add-on Properties"
+
+msgid "devcp_edit_label_externalsoftware"
+msgstr "This add-on requires external software"
+
+msgid "devcp_edit_label_locale_disambiguation"
+msgstr "Additional Locale Info"
+
+msgid "devcp_edit_label_prerelease"
+msgstr "This is a pre-release"
+
+msgid "devcp_edit_label_sitespecific"
+msgstr "This is a site-specific add-on"
+
+msgid "devcp_edit_label_target_locale"
+msgstr "Target Locale"
+
+msgid "devcp_edit_properties_button_update"
+msgstr "Update Properties"
+
+msgid "devcp_edit_properties_change_guid"
+msgstr "Only change if you understand all of the consequences."
+
+msgid "devcp_edit_properties_current_icon"
+msgstr "Current Icon"
+
+msgid "devcp_edit_properties_default_locale"
+msgstr ""
+"An add-on's default locale is the main locale in which translations must be "
+"present. If translations for your add-on's descriptions are unavailable in a "
+"user's selected language, they will fall back to this default locale."
+
+msgid "devcp_edit_properties_flags"
+msgstr "These flags are used to filter and classify add-ons."
+
+msgid "devcp_edit_properties_guid"
+msgstr ""
+"The GUID of your add-on is specified in its install.rdf and uniquely "
+"identifies it. You cannot change your GUID once it is listed on Mozilla Add-"
+"ons."
+
+msgid "devcp_edit_properties_header"
+msgstr "Edit Add-on Properties"
+
+msgid "devcp_edit_properties_header_addon_type"
+msgstr "Add-on Type"
+
+msgid "devcp_edit_properties_header_admin_settings"
+msgstr "Admin Settings"
+
+msgid "devcp_edit_properties_header_default_locale"
+msgstr "Default Locale"
+
+msgid "devcp_edit_properties_header_flags"
+msgstr "Add-on Flags"
+
+msgid "devcp_edit_properties_header_guid"
+msgstr "Add-on GUID"
+
+msgid "devcp_edit_properties_header_icon"
+msgstr "Add-on Icon"
+
+msgid "devcp_edit_properties_header_other_settings"
+msgstr "Other Settings"
+
+#. A header on the admin page to toggle trusted status.
+msgid "devcp_edit_properties_header_trusted"
+msgstr "Trusted Add-on?"
+
+msgid "devcp_edit_properties_header_view_source"
+msgstr "View Source Online"
+
+#. %s is a comma-separated list of image extensions ".png, .jpg"
+msgid "devcp_edit_properties_icon"
+msgstr ""
+"The add-on icon is a small image that is displayed next to your add-on's "
+"name in browse and search results, display pages, and in the add-on "
+"installation dialog. The image will automatically be resized to 32 x 32 "
+"pixels.  Please use one of the following image types: %s"
+
+msgid "devcp_edit_properties_label_binary"
+msgstr "This add-on contains binary components"
+
+msgid "devcp_edit_properties_label_not_trusted"
+msgstr "Not Trusted"
+
+msgid "devcp_edit_properties_label_trusted"
+msgstr "Trusted"
+
+msgid "devcp_edit_properties_new_icon"
+msgstr "New Icon"
+
+msgid "devcp_edit_properties_remove_icon"
+msgstr "Remove Icon"
+
+msgid "devcp_edit_properties_transbox_homepage_description"
+msgstr ""
+"If your add-on has another homepage, enter its address here. Adding other "
+"translations is not necessary unless your website is localized into other "
+"languages."
+
+msgid "devcp_edit_properties_transbox_homepage_name"
+msgstr "Add-on Homepage"
+
+msgid "devcp_edit_properties_transbox_name_description"
+msgstr "The name of your add-on is displayed everywhere your add-on is listed."
+
+msgid "devcp_edit_properties_transbox_name_name"
+msgstr "Add-on Name"
+
+msgid "devcp_edit_properties_transbox_supportemail_description"
+msgstr ""
+"If you have an email address for support inquiries, enter it here. Adding "
+"other translations is not necessary unless you have different email "
+"addresses for different languages."
+
+msgid "devcp_edit_properties_transbox_supportemail_name"
+msgstr "Support Email Address"
+
+msgid "devcp_edit_properties_transbox_supporturl_description"
+msgstr ""
+"If your add-on has a support website or forum, enter its address here. "
+"Adding other translations is not necessary unless your website is localized "
+"into other languages."
+
+msgid "devcp_edit_properties_transbox_supporturl_name"
+msgstr "Support Website"
+
+msgid "devcp_edit_properties_trusted"
+msgstr "Trusted add-ons can become public without Editor review."
+
+#. %s is href="..." and should stay in the <a> tag.
+msgid "devcp_edit_properties_undelete"
+msgstr "Icon will be deleted on save. <a %s>Cancel?</a>"
+
+msgid "devcp_edit_properties_view_source"
+msgstr ""
+"The source of your add-on files can be viewed online by any logged in user "
+"if you wish."
+
+msgid "devcp_edit_properties_view_source_allow"
+msgstr "Allow online source viewing"
+
+msgid "devcp_edit_properties_view_source_do_not_allow"
+msgstr "Do not allow online source viewing"
+
+msgid "devcp_editbox_authors"
+msgstr "Authors"
+
+msgid "devcp_editbox_categories"
+msgstr "Categories"
+
+msgid "devcp_editbox_change_status"
+msgstr "Change Status"
+
+msgid "devcp_editbox_descriptions"
+msgstr "Descriptions"
+
+msgid "devcp_editbox_edit_addon"
+msgstr "Edit Add-on"
+
+msgid "devcp_editbox_new_version"
+msgstr "New Version"
+
+msgid "devcp_editbox_properties"
+msgstr "Properties"
+
+msgid "devcp_editbox_screenshots"
+msgstr "Preview Screenshots"
+
+msgid "devcp_editbox_statistics_dashboard"
+msgstr "Statistics Dashboard"
+
+msgid "devcp_editbox_versions"
+msgstr "Versions and Files"
+
+msgid "devcp_editbox_view_listing"
+msgstr "View Listing"
+
+msgid "devcp_editorsqueue_featured"
+msgstr "Featured Add-ons"
+
+#. %1 is the review count
+#, php-format
+msgid "devcp_editorsqueue_moderatedreviews"
+msgid_plural "devcp_editorsqueue_moderatedreviews"
+msgstr[0] "Moderated Reviews (%s)"
+msgstr[1] "Moderated Reviews (%s)"
+
+#. %1 is the nominated addons count
+#, php-format
+msgid "devcp_editorsqueue_nominated"
+msgid_plural "devcp_editorsqueue_nominated"
+msgstr[0] "Nominated Add-ons (%s)"
+msgstr[1] "Nominated Add-ons (%s)"
+
+#. %1 is the update count
+#, php-format
+msgid "devcp_editorsqueue_pendingupdates"
+msgid_plural "devcp_editorsqueue_pendingupdates"
+msgstr[0] "Pending Updates (%s)"
+msgstr[1] "Pending Updates (%s)"
+
+msgid "devcp_error_addon_access_denied"
+msgstr "You do not have access to that add-on."
+
+#. %s is a complete URL with the text from devcp_error_appversion_reference_link_text
+#. in the <a> tag.  This should be fixed.
+#, php-format
+msgid "devcp_error_appversion_reference_link"
+msgstr "Please see %s for reference."
+
+#. This is the link text in the <a> for devcp_error_appversion_reference_link.  This
+#. should be fixed.
+msgid "devcp_error_appversion_reference_link_text"
+msgstr "this page"
+
+msgid "devcp_error_empty_authors"
+msgstr "Your add-on must have at least one owner."
+
+#. %1$s is the name of the file
+msgid "devcp_error_file_exists"
+msgstr ""
+"A version of that add-on already exists. To replace it, you must delete the "
+"file %1$s first."
+
+#. %1$s is a file extension.  Example:  .exe
+#. %2$s is a comma separated list of extensions.  Example:  .xpi, .jar
+#, php-format
+msgid "devcp_error_file_extension"
+msgstr ""
+"That file extension (%1$s) is not allowed for the selected add-on type. "
+"Please use one of the following: %2$s"
+
+msgid "devcp_error_five_categories"
+msgstr "Please select no more than five categories."
+
+msgid "devcp_error_guid_application"
+msgstr "The ID of this add-on is already used by an application."
+
+msgid "devcp_error_http_incomplete"
+msgstr "Incomplete transfer"
+
+msgid "devcp_error_http_maxupload"
+msgstr "Exceeds maximum upload size"
+
+msgid "devcp_error_http_nofile"
+msgstr "No file uploaded"
+
+#. %1$s is a file extension.  Example:  .exe
+#. %2$s is a comma separated list of extensions.  Example:  .xpi, .jar
+#, php-format
+msgid "devcp_error_icon_extension"
+msgstr ""
+"That file extension (%1$s) is not allowed for an icon. Please use one of the "
+"following: %2$s"
+
+msgid "devcp_error_index_rdf_notfound"
+msgstr "No install.rdf present."
+
+msgid "devcp_error_install_manifest"
+msgstr "The following errors were found in install.rdf:"
+
+msgid "devcp_error_invalid_addontype"
+msgstr ""
+
+#. %$1s is a version.  Example: 3.1.1
+#. %$2s is an add-on name.
+#, php-format
+msgid "devcp_error_invalid_appversion"
+msgstr "%1$s is not a valid version for %2$s"
+
+#. %s is a string
+#, php-format
+msgid "devcp_error_invalid_guid"
+msgstr "The ID of this add-on is invalid: %s"
+
+#. %$1s is a version.  Example: 3.1.1
+#. %$2s is an add-on name.
+#, php-format
+msgid "devcp_error_invalid_minversion"
+msgstr ""
+"%1$s is not a valid version for %2$s: minimum versions cannot contain *"
+
+msgid "devcp_error_invalid_version"
+msgstr ""
+"The version of this add-on is invalid: please see the <a href=\"http://"
+"developer.mozilla.org/en/docs/Toolkit_version_format\">specification</a>"
+
+msgid "devcp_error_invalid_version_spaces"
+msgstr "The version of this add-on is invalid: versions cannot contain spaces."
+
+#. %s is an error message from the parser.
+#, php-format
+msgid "devcp_error_manifest_parse"
+msgstr "The following error occurred while parsing install.rdf: %s"
+
+msgid "devcp_error_move_file"
+msgstr "Could not move file"
+
+#. %s is the name of a file
+#, php-format
+msgid "devcp_error_moving_file"
+msgstr "An error occurred moving %s."
+
+msgid "devcp_error_mozilla_application"
+msgstr "You must have at least one valid Mozilla target application."
+
+msgid "devcp_error_no_guid"
+msgstr "No ID could be found for this add-on in install.rdf."
+
+msgid "devcp_error_no_platform"
+msgstr "No platform selected"
+
+msgid "devcp_error_one_category"
+msgstr "Please select at least one category."
+
+msgid "devcp_error_one_user"
+msgstr "There must be at least one author for this add-on."
+
+#. %1$s is a file extension.  Example:  .exe
+#. %2$s is a comma separated list of extensions.  Example:  .xpi, .jar
+#, php-format
+msgid "devcp_error_preview_extension"
+msgstr ""
+"That file extension (%1$s) is not allowed for a preview. Please use one of "
+"the following: %2$s"
+
+msgid "devcp_error_updatekey"
+msgstr ""
+"Add-ons cannot use an updateKey. Please remove this from install.rdf and try "
+"again."
+
+msgid "devcp_error_updateurl"
+msgstr ""
+"Add-ons cannot use an external updateURL. Please remove this from install."
+"rdf and try again."
+
+msgid "devcp_error_upload_file"
+msgstr "Please upload a file."
+
+msgid "devcp_input_upload_file"
+msgstr "Upload File"
+
+msgid "devcp_js_a_cancel"
+msgstr "Cancel"
+
+msgid "devcp_js_add_email"
+msgstr "Please enter the account email of the author you wish to add."
+
+#. alt text for a down-arrow image.
+msgid "devcp_js_img_move_down"
+msgstr "Move Down"
+
+#. alt text for an up-arrow image.
+msgid "devcp_js_img_move_up"
+msgstr "Move Up"
+
+msgid "devcp_js_img_remove_compat"
+msgstr "Remove Application Compatibility"
+
+msgid "devcp_js_input_list_author"
+msgstr "List as author in public listings"
+
+msgid "devcp_js_license_select"
+msgstr "Please select a license."
+
+msgid "devcp_js_license_text"
+msgstr "Please enter text for your license."
+
+#. <option> text in a <select> for Author role in an add-on.
+msgid "devcp_js_option_developer"
+msgstr "Developer"
+
+#. <option> text in a <select> for Author role in an add-on.
+msgid "devcp_js_option_owner"
+msgstr "Owner"
+
+#. <option> text in a <select> for Author role in an add-on.
+msgid "devcp_js_option_viewer"
+msgstr "Viewer"
+
+msgid "devcp_js_remove_author"
+msgstr "Remove Author"
+
+msgid "devcp_js_sure_remove"
+msgstr "Are you <strong>sure</strong> you wish to remove this author?"
+
+msgid "devcp_js_upload_alert"
+msgstr "You must select a file to upload."
+
+#. %1$s is an addon id, like 32.
+#. %2$s is a version number, like 3.5.
+msgid "devcp_license_existing"
+msgstr "Custom license for add-on %1$s v%2$s"
+
+msgid "devcp_localebox_header_localizedfields"
+msgstr "Localized Fields"
+
+#. %1 is the default locale
+#, php-format
+msgid "devcp_localebox_intro"
+msgstr ""
+"Some of the fields on this page are localized to appear in the end-user's "
+"native language. Select a locale below to edit your add-on's details in that "
+"language. If a translation for a locale is not available, it will fall back "
+"to the selected default locale (%s)."
+
+msgid "devcp_myaddons_admincp_link"
+msgstr "Admin Tools"
+
+msgid "devcp_myaddons_editorcp_link"
+msgstr "Editor Tools"
+
+msgid "devcp_myaddons_link"
+msgstr "My Add-ons"
+
+msgid "devcp_myaddons_mainpage_link"
+msgstr "Back to Main"
+
+msgid "devcp_myaddons_statistics_link"
+msgstr "Statistics Dashboard"
+
+msgid "devcp_myaddons_submitaddon_link"
+msgstr "Submit Add-on"
+
+msgid "devcp_myaddons_title"
+msgstr "Developer Tools"
+
+#. %1$s is an add-on ID, perhaps 167.
+#. %2$s is a URL.
+msgid "devcp_new_addon_error"
+msgstr ""
+"This add-on ID (%1$s) already exists in the database. If this is your add-"
+"on, you can <a href=\"%2$s\">upload a new version</a>."
+
+msgid "devcp_nominate_cancel"
+msgstr "Cancel and return"
+
+#. %1 is the add-on name
+#, php-format
+msgid "devcp_nominate_submit_nominate"
+msgstr "Nominate %s"
+
+msgid "devcp_notice_changes_error"
+msgstr ""
+"<span>One or more of your changes couldn't be saved.</span><br />Please look "
+"for the errors below. The rest of your changes were successfully saved."
+
+msgid "devcp_notice_changes_saved"
+msgstr ""
+"<span>Your changes have been saved.</span><br />Please note that some "
+"changes may take several hours to appear in all areas of the website."
+
+msgid "devcp_notice_cleardefault"
+msgstr ""
+"Removing this as the default preview will cause another preview to "
+"automatically become the default preview."
+
+msgid "devcp_notice_makedefault"
+msgstr ""
+"Making this the default preview will remove default status from the current "
+"default preview."
+
+msgid "devcp_notice_unsaved_changes"
+msgstr "You have unsaved changes."
+
+msgid "devcp_pagetitle"
+msgstr "Developer Tools"
+
+msgid "devcp_preview_add_pagetitle"
+msgstr "Add Preview"
+
+msgid "devcp_preview_added_successfully"
+msgstr "Preview added successfully."
+
+msgid "devcp_preview_deleted_successfully"
+msgstr "Preview deleted successfully."
+
+msgid "devcp_preview_edit_pagetitle"
+msgstr "Edit Preview"
+
+msgid "devcp_preview_updated_successfully"
+msgstr "Preview updated successfully."
+
+msgid "devcp_previews_a_another"
+msgstr "Add Another Preview"
+
+msgid "devcp_previews_a_delete"
+msgstr "Delete Preview"
+
+msgid "devcp_previews_a_replace"
+msgstr "Replace Preview"
+
+msgid "devcp_previews_a_update"
+msgstr "Update Previews"
+
+msgid "devcp_previews_add_new"
+msgstr "Add New Preview"
+
+#. %s is a list of file extensions, e.g. ".png, .gif"
+msgid "devcp_previews_add_select"
+msgstr ""
+"Select an image to upload below. Images larger than the maximum size of 700 "
+"pixels wide by 525 pixels tall will be resized. Allowed file types: %s"
+
+msgid "devcp_previews_click_below"
+msgstr "Click Update Previews below to upload."
+
+#. %s is href=... and should stay in the <a> tag.
+msgid "devcp_previews_click_update"
+msgstr ""
+"Click the Update Previews button below to save this image. (<a %s>Cancel?</"
+"a>)"
+
+#. %s is href=... and should stay in the <a> tag.
+msgid "devcp_previews_error_message"
+msgstr ""
+"This preview will be deleted when Update Previews is clicked below. (<a %"
+"s>Cancel?</a>)"
+
+msgid "devcp_previews_filetype_info"
+msgstr ""
+"Use the form below to upload a PNG, JPG, or GIF screenshot of your add-on. "
+"Images larger than 700 pixels wide and 525 pixels high will automatically be "
+"resized."
+
+msgid "devcp_previews_header_add"
+msgstr "Add Preview"
+
+msgid "devcp_previews_header_caption"
+msgstr "Preview Caption"
+
+msgid "devcp_previews_header_edit"
+msgstr "Edit Preview"
+
+msgid "devcp_previews_label_default"
+msgstr "Default Preview"
+
+msgid "devcp_previews_label_file"
+msgstr "Preview File"
+
+msgid "devcp_previews_label_makedefault"
+msgstr "Make this the default preview image"
+
+msgid "devcp_previews_label_new"
+msgstr "New image:"
+
+msgid "devcp_previews_label_upload"
+msgstr "Upload Preview: "
+
+msgid "devcp_previews_notice_error"
+msgstr "One or more of your new previews could not be saved."
+
+msgid "devcp_previews_notice_success"
+msgstr "Your previews have been updated successfully."
+
+msgid "devcp_previews_p_screenshots"
+msgstr ""
+"The preview screenshots for your add-on are shown below. You can make "
+"changes to captions or images below. The Default Preview is the preview that "
+"is displayed next to your add-on in search and browse listings."
+
+msgid "devcp_previews_submit_delete"
+msgstr "Delete Preview"
+
+msgid "devcp_previews_submit_delete_confirm"
+msgstr "Are you sure you wish to delete this preview?"
+
+msgid "devcp_previews_submit_edit"
+msgstr "Edit Preview"
+
+msgid "devcp_previews_submit_upload"
+msgstr "Upload Preview"
+
+msgid "devcp_previews_thumbnail"
+msgstr "Thumbnail"
+
+#. %s is the add-on name.
+msgid "devcp_previews_title"
+msgstr "%s Preview Manager"
+
+msgid "devcp_review_agreement_please"
+msgstr ""
+"Please review and accept the following Developer Agreement before proceeding."
+
+msgid "devcp_rolecheck_no_privs"
+msgstr ""
+"<span>You do not have sufficient privileges to make changes on this page.</"
+"span><br />Contact the Add-on Owner if you need to make changes."
+
+msgid "devcp_several_hours"
+msgstr ""
+"Please note that some changes may take several hours to appear in all areas "
+"of the website."
+
+msgid "devcp_sidebar_a_dashboard"
+msgstr "Dashboard"
+
+#. %s is a number
+#, php-format
+msgid "devcp_statsbar_adu"
+msgstr "<em>%s</em> Active Daily Users"
+
+#. %s is a number
+#, php-format
+msgid "devcp_statsbar_total_downloads"
+msgstr "<em>%s</em> Total Downloads"
+
+#. %s is a number
+#, php-format
+msgid "devcp_statsbar_weekly_downloads"
+msgstr "<em>%s</em> Weekly Downloads"
+
+msgid "devcp_status_confirm_active"
+msgstr ""
+"Marking this add-on active will cause it to show up in public areas "
+"appropriate for its status, including search and browse listings. It will be "
+"downloadable from the website and could be returned in client update checks, "
+"depending on its status. You will be able to return here and disable it "
+"again at your convenience."
+
+msgid "devcp_status_confirm_active_sure"
+msgstr "Are you sure you wish to mark this add-on active?"
+
+msgid "devcp_status_confirm_header_sure"
+msgstr "Are you sure?"
+
+msgid "devcp_status_confirm_inactive"
+msgstr ""
+"Marking this add-on inactive will prevent it from showing up in any public "
+"areas, including search and browse listings. It will not be downloadable "
+"from the website and will not be returned in client update checks. You will "
+"be able to return here and re-enable it at your convenience."
+
+msgid "devcp_status_confirm_inactive_sure"
+msgstr "Are you sure you wish to mark this add-on inactive?"
+
+msgid "devcp_status_confirm_no"
+msgstr "No, cancel"
+
+msgid "devcp_status_confirm_public"
+msgstr ""
+"Making this add-on public will make it available for anyone to download and "
+"will begin offering updates to existing users."
+
+msgid "devcp_status_confirm_public_sure"
+msgstr "Are you sure you wish to make this add-on public?"
+
+msgid "devcp_status_confirm_sandbox"
+msgstr ""
+"Moving this add-on back to the sandbox will require users to log in before "
+"downloading and updates will no longer be offered to existing users. Because "
+"your add-on is currently public, you will be able to return here at any time "
+"to make it public again."
+
+msgid "devcp_status_confirm_sandbox_sure"
+msgstr "Are you sure you wish to move this add-on to the sandbox?"
+
+msgid "devcp_status_confirm_yes"
+msgstr "Yes, I'm Sure"
+
+msgid "devcp_status_nominate_error_notice"
+msgstr ""
+"<span>A nomination message is required.</span><br />Please fill in the text "
+"box with the requested information and try again."
+
+msgid "devcp_status_nominate_header"
+msgstr "Add-on Nomination"
+
+msgid "devcp_summary_lastversion"
+msgstr "Latest Version:"
+
+#. %s is the add-on name.
+msgid "devcp_title_edit_addon"
+msgstr "Edit %s"
+
+#. title attribute for a javascript link that pops up a help dialog.
+msgid "devcp_transbox_a_title_help"
+msgstr "Help (does not leave page)"
+
+msgid "devcp_transbox_alt_help"
+msgstr "Help"
+
+#. %1$s is <span>17</span>, %2$s is 42.
+msgid "devcp_transbox_chars_used"
+msgstr "Characters used: %1$s / %2$s"
+
+msgid "devcp_transbox_delete_sure"
+msgstr "Are you sure you wish to delete this translation?"
+
+#. %s is a locale, like en-US.
+msgid "devcp_transbox_help_header_tabs"
+msgstr "What are these %s tabs?"
+
+msgid "devcp_transbox_help_header_what"
+msgstr "What if I don't have any translations?"
+
+msgid "devcp_transbox_help_hide"
+msgstr "Hide Help"
+
+msgid "devcp_transbox_help_if"
+msgstr ""
+"If a user browses the site and a translation isn't available in their own "
+"language, it will fall back to your add-on's Default Locale, specified in "
+"the Edit Add-on Properties area. If you don't have any translations, just "
+"enter what you can into your Default Locale, which should be a language you "
+"speak."
+
+msgid "devcp_transbox_help_transbox"
+msgstr ""
+"This is a <i>Translation Box</i>. It allows you to localize a specific field "
+"into any other languages for which you might have a translation. You can "
+"add, edit, and remove translations using the locale tabs."
+
+msgid "devcp_transbox_img_add_trans"
+msgstr "Add Translation"
+
+msgid "devcp_transbox_img_remove_trans"
+msgstr "Remove Translation"
+
+msgid "devcp_transbox_input_add_all"
+msgstr "Add Locale to All"
+
+msgid "devcp_transbox_input_add_locale"
+msgstr "Add Locale"
+
+msgid "devcp_transbox_input_cancel"
+msgstr "Cancel"
+
+msgid "devcp_transbox_input_delete"
+msgstr "Delete It"
+
+msgid "devcp_transbox_select_locale"
+msgstr "Select the locale of the translation to add:"
+
+#. %1$s and %2$s are GUIDs.
+msgid "devcp_update_addon_guid_error"
+msgstr ""
+"The add-on GUID used in this file (%1$s) does not match the existing GUID "
+"for this add-on (%2$s)."
+
+msgid "devcp_update_addon_priv_error"
+msgstr "You do not have sufficient privileges to update this add-on."
+
+#. %1$s is a version number, %2$s is an add-on ID.
+msgid "devcp_update_addon_version_belong_error"
+msgstr "The specified version (%1$s) does not belong to this add-on (%2$s)."
+
+#. %1$s is a version number, maybe 1.1.
+#. %2$s is a URL.
+msgid "devcp_update_addon_version_exists_error"
+msgstr ""
+"The version number uploaded (%1$s) already exists for this add-on. If you "
+"are trying to add another file to this version, <a href=\"%2$s\">click here</"
+"a>."
+
+#. %1$s and %2$s are version numbers.
+msgid "devcp_update_addon_version_match_error"
+msgstr ""
+"The uploaded version number (%1$s) does not match the existing version "
+"number (%2$s)."
+
+msgid "devcp_uploader_a_start"
+msgstr "Get Started"
+
+msgid "devcp_uploader_ajax_loading"
+msgstr "Uploading file..."
+
+msgid "devcp_uploader_button_agree"
+msgstr "Agree and continue"
+
+msgid "devcp_uploader_button_edit"
+msgstr "Edit My Add-on"
+
+msgid "devcp_uploader_button_later"
+msgstr "I'll complete my add-on later."
+
+msgid "devcp_uploader_button_release"
+msgstr "Add Release Notes"
+
+#. %s is href=... and should stay in the <a> tag.
+msgid "devcp_uploader_created_results"
+msgstr ""
+"<p>Your add-on listing has been successfully created. The basic information "
+"obtained from your uploaded file has been stored, but there's a lot more to "
+"your listing that can be customized.</p><p>Your add-on is currently marked "
+"as <strong>Incomplete</strong>. In order to complete your add-on, you'll "
+"need to make sure it has an accurate name, summary, and description, as well "
+"as at least one selected category. You can edit your add-on's information "
+"using the link below and check the status of your add-on at any time on the "
+"<a %s>status page</a>."
+
+msgid "devcp_uploader_error_correct"
+msgstr "Please correct this problem and upload your file again."
+
+#. %1$s is a version number, %2$s is a status, e.g Public or Incomplete.
+msgid "devcp_uploader_file_created"
+msgstr ""
+"Your new file has been added to version %1$s and is currently marked as %2$s."
+
+msgid "devcp_uploader_header_created"
+msgstr "Add-on Created!"
+
+msgid "devcp_uploader_header_error"
+msgstr "Oops! There seems to be a problem with this file..."
+
+msgid "devcp_uploader_header_file_added"
+msgstr "File Added!"
+
+msgid "devcp_uploader_header_how"
+msgstr "How does it all work?"
+
+#. %s is the version number, e.g. 3.2.
+msgid "devcp_uploader_header_update_created"
+msgstr "Version %s Created"
+
+msgid "devcp_uploader_header_upload"
+msgstr "Upload Your File"
+
+msgid "devcp_uploader_how"
+msgstr ""
+"<p>Thanks for your interest in submitting your add-on to Mozilla Add-ons. "
+"Hosting your add-on on Mozilla Add-ons is the easiest way to handle "
+"distribution of your add-on. Here's what you'll get:</p><ul><li>Each add-on "
+"will have a public display page with information you provide, such as a "
+"brief summary of the add-on's functionality, an optional longer description, "
+"and a showcase of preview screenshots of your add-on.</li><li>Your add-on "
+"will appear in search and browse listings across the site, and even in the "
+"Add-ons Manager of Firefox 3.</li><li>We'll take care of hosting all of your "
+"downloads and providing automatic updates to users when you upload a new "
+"version.</li><li>You'll have access to a statistics dashboard with detailed "
+"information about your user base.</li></ul><p>Add-ons hosted on the site "
+"must be reviewed by a Mozilla Add-ons Editor before they will have all of "
+"the features listed above. If you're ready to start the process and have "
+"your add-on package ready for upload, just click on Get Started below!</p>"
+
+msgid "devcp_uploader_label_platformtype"
+msgstr "Supported Platforms:"
+
+msgid "devcp_uploader_label_upload_field"
+msgstr "Add-on File: "
+
+msgid "devcp_uploader_option_other"
+msgstr "Other"
+
+#. %1$s is a number, %2$s is href="..." and should stay in the <a> tag.
+msgid "devcp_uploader_p_pending_file"
+msgstr ""
+"The new file will be available to the public as soon as an editor is able to "
+"review it. There are currently %1$s other add-ons in the queue. Want to be "
+"reviewed faster? Consider <a %2$s>becoming an editor</a>."
+
+#. %1$s is a number, %2$s is href="..." and should stay in the <a> tag.
+msgid "devcp_uploader_p_pending_version"
+msgstr ""
+"The new version will be available to the public as soon as an editor is able "
+"to review it. There are currently %1$s other add-ons in the queue. Want to "
+"be reviewed faster? Consider <a %2$s>becoming an editor</a>."
+
+#. %s is a status, e.g Public or Incomplete.
+msgid "devcp_uploader_p_update_created"
+msgstr "Your new version has been created and is currently marked as %s."
+
+#. %1$s is href="..." and should stay in the 'Versions and Files' <a> tag.
+#. %2$s is href="..." and should stay in the 'current status' <a> tag.
+msgid "devcp_uploader_p_update_file"
+msgstr ""
+"View your new file in the <a %1$s>Versions and Files page</a>, check out "
+"your add-on's <a %2$s>current status</a>, or <b>add release notes</b> by "
+"clicking the button below (highly recommended)."
+
+#. %1$s is href="..." and should stay in the 'Versions and Files' <a> tag.
+#. %2$s is href="..." and should stay in the 'current status' <a> tag.
+msgid "devcp_uploader_p_update_version"
+msgstr ""
+"View your new version in the <a %1$s>Versions and Files page</a>, check out "
+"your add-on's <a %2$s>current status</a>, or <b>add release notes</b> by "
+"clicking the button below (highly recommended)."
+
+msgid "devcp_uploader_p_upload"
+msgstr ""
+"Upload your add-on file using the form below. If you have multiple, platform-"
+"specific files to upload, choose a single file and then upload the others "
+"using the Versions and Files Manager."
+
+msgid "devcp_uploader_platformtype_all"
+msgstr "All"
+
+msgid "devcp_uploader_platformtype_specific"
+msgstr "Specific:"
+
+#. Used as first item in a <select>.
+msgid "devcp_uploader_please_choose"
+msgstr "Please Choose..."
+
+#. %1$s is the add-on name, %2$s is the version number.
+msgid "devcp_uploader_title_file"
+msgstr "Add File to %1$s %2$s"
+
+msgid "devcp_uploader_title_submit"
+msgstr "Submit New Add-on"
+
+#. %s is the add-on name.
+msgid "devcp_uploader_title_update"
+msgstr "Update %s"
+
+#. %s is a full <a> tag
+#, php-format
+msgid "devcp_valid_app_reference"
+msgstr "Please see %s for reference."
+
+#. This is the text in the <a> tag for devcp_valid_app_reference.  This should be
+#. fixed.
+msgid "devcp_valid_app_reference_linktext"
+msgstr "this page"
+
+msgid "devcp_verify_author_error"
+msgstr "No account found for that email address."
+
+msgid "devcp_verify_search_engine_error"
+msgstr ""
+"Either the XML is invalid or required fields are missing.  Please <a href="
+"\"https://developer.mozilla.org/en/Creating_OpenSearch_plugins_for_Firefox"
+"\">read the documentation</a>, verify your add-on, and try again."
+
+msgid "devcp_versions_a_cancel"
+msgstr "Cancel"
+
+msgid "devcp_versions_a_delete"
+msgstr "Delete Version"
+
+msgid "devcp_versions_a_empty"
+msgstr "Remove Empty Version"
+
+msgid "devcp_versions_a_remove"
+msgstr "Remove?"
+
+msgid "devcp_versions_add"
+msgstr "Add New Version"
+
+msgid "devcp_versions_delete_a_cancel"
+msgstr "Cancel"
+
+msgid "devcp_versions_delete_a_delete"
+msgstr "Delete Version"
+
+#. Followed by a list of reviews and files that will be removed.
+msgid "devcp_versions_delete_also"
+msgstr "This will also delete:"
+
+msgid "devcp_versions_delete_files"
+msgid_plural "devcp_versions_delete_files"
+msgstr[0] "%s file"
+msgstr[1] "%s files"
+
+#. %s is the version number.
+msgid "devcp_versions_delete_header"
+msgstr "Delete Version %s?"
+
+msgid "devcp_versions_delete_reviews"
+msgid_plural "devcp_versions_delete_reviews"
+msgstr[0] "%s review"
+msgstr[1] "%s reviews"
+
+#. %s is the version number.
+msgid "devcp_versions_delete_sure"
+msgstr "Are you sure you want to permanently delete version %s?"
+
+msgid "devcp_versions_edit_a_cancel"
+msgstr "Cancel"
+
+msgid "devcp_versions_edit_a_delete"
+msgstr "Delete File"
+
+msgid "devcp_versions_edit_a_new_app"
+msgstr "Add New Application"
+
+msgid "devcp_versions_edit_a_remove_app"
+msgstr "Remove Application"
+
+msgid "devcp_versions_edit_add"
+msgstr "Add New File"
+
+#. %s is href=... and should stay in the <a> tag.
+msgid "devcp_versions_edit_adjust"
+msgstr ""
+"Adjusting application information here will allow users to install your add-"
+"on even if the install.rdf in the package indicates that the add-on is "
+"incompatible. <a %s>List of supported applications</a>"
+
+msgid "devcp_versions_edit_compat_sure"
+msgstr ""
+"Are you <b>sure</b> you wish to remove compatibility with this application?"
+
+msgid "devcp_versions_edit_delete_sure"
+msgstr "Are you <b>sure</b> you wish to permanently delete this file?"
+
+msgid "devcp_versions_edit_header_approval"
+msgstr "Approval Information"
+
+msgid "devcp_versions_edit_header_compat"
+msgstr "Compatible Applications"
+
+msgid "devcp_versions_edit_header_file"
+msgstr "File Information"
+
+msgid "devcp_versions_edit_header_license"
+msgstr "License"
+
+#. %s is the version number.
+msgid "devcp_versions_edit_header_manage"
+msgstr "Manage Version %s"
+
+msgid "devcp_versions_edit_header_notes"
+msgstr "Approval Notes"
+
+msgid "devcp_versions_edit_img_delete"
+msgstr "Delete File"
+
+#. %1$s is the file id, e.g. 18723.
+#. %2$s is the platform name, e.g. ALL or Windows.
+#. %3$s is the _('date) created.
+#. %4$s is the status, e.g. "In Sandbox" or "Public".
+#. %5$s is the _('date') status was changed.
+msgid "devcp_versions_edit_li_file"
+msgstr "File %1$s (%2$s) created on %3$s and changed to %4$s on %5$s"
+
+msgid "devcp_versions_edit_license_description"
+msgstr ""
+"Please select the appropriate license for your add-on. This license "
+"specifies the rights you grant on your source code."
+
+msgid "devcp_versions_edit_no_files"
+msgstr "No files found."
+
+msgid "devcp_versions_edit_optional"
+msgstr "Optional information for the Editor that reviews this version."
+
+msgid "devcp_versions_edit_remove_compat"
+msgstr "Remove Application Compatibility"
+
+msgid "devcp_versions_edit_select_app"
+msgstr "Please Select an Application"
+
+msgid "devcp_versions_edit_th_file"
+msgstr "File"
+
+msgid "devcp_versions_edit_th_platform"
+msgstr "Platform"
+
+msgid "devcp_versions_edit_th_size"
+msgstr "Size"
+
+msgid "devcp_versions_edit_th_status"
+msgstr "Status"
+
+msgid "devcp_versions_edit_transbox_releasenotes_description"
+msgstr ""
+"Information about changes in this release, new features, known bugs, and "
+"other useful information specific to this release/version. This information "
+"will also be available to users updating the add-on in the Firefox 3 Add-ons "
+"Manager interface."
+
+msgid "devcp_versions_edit_transbox_releasenotes_name"
+msgstr "Release Notes"
+
+msgid "devcp_versions_edit_unsaved_compat"
+msgstr ""
+"<strong>You have unsaved changes.</strong> Compatibility will not be deleted "
+"until you click Update Version below."
+
+msgid "devcp_versions_edit_unsaved_files"
+msgstr ""
+"<strong>You have unsaved changes.</strong> Files will not be deleted until "
+"you click Update Version below."
+
+msgid "devcp_versions_edit_update"
+msgstr "Update Versions"
+
+msgid "devcp_versions_header_manage"
+msgstr "Manage Versions and Files"
+
+msgid "devcp_versions_no_versions"
+msgstr "No versions."
+
+#. %s is a version number, base 10.
+msgid "devcp_versions_notice_success"
+msgstr "Version %s deleted successfully."
+
+msgid "devcp_versions_p_remove"
+msgstr ""
+"This version has no files associated with it and can be removed. Would you "
+"like to remove this version?"
+
+msgid "devcp_versions_th_created"
+msgstr "Created"
+
+msgid "devcp_versions_th_status"
+msgstr "Status"
+
+msgid "devcp_versions_th_version"
+msgstr "Version"
+
+msgid "downloads_disable_warning"
+msgstr "Denne tilføjelse er deaktiveret"
+
+msgid "editor_review_error_addon_not_nominated"
+msgstr "This add-on has not been nominated."
+
+msgid "editor_review_error_file_not_pending"
+msgstr "This file is not pending review."
+
+#. Actions are, for example: approving or rejecting
+msgid "editor_review_error_no_action"
+msgstr "Please select a review action."
+
+msgid "editor_review_error_no_applications"
+msgstr "Please enter the applications you tested."
+
+#. Comments are required when an editor approves or rejects an add-on.
+msgid "editor_review_error_no_comments"
+msgstr "Please enter review comments."
+
+msgid "editor_review_error_no_files"
+msgstr "Please select at least one file to review."
+
+msgid "editor_review_error_no_operating_system"
+msgstr "Please enter the operating systems you tested."
+
+msgid "editorcp_logs_button_filter"
+msgstr "Filter"
+
+msgid "editorcp_logs_filter_by"
+msgstr "Filter by type/action"
+
+msgid "editorcp_logs_page_heading"
+msgstr "Event Log"
+
+msgid "editorcp_menu_eventlog_link"
+msgstr "Event Log"
+
+msgid "editorcp_menu_mainpage_link"
+msgstr "Back to Main"
+
+msgid "editorcp_menu_reviewlog_link"
+msgstr "Review Log"
+
+msgid "editorcp_menu_summary_link"
+msgstr "Editor Summary"
+
+msgid "editorcp_menu_title"
+msgstr "Editor Tools"
+
+msgid "editorcp_reviewlog_button_filter"
+msgstr "Filter"
+
+msgid "editorcp_reviewlog_column_action"
+msgstr "Action"
+
+msgid "editorcp_reviewlog_column_addon"
+msgstr "Add-on"
+
+msgid "editorcp_reviewlog_column_date"
+msgstr "Date"
+
+msgid "editorcp_reviewlog_column_editor"
+msgstr "Editor"
+
+msgid "editorcp_reviewlog_comments_hide"
+msgstr "Hide Comments"
+
+msgid "editorcp_reviewlog_comments_show"
+msgstr "Show Comments"
+
+#. %1$s and %2$s are full <input> tags for dates
+#, php-format
+msgid "editorcp_reviewlog_entries_between"
+msgstr "View entries between %1$s and %2$s"
+
+msgid "editorcp_reviewlog_none_found"
+msgstr "No reviews found for this period."
+
+msgid "editorcp_reviewlog_page_heading"
+msgstr "Review Log"
+
+msgid "editorcp_summary_monthreviews_heading"
+msgstr "Month Reviews"
+
+msgid "editorcp_summary_neweditors_heading"
+msgstr "New Editors"
+
+msgid "editorcp_summary_page_heading"
+msgstr "Editor Summary"
+
+msgid "editorcp_summary_recentactivity_heading"
+msgstr "Recent Editor Activity"
+
+msgid "editorcp_summary_totalreviews_heading"
+msgstr "Total Reviews"
+
+msgid "editors_addon_review_pagetitle"
+msgstr "Review Add-on"
+
+msgid "editors_error_js-formerror"
+msgstr "Please complete the following fields:"
+
+msgid "editors_error_review_one_file"
+msgstr "Please select at least one file to review."
+
+msgid "editors_error_self_reviews_forbidden"
+msgstr "Self-reviews are not allowed."
+
+msgid "editors_external_software"
+msgstr "External Software"
+
+msgid "editors_featured_add_feature"
+msgstr "Add feature"
+
+msgid "editors_featured_add_feature_submit"
+msgstr "Add"
+
+msgid "editors_featured_addon_add_failure"
+msgstr "Failed to add feature."
+
+msgid "editors_featured_addon_add_success"
+msgstr "Successfully added feature."
+
+msgid "editors_featured_addon_edit_failure"
+msgstr "Failed to edit feature."
+
+msgid "editors_featured_addon_edit_success"
+msgstr "Successfully edited feature."
+
+msgid "editors_featured_addon_invalid_locale"
+msgstr "One or more locales are invalid."
+
+msgid "editors_featured_addon_remove_failure"
+msgstr "Failed to remove feature."
+
+msgid "editors_featured_addon_remove_success"
+msgstr "Successfully removed feature."
+
+msgid "editors_featured_addons_pagetitle"
+msgstr "Featured Add-ons"
+
+msgid "editors_featured_edit_feature_submit"
+msgstr "Go"
+
+msgid "editors_featured_remove_feature"
+msgstr "Remove feature"
+
+msgid "editors_filter_queue"
+msgstr "Filter Queue"
+
+msgid "editors_helpful_links"
+msgstr "Helpful Links"
+
+msgid "editors_link_guide"
+msgstr "Editors' Guide"
+
+msgid "editors_link_policy"
+msgstr "Add-on Policy"
+
+msgid "editors_notice_filter_session"
+msgstr "These filters will remain in place for this session or until cleared."
+
+#. %1 is the queue mode
+msgid "editors_notice_none_found"
+msgstr "There are currently no add-ons of this type to review."
+
+msgid "editors_one_day"
+msgstr "1 day"
+
+msgid "editors_one_hour"
+msgstr "1 hour"
+
+msgid "editors_one_minute"
+msgstr "1 minute"
+
+msgid "editors_pagetitle"
+msgstr "Editor Tools"
+
+#. %s is a comma separated list of platforms.  Example:  Windows, OS X
+#, php-format
+msgid "editors_platform_x_only"
+msgstr "%s only"
+
+msgid "editors_pre-release"
+msgstr "Pre-release"
+
+#. %1 is the app name
+#, php-format
+msgid "editors_queue_app_compatibility"
+msgstr "%s Compatibility"
+
+msgid "editors_queue_submit_clean"
+msgstr "Clear"
+
+msgid "editors_queue_submit_filter"
+msgstr "Filter"
+
+msgid "editors_queues_disabled"
+msgstr ""
+"All review queues are currently disabled. Please check back at a later time."
+
+msgid "editors_review_a_edit_item"
+msgstr "Edit Item"
+
+msgid "editors_review_a_item_history"
+msgstr "Item History"
+
+msgid "editors_review_a_item_homepage"
+msgstr "Item Homepage"
+
+msgid "editors_review_a_item_overview"
+msgstr "Item Overview"
+
+msgid "editors_review_a_previews"
+msgstr "Previews"
+
+msgid "editors_review_action"
+msgstr "Review Action"
+
+msgid "editors_review_action_info"
+msgstr "Request More Information"
+
+msgid "editors_review_action_public"
+msgstr "Push to Public"
+
+msgid "editors_review_action_request_superreview"
+msgstr "Request Super-Review"
+
+msgid "editors_review_action_sandbox"
+msgstr "Retain in Sandbox"
+
+msgid "editors_review_comments"
+msgstr "Review Comments"
+
+msgid "editors_review_details_info_request"
+msgstr ""
+"Use this form to request more information from the author. They will receive "
+"an email and be able to answer here. You will be notified by email when they "
+"reply."
+
+msgid "editors_review_details_nominated_public"
+msgstr ""
+"This will mark the add-on and its most recent version and files as public. "
+"Future versions will go into the sandbox until they are reviewed by an "
+"editor."
+
+msgid "editors_review_details_nominated_sandbox"
+msgstr "This will retain the add-on in the sandbox."
+
+msgid "editors_review_details_pending_public"
+msgstr ""
+"This will approve a sandboxed version of a public add-on to appear on the "
+"public side."
+
+msgid "editors_review_details_pending_sandbox"
+msgstr ""
+"This will cause a sandboxed version of a public add-on to remain in the "
+"sandbox."
+
+msgid "editors_review_details_superreview"
+msgstr ""
+"If you have concerns about this add-on's security, copyright issues, or "
+"other concerns that an administrator should look into, enter your comments "
+"in the area below. They will be sent to administrators, not the author."
+
+msgid "editors_review_file_diff_link"
+msgstr "Compare with public version"
+
+msgid "editors_review_file_viewcontents_link"
+msgstr "View Contents"
+
+msgid "editors_review_header_authors"
+msgstr "Authors:"
+
+msgid "editors_review_header_categories"
+msgstr "Categories:"
+
+msgid "editors_review_header_compatibility"
+msgstr "Compatibility:"
+
+msgid "editors_review_header_description"
+msgstr "Description"
+
+msgid "editors_review_header_devcomments"
+msgstr "Developer Comments"
+
+msgid "editors_review_header_eula"
+msgstr "EULA"
+
+msgid "editors_review_header_files"
+msgstr "Files:"
+
+msgid "editors_review_header_itemhistory"
+msgstr "Item History"
+
+msgid "editors_review_header_nominationmessage"
+msgstr "Nomination Message"
+
+msgid "editors_review_header_previews"
+msgstr "Previews"
+
+msgid "editors_review_header_privacy"
+msgstr "Privacy Policy"
+
+#. %1 is the add-on name and version
+#, php-format
+msgid "editors_review_header_review"
+msgstr "Review %s"
+
+msgid "editors_review_header_reviewernotes"
+msgstr "Notes to Reviewer"
+
+msgid "editors_review_header_summary"
+msgstr "Summary"
+
+msgid "editors_review_header_versionnotes"
+msgstr "Version Notes"
+
+#. a noun: shown in an add-on's editor review history
+msgid "editors_review_history_info_reply"
+msgstr "Reply"
+
+msgid "editors_review_history_info_request"
+msgstr "Information Request"
+
+msgid "editors_review_history_nominated_adminreview"
+msgstr "Admin Review"
+
+msgid "editors_review_history_nominated_approved"
+msgstr "Nomination Approved/Public"
+
+msgid "editors_review_history_nominated_denied"
+msgstr "Nomination Denied/Sandbox"
+
+msgid "editors_review_history_nonefound"
+msgstr "No previous review entries could be found."
+
+msgid "editors_review_history_pending_adminreview"
+msgstr "Admin Review"
+
+msgid "editors_review_history_pending_approved"
+msgstr "Approved/Public"
+
+msgid "editors_review_history_pending_denied"
+msgstr "Denied/Sandbox"
+
+#. link text in an add-on's editor review history, allowing to hide and show an information request's replies
+#. %1 is the number of replies
+msgid "editors_review_history_show_hide_replies"
+msgid_plural "editors_review_history_show_hide_replies"
+msgstr[0] "Show/Hide Replies (%1$s)"
+msgstr[1] "Show/Hide Replies (%1$s)"
+
+msgid "editors_review_label_applications"
+msgstr "Applications:"
+
+msgid "editors_review_label_cannedresponse"
+msgstr "or select a canned response:"
+
+msgid "editors_review_label_comments"
+msgstr "Comments:"
+
+msgid "editors_review_label_operating_systems"
+msgstr "Operating Systems:"
+
+msgid "editors_review_link_pagetop"
+msgstr "Top"
+
+msgid "editors_review_mulitple_notice"
+msgstr ""
+"Notice: Only review more than one file if you have tested EVERY file you "
+"select."
+
+msgid "editors_review_next_link"
+msgstr "next &raquo;"
+
+msgid "editors_review_previews_notfound"
+msgstr "No previews found."
+
+msgid "editors_review_previous_link"
+msgstr "&laquo; prev"
+
+msgid "editors_review_queue_pagetitle"
+msgstr "Review Queue"
+
+#. %1 is the add-ons rank in the queue, %2 is the total queue length
+msgid "editors_review_rank_in_queue"
+msgstr "<strong># %1$s</strong> of %2$s in queue"
+
+msgid "editors_review_submit_process_action"
+msgstr "Process Action"
+
+msgid "editors_review_th_action"
+msgstr "Action"
+
+msgid "editors_review_th_comments"
+msgstr "Comments"
+
+msgid "editors_review_th_date"
+msgstr "Date"
+
+msgid "editors_review_th_reviewer"
+msgstr "Reviewer"
+
+msgid "editors_review_th_version_file"
+msgstr "Version/File"
+
+msgid "editors_review_update_notify_once"
+msgstr ""
+"Notify me the next time this add-on is updated. (Subsequent updates will not "
+"generate an email)"
+
+msgid "editors_reviewed_successfully"
+msgstr "Review successfully processed."
+
+msgid "editors_reviews_action_delete_review"
+msgstr "Delete review"
+
+msgid "editors_reviews_action_keep"
+msgstr "Remove flags; keep review"
+
+msgid "editors_reviews_action_skip"
+msgstr "Skip"
+
+msgid "editors_reviews_header_action"
+msgstr "Action"
+
+msgid "editors_reviews_in_reply_to"
+msgstr "In reply to:"
+
+msgid "editors_reviews_processed"
+msgstr "Reviews processed successfully!"
+
+msgid "editors_reviews_queue_empty"
+msgstr "There are currently no reviews in moderation."
+
+msgid "editors_reviews_submit_process_reviews"
+msgstr "Process Reviews"
+
+msgid "editors_site_specific"
+msgstr "Site Specific"
+
+msgid "editors_submissiontype_new"
+msgstr "New"
+
+msgid "editors_submissiontype_updated"
+msgstr "Updated"
+
+msgid "editors_tested_app"
+msgstr "Tested Application"
+
+msgid "editors_tested_os"
+msgstr "Tested Operating Systems"
+
+msgid "editors_th_additional_info"
+msgstr "Additional Information"
+
+msgid "editors_th_addon"
+msgstr "Add-on"
+
+msgid "editors_th_addontype"
+msgstr "Type"
+
+msgid "editors_th_addontypes"
+msgstr "Add-on Types"
+
+msgid "editors_th_applications"
+msgstr "Applications"
+
+msgid "editors_th_locales"
+msgstr "Restrict to locales?"
+
+msgid "editors_th_nomination_age"
+msgstr "Time in Queue"
+
+msgid "editors_th_platforms"
+msgstr "Platforms"
+
+msgid "editors_th_submissiontypes"
+msgstr "Submission Types"
+
+#. %s is a number
+#, php-format
+msgid "editors_x_days"
+msgstr "%s days"
+
+#. %s is a number
+#, php-format
+msgid "editors_x_hours"
+msgstr "%s hours"
+
+#. %s is a number
+#, php-format
+msgid "editors_x_minutes"
+msgstr "%s minutes"
+
+msgid "error_access_denied"
+msgstr "Ingen adgang"
+
+msgid "error_access_denied_message"
+msgstr "Du har ikke adgang til at se denne side."
+
+msgid "error_addon_notfound"
+msgstr "Tilføjelse ikke fundet!"
+
+msgid "error_addon_notviewable"
+msgstr "Tilføjelsen kan ikke vises her."
+
+msgid "error_addon_selfreview"
+msgstr "Du kan ikke anmelde din egen tilføjelse."
+
+msgid "error_browse_no_addons"
+msgstr "Ingen tilføjelser i denne kategori!"
+
+msgid "error_collection_feed_notfound"
+msgstr "Tilføjelsesfeed ikke fundet."
+
+msgid "error_email_invalid"
+msgstr "Dette er ikke en gyldig e-mail-adresse."
+
+msgid "error_field_required"
+msgstr "Dette felt skal udfyldes."
+
+msgid "error_file_notfound"
+msgstr "Fil ikke fundet!"
+
+#. %s is a filename
+#, php-format
+msgid "error_file_x_notfound"
+msgstr "Fejl: Filen %s eksisterer ikke."
+
+msgid "error_formerrors"
+msgstr "Der er fejl i denne formular. Ret dem venligst og indsend igen."
+
+msgid "error_invalid_captcha"
+msgstr "Vi var ikke i stand til at finde ud af, om du er et menneske eller en robot. Prøv igen."
+
+msgid "error_invalid_url"
+msgstr ""
+"Denne URL har et ugyldigt format. Gyldige URLs ligner http://example.com/"
+"min_side."
+
+#. %s is a string representing what's missing.  Example:  file_id
+#, php-format
+msgid "error_missing_argument"
+msgstr "Manglende argument: %s"
+
+msgid "error_no_files_in_addon"
+msgstr "Ingen filer"
+
+msgid "error_preview_notfound"
+msgstr "Skærmbillede ikke fundet!"
+
+msgid "error_review_rating_required"
+msgstr "Du skal give en bedømmelse."
+
+msgid "error_user_already_confirmed"
+msgstr "Brugerkontoen er allerede bekræftet."
+
+msgid "error_user_badconfirmationcode"
+msgstr "Ugyldig bekræftelseskode!"
+
+msgid "error_user_confirmpw_nomatch"
+msgstr "Adgangskoderne matchede ikke."
+
+msgid "error_user_email_notunique"
+msgstr "Denne e-mail-adresse anvendes allerede af en anden bruger."
+
+msgid "error_user_emailchange_expired"
+msgstr ""
+"E-mail ændringen er udløbet. Du bedes rette din e-mail-adresse igen i din "
+"brugerprofil og klikke på linket i bekræftelsesmailen så snart du modtager "
+"den."
+
+msgid "error_user_nickname_notunique"
+msgstr "Kaldenavnet er allerede i brug."
+
+msgid "error_user_notfound"
+msgstr "Bruger ikke fundet!"
+
+msgid "error_user_unconfirmed"
+msgstr ""
+"Bekræft venligst først din brugerkonto med koden, du modtog via e-mail."
+
+msgid "error_username_or_pw_wrong"
+msgstr "Forkert brugernavn eller adgangskode!"
+
+msgid "error_version_notfound"
+msgstr "Version ikke fundet!"
+
+msgid "error_wrong_password"
+msgstr "Forkert adgangskode!"
+
+msgid "feature_learnmore"
+msgstr "Lær mere"
+
+#. %1 is the add-on name
+#, php-format
+msgid "feature_learnmore_about_addon"
+msgstr "Lær mere om %1$s"
+
+#. %1$s is a number
+#, php-format
+msgid "feature_reviews"
+msgid_plural "feature_reviews"
+msgstr[0] "%1$s anmeldelse"
+msgstr[1] "%1$s anmeldelser"
+
+msgid "feature_view_more_from_category"
+msgstr "Vis mere fra"
+
+#. This appears on a page that views the source of an add-on.  This link will return
+#. the user to the add-on's main page
+msgid "file_browser_link_addon"
+msgstr "Tilbage til tilføjelsen"
+
+#. There is a list of directories and files on the page.  Clicking this will show the
+#. contents of all the directories (normally you would click on each one to see the
+#. contents)
+msgid "file_browser_link_expand_all"
+msgstr "Vis alle"
+
+#. This appears on a page that views the source of an add-on.  This link will return
+#. the user to the add-on's review page (it only appears if the add-on is being
+#. reviewed)
+msgid "file_browser_link_review"
+msgstr "Tilbage til anmeldelse"
+
+#. The title of the page for viewing an add-on's source.
+#. %1$s is the name of the add-on
+#. %2$s is the name of the current application (e.g. Firefox or Thunderbird)
+msgid "file_browser_title"
+msgstr "%1$s :: Filbrowser :: %2$s Add-ons"
+
+#. This appears on a page that views the source of an add-on.  There is a list of
+#. directories and files on the page.  Clicking this link will toggle between an
+#. expanded or a collapsed list.  This string should be kept short.
+msgid "file_browser_toggle_expand_collapse"
+msgstr "+/-"
+
+#. Link text for the AMO About page.
+msgid "footer_a_about"
+msgstr "Om"
+
+#. Link text to the AMO blog.
+msgid "footer_a_blog"
+msgstr "Blog"
+
+#. Link text to the Frequently Asked Questions page.
+msgid "footer_a_faq"
+msgstr "FAQ"
+
+#. Full text for the FAQ abbreviation.
+msgid "footer_abbr_faq"
+msgstr "Frequently Asked Questions"
+
+msgid "footer_all_rights_reserved"
+msgstr "Alle rettigheder forbeholdes."
+
+msgid "footer_copyright"
+msgstr "Copyright"
+
+msgid "footer_credits"
+msgstr "Tak til"
+
+msgid "footer_disclaimer"
+msgstr ""
+"Mozilla linker til disse programmer som en ekstra service og repræsenterer "
+"på ingen måde programmet eller enhver information relateret til dette. Alle "
+"spørgsmål, klager eller krav vedrørende programmerne skal sendes til "
+"softwareudgiveren."
+
+msgid "footer_lang_form_lang_submit_go"
+msgstr "Skift"
+
+msgid "footer_legal_notices"
+msgstr "Juridiske betingelser"
+
+msgid "footer_other_languages"
+msgstr "Andre sprog:"
+
+msgid "footer_privacy_policy"
+msgstr "Privatlivspolitik"
+
+msgid "general_addontype_dict"
+msgstr "Ordbog"
+
+#. Plural in this context means many of the add-on type
+msgid "general_addontype_dict_plural"
+msgstr "Ordbøger"
+
+msgid "general_addontype_extension"
+msgstr "Udvidelse"
+
+#. Plural in this context means many of the add-on type
+msgid "general_addontype_extension_plural"
+msgstr "Udvidelser"
+
+msgid "general_addontype_lpaddon"
+msgstr "Sprogpakke (tilføjelse)"
+
+#. Plural in this context means many of the add-on type
+msgid "general_addontype_lpaddon_plural"
+msgstr "Sprogpakker (tilføjelse)"
+
+msgid "general_addontype_lpapp"
+msgstr "Sprogpakke (program)"
+
+#. Plural in this context means many of the add-on type
+msgid "general_addontype_lpapp_plural"
+msgstr "Sprogpakker (program)"
+
+msgid "general_addontype_plugin"
+msgstr "Plugin"
+
+#. Plural in this context means many of the add-on type
+msgid "general_addontype_plugin_plural"
+msgstr "Plugins"
+
+msgid "general_addontype_search"
+msgstr "Søgetjeneste"
+
+#. Plural in this context means many of the add-on type
+msgid "general_addontype_search_plural"
+msgstr "Søgetjenester"
+
+msgid "general_addontype_theme"
+msgstr "Tema"
+
+#. Plural in this context means many of the add-on type
+msgid "general_addontype_theme_plural"
+msgstr "Temaer"
+
+#. %1$s is the application name.  Example:  Firefox
+#, php-format
+msgid "header_home_tooltip"
+msgstr "Tilbage til startsiden for %1$s Add-ons"
+
+msgid "header_main_firefox_header"
+msgstr "Firefox Add-ons"
+
+msgid "header_main_header"
+msgstr "Tilføjelser"
+
+msgid "header_main_seamonkey_header"
+msgstr "SeaMonkey Add-ons"
+
+msgid "header_main_sunbird_header"
+msgstr "Sunbird Add-ons"
+
+msgid "header_main_thunderbird_header"
+msgstr "Thunderbird Add-ons"
+
+msgid "header_navlink_addons"
+msgstr "Tilføjelser"
+
+msgid "header_navlink_login"
+msgstr "Log ind"
+
+msgid "header_navlink_logout"
+msgstr "Log ud"
+
+msgid "header_navlink_myaccount"
+msgstr "Min konto"
+
+msgid "header_navlink_register"
+msgstr "Registrer"
+
+msgid "home"
+msgstr "hjem"
+
+#. %s is the add-on name
+#, php-format
+msgid "img_preview_of"
+msgstr "Skærmbillede af %s"
+
+#. %1 is the login URL for the link tag
+#. %2 is the link to an explanatory page.
+msgid "install_a_login_to_install"
+msgstr ""
+"<a href=\"%1$s\">Log ind</a> for at installere denne tilføjelse. <a href=\"%2"
+"$s\">Hvorfor</a>?"
+
+#. %1 is the URL for the Experimental Add-ons section of the FAQ page
+msgid "install_button_confirm_exp_install"
+msgstr ""
+"Lad mig installere denne eksperimentelle tilføjelse. <a href=\"%1$s\">Hvad er det?</a>"
+
+#. %1$s is the application name.  Example:  Firefox
+#. %2$s is an optional string used to specify a platform.  Example:  (Windows)
+#, php-format
+msgid "install_button_text"
+msgstr "Tilføj til %1$s %2$s"
+
+#. %1 is the add-on name, %2 is the app name
+#, php-format
+msgid "install_button_title"
+msgstr "Tilføj %1$s til %2$s"
+
+#. %1$s is the add-on name
+#, php-format
+msgid "install_download"
+msgstr "Download %1$s"
+
+msgid "install_error_addon_not_found"
+msgstr "Denne tilføjelse er ikke tilgængelig."
+
+msgid "langtools_a11y_tablesummary"
+msgstr "Liste over sprogpakker og ordbøger."
+
+msgid "langtools_download_dictionary"
+msgstr "Download ordbog"
+
+msgid "langtools_download_langpack"
+msgstr "Download sprogpakke"
+
+msgid "langtools_header_dicts_and_langpacks"
+msgstr "Ordbøger & sprogpakker"
+
+msgid "langtools_install_dictionary"
+msgstr "Installer ordbog"
+
+msgid "langtools_install_langpack"
+msgstr "Installer sprogpakke"
+
+msgid "langtools_tableheader_dictionary"
+msgstr "Ordbog"
+
+msgid "langtools_tableheader_langpack"
+msgstr "Sprogpakke"
+
+msgid "langtools_tableheader_language"
+msgstr "Sprog"
+
+msgid "license_custom"
+msgstr "Anden licens"
+
+msgid "licenses_bsd"
+msgstr "BSD-licens"
+
+msgid "licenses_gpl_2.0"
+msgstr "GNU General Public License, version 2.0"
+
+msgid "licenses_gpl_3.0"
+msgstr "GNU General Public License, version 3.0"
+
+msgid "licenses_lgpl_2.1"
+msgstr "GNU Lesser General Public License, version 2.1"
+
+msgid "licenses_lgpl_3.0"
+msgstr "GNU Lesser General Public License, version 3.0"
+
+msgid "licenses_mit"
+msgstr "MIT/X11-licens"
+
+msgid "licenses_mpl_1.1"
+msgstr "Mozilla Public License, version 1.1"
+
+msgid "link_return_to_front_page"
+msgstr "Klik her for at komme tilbage til forsiden."
+
+msgid "list_sortby_date"
+msgstr "Dato"
+
+msgid "list_sortby_downloads"
+msgstr "Downloads"
+
+msgid "list_sortby_name"
+msgstr "Navn"
+
+msgid "list_sortby_rating"
+msgstr "Bedømmelse"
+
+msgid "main_prettyname_fennec"
+msgstr "Fennec"
+
+msgid "main_prettyname_firefox"
+msgstr "Firefox"
+
+msgid "main_prettyname_seamonkey"
+msgstr "SeaMonkey"
+
+msgid "main_prettyname_sunbird"
+msgstr "Sunbird"
+
+msgid "main_prettyname_thunderbird"
+msgstr "Thunderbird"
+
+msgid "nav_category_dicts_langpacks"
+msgstr "Ordbøger & sprogpakker"
+
+msgid "nav_category_themes"
+msgstr "Temaer"
+
+msgid "other_apps_tooltip"
+msgstr "Find tilføjelser til andre programmer"
+
+#. In a user list: user 1, user 2, "others"
+msgid "other_users"
+msgstr "andre"
+
+msgid "page_title_appversions"
+msgstr "Application Versions"
+
+msgid "page_title_credits"
+msgstr "Tak til"
+
+msgid "page_title_developer_faq"
+msgstr "Developer FAQ"
+
+msgid "page_title_faq"
+msgstr "Ofte stillede spørgsmål"
+
+msgid "page_title_fashionyourfirefox_faq"
+msgstr "Fashion your Firefox FAQ"
+
+msgid "page_title_policy"
+msgstr "Add-ons Policy"
+
+msgid "page_title_privacy"
+msgstr "Mozilla Privacy Policy"
+
+msgid "page_title_review_guide"
+msgstr "Retningslinjer for anmeldelser"
+
+msgid "page_title_sandbox"
+msgstr "Sandkassegodkendelsessystemet"
+
+msgid "page_title_submissionhelp"
+msgstr "Submission Help"
+
+msgid "pages_appversions_guid"
+msgstr "GUID"
+
+msgid "pages_appversions_header"
+msgstr "Valid Application Versions"
+
+msgid "pages_appversions_intro"
+msgstr ""
+"Add-ons submitted to Mozilla Add-ons must have an install.rdf file with at "
+"least one of the below applications supported. Only the versions listed "
+"below are allowed for these applications."
+
+#. %s is a full <a> tag
+#, php-format
+msgid "pages_appversions_required_files"
+msgstr ""
+"If your supported application does not require an install.rdf file, you "
+"still must include one with the required properties as specified %s."
+
+#. this is the text inside of an <a> tag for pages_appversions_required_files.  This
+#. should be fixed.
+msgid "pages_appversions_required_files_link"
+msgstr "here"
+
+msgid "pages_appversions_versions"
+msgstr "Versions"
+
+msgid "pages_policy_sandbox_link"
+msgstr "Sandbox Information Page"
+
+msgid "pagination_next_page"
+msgstr "næste"
+
+#. %1 is page number, %2 is total page count
+#, php-format
+msgid "pagination_page_number_title"
+msgstr "Dette er side %1$s af %2$s"
+
+msgid "pagination_previous_page"
+msgstr "forrige"
+
+msgid "recaptcha_enter_both_words"
+msgstr ""
+"Indtast <strong>begge ord</strong> herunder <strong>adskilt af et "
+"mellemrum</strong>."
+
+msgid "recaptcha_enter_here"
+msgstr "Skriv ordene her:"
+
+msgid "recaptcha_enter_whatyouhear"
+msgstr "Indtast hvad du hører."
+
+#. %1 is the link switching refreshing the captcha
+#. %2 is the link switching to a text captcha
+msgid "recaptcha_hardtohear_text"
+msgstr ""
+"Hvis det er svære at høre, kan du <a href=\"%1$s\">lytte til noget "
+"andet</a> eller <a href=\"%2$s\">bruge tekst i stedet</a>."
+
+#. %1 is the link switching refreshing the captcha
+#. %2 is the link switching to an audio captcha
+msgid "recaptcha_hardtoread_text"
+msgstr ""
+"Hvis ordene er svære at læse, kan du <a href=\"%1$s\">prøve med andre ord</a> eller "
+"<a href=\"%2$s\">lytte til noget</a> i stedet."
+
+msgid "recaptcha_label"
+msgstr "Er du et menneske eller en robot?"
+
+msgid "recaptcha_whatsthis"
+msgstr "Hvad er dette?"
+
+msgid "review_flag_error"
+msgstr "Der opstod en fejl under rapporteringen af denne anmeldelse!"
+
+msgid "review_flag_reason_bug_support"
+msgstr "Fejlplaceret fejlrapport eller support-spørgsmål"
+
+msgid "review_flag_reason_instructions"
+msgstr "Rapporter denne anmeldelse (vælg en begrundelse)"
+
+msgid "review_flag_reason_language"
+msgstr "Upassende sprogbrug"
+
+msgid "review_flag_reason_other"
+msgstr "Andet (angiv hvad)"
+
+msgid "review_flag_reason_spam"
+msgstr "Spam eller på anden måde ikke en anmeldelse"
+
+msgid "review_flag_success"
+msgstr "Tak; denne anmeldelse er rapporteret til redaktørerne."
+
+msgid "review_flag_this"
+msgstr "Rapporter denne anmeldelse"
+
+msgid "review_flag_this_titletip"
+msgstr ""
+"Er denne anmeldelse upassende, unøjagtig eller spam? Klik her for at "
+"rapportere den til redaktørerne."
+
+#. %1 is the URL of the support section, %2 for the review guidelines
+msgid "review_guidelines_short"
+msgstr ""
+"<p>Bemærk disse råd:</p><ul><li>Skriv som hvis du fortalte en ven "
+"om din oplevelse af tilføjelsen. Vær specifik og giv nyttige detaljer, "
+"så som ting du synes godt og dårligt om, hvor nemt det er at bruge tilføjelsen, og "
+"hvilke ulemper den har. Undgå generelle kommentarer som fx at kalde tilføjelsen \"god"
+"\" eller \"dårlig\" med mindre du kan give begrundelser.</"
+"li><li>Lad være med at rapportere fejl eller spørge om hjælp i din anmeldelse. Din e-mail-adresse er ikke "
+"synlig for udviklerne af tilføjelsen, og de kan have behov for at kontakte dig for "
+"at løse problemet. Se <a href=\"%1$s\">supportsektionen</a> for at "
+"finde ud af hvor du kan få hjælp til denne tilføjelse.</li><li>Hold "
+"anmeldelsen i et høfligt sprog og indtast ikke "
+"personlig information.</li></ul><p>Læs vores <a href=\"%2$s\">retningslinjer "
+"for anmeldelser</a>, hvis du vil vide mere om brugeranmeldelser af tilføjelser.</p>"
+
+#. %1 is the add-on name
+#, php-format
+msgid "reviews_header"
+msgstr "Anmeldelser af %s"
+
+msgid "rss_featuredaddons"
+msgstr "Udmærkede tilføjelser"
+
+msgid "rss_newestaddons"
+msgstr "Nyeste tilføjelser"
+
+msgid "rss_updatedaddons"
+msgstr "Opdaterede tilføjelser"
+
+msgid "search"
+msgstr "Søg"
+
+msgid "search_disabled"
+msgstr "Søgning er deaktiveret i øjeblikket. Prøv igen senere."
+
+msgid "search_form_all_addons"
+msgstr "Alle tilføjelser"
+
+msgid "search_form_default_text"
+msgstr "søg efter tilføjelser"
+
+msgid "search_form_submit_tooltip"
+msgstr "Søg efter tilføjelser"
+
+msgid "search_form_tooltip"
+msgstr "Klik for at indtaste søgeord"
+
+msgid "search_form_within"
+msgstr "i"
+
+msgid "search_landing_all_search_engines"
+msgstr "Alle søgemaskiner"
+
+msgid "search_landing_browse_search_engines"
+msgstr "Gennemse søgemaskiner"
+
+#. %s is a number
+#, php-format
+msgid "search_matching_addons_number"
+msgid_plural "search_matching_addons_number"
+msgstr[0] "%s matchende tilføjelse"
+msgstr[1] "%s matchende tilføjelser"
+
+msgid "search_nothing_found"
+msgstr "Ingen resultater fundet."
+
+msgid "search_pagetitle"
+msgstr "Søg i tilføjelser"
+
+msgid "search_rss_description"
+msgstr "Feed med søgeresultater"
+
+#. %s is the terms the user is searching for (a string)
+#, php-format
+msgid "search_rss_results_for"
+msgstr "Søgeresulteter for: %s"
+
+msgid "sidebar_navlink_admin_tools"
+msgstr "Administrationsværktøjer"
+
+msgid "sidebar_navlink_developer_tools"
+msgstr "Udviklingsværktøjer"
+
+msgid "sidebar_navlink_editor_tools"
+msgstr "Editor Tools"
+
+msgid "sidebar_navlink_welcome"
+msgstr "Velkommen"
+
+#. %s is the user's name
+#, php-format
+msgid "sidebar_navlink_welcome_name"
+msgstr "Velkommen %s"
+
+msgid "sidebar_pitch_dictionary"
+msgstr "en ordbog"
+
+msgid "sidebar_pitch_featured_addons"
+msgstr "Anbefalede tilføjelser"
+
+msgid "sidebar_pitch_looking_for"
+msgstr "Jeg leder efter:"
+
+msgid "sidebar_pitch_newest_addons"
+msgstr "Nyeste tilføjelser"
+
+msgid "sidebar_pitch_search"
+msgstr "en søgetjeneste"
+
+msgid "sidebar_pitch_subscribe_to"
+msgstr "Abonner på"
+
+msgid "sidebar_pitch_theme"
+msgstr "et tema"
+
+msgid "sidebar_pitch_updated_addons"
+msgstr "Opdaterede tilføjelser"
+
+#. %1$s is a number
+#, php-format
+msgid "size_kb"
+msgstr "%1$s KB"
+
+msgid "stars_not_yet_rated"
+msgstr "Ikke bedømt endnu"
+
+#. %1 is the number of stars this add-on has
+#, php-format
+msgid "stars_rated_x_outof_5"
+msgstr "Bedømmelse: %s ud af 5 stjerner"
+
+msgid "statistics_addon_dashboard_link"
+msgstr "Dashboard Home"
+
+msgid "statistics_addon_developertools_link"
+msgstr "Developer Tools"
+
+msgid "statistics_addon_switch"
+msgstr "Switch Add-on"
+
+#. This is a date format.
+#. http://php.net/strftime
+msgid "statistics_date_shortmonth"
+msgstr "%b. %e"
+
+#. This is a date format.
+#. http://php.net/strftime
+msgid "statistics_date_shortmonthwithyear"
+msgstr "%b. %e, %Y"
+
+#. This is a date format.
+#. http://php.net/strftime
+msgid "statistics_date_weekdayshortmonth"
+msgstr "%A, %b. %e"
+
+#. %1$s is an add-on name and version.  Example:  Add-on 3.5
+#, php-format
+msgid "statistics_events_addon_created"
+msgstr "%1$s created"
+
+#. %1$s is an application name and version.  Example:  Firefox 3.5
+#, php-format
+msgid "statistics_events_app_released"
+msgstr "%1$s released"
+
+msgid "statistics_help_close_link"
+msgstr "Close"
+
+msgid "statistics_help_link"
+msgstr "Help"
+
+msgid "statistics_index_anotheraddon"
+msgstr "or, select another add-on"
+
+msgid "statistics_index_anotheraddon_public"
+msgstr "or, select an add-on with public statistics"
+
+msgid "statistics_index_myaddons"
+msgstr "Select one of your add-ons to view its statistics"
+
+msgid "statistics_index_selectaddon"
+msgstr "Select an add-on to view its statistics"
+
+msgid "statistics_index_selectaddon_public"
+msgstr "Select an add-on with public statistics"
+
+msgid "statistics_index_title"
+msgstr "Statistics Dashboard"
+
+msgid "statistics_index_view_button"
+msgstr "View Statistics"
+
+msgid "statistics_js_download_csv"
+msgstr "View this table in CSV format"
+
+msgid "statistics_js_dropdowns_none"
+msgstr "none"
+
+msgid "statistics_js_dropdowns_removeplot"
+msgstr "Remove this plot"
+
+msgid "statistics_js_groupby_selector_date"
+msgstr "Group by: Day"
+
+msgid "statistics_js_groupby_selector_month"
+msgstr "Group by: Month"
+
+msgid "statistics_js_groupby_selector_week"
+msgstr "Group by: Week"
+
+msgid "statistics_js_groupby_selector_week_over_week"
+msgstr "Compare by: Week"
+
+msgid "statistics_js_plotselection_foundinrange"
+msgstr "%s found in range"
+
+msgid "statistics_js_plotselection_options_addplot_name"
+msgstr "Add Plot"
+
+msgid "statistics_js_plotselection_options_addplot_tooltip"
+msgstr "Add another plot to this graph"
+
+msgid "statistics_js_plotselection_options_count_name_checked"
+msgstr "Hide Total Count"
+
+msgid "statistics_js_plotselection_options_count_name_unchecked"
+msgstr "Show Total Count"
+
+msgid "statistics_js_plotselection_options_count_tooltip"
+msgstr "Plot the total count on this graph"
+
+msgid "statistics_js_plotselection_options_csv_name"
+msgstr "View Data (CSV)"
+
+msgid "statistics_js_plotselection_options_csv_tooltip"
+msgstr "Get a Comma Separated Values file of this data"
+
+msgid "statistics_js_plotselection_options_events_addon_name_checked"
+msgstr "Hide %s Events"
+
+msgid "statistics_js_plotselection_options_events_addon_name_unchecked"
+msgstr "Show %s Events"
+
+msgid "statistics_js_plotselection_options_events_addon_tooltip"
+msgstr "Overlay add-on release dates on the plots"
+
+msgid "statistics_js_plotselection_options_events_firefox_name_checked"
+msgstr "Hide Firefox Events"
+
+msgid "statistics_js_plotselection_options_events_firefox_name_unchecked"
+msgstr "Show Firefox Events"
+
+msgid "statistics_js_plotselection_options_events_firefox_tooltip"
+msgstr "Overlay Firefox release dates on the plots"
+
+msgid "statistics_js_plotselection_options_resize_name_checked"
+msgstr "Collapse Graph"
+
+msgid "statistics_js_plotselection_options_resize_name_unchecked"
+msgstr "Expand Graph"
+
+msgid "statistics_js_plotselection_options_resize_tooltip"
+msgstr "Resize the graph"
+
+msgid "statistics_js_plotselection_selector_adu"
+msgstr "Active Daily Users"
+
+msgid "statistics_js_plotselection_selector_application"
+msgstr "Application"
+
+msgid "statistics_js_plotselection_selector_custom"
+msgstr "Custom"
+
+msgid "statistics_js_plotselection_selector_downloads"
+msgstr "Downloads"
+
+msgid "statistics_js_plotselection_selector_os"
+msgstr "Operating System"
+
+msgid "statistics_js_plotselection_selector_status"
+msgstr "Add-on Status"
+
+msgid "statistics_js_plotselection_selector_summary"
+msgstr "Summary"
+
+msgid "statistics_js_plotselection_selector_version"
+msgstr "Add-on Version"
+
+msgid "statistics_longnames_application"
+msgstr "Application"
+
+msgid "statistics_longnames_os"
+msgstr "Operating System"
+
+msgid "statistics_longnames_status"
+msgstr "Add-on Status"
+
+msgid "statistics_longnames_unknown"
+msgstr "Unknown"
+
+msgid "statistics_longnames_version"
+msgstr "Add-on Version"
+
+msgid "statistics_notice_data_insufficient"
+msgstr ""
+"There is not yet enough data to display this graph. Please check back later."
+
+msgid "statistics_notice_data_none"
+msgstr ""
+"We don't have any data for your add-on yet. Please check back in a few days."
+
+msgid "statistics_notice_data_updating"
+msgstr ""
+"Add-on statistics are currently in the process of being updated. Recent data "
+"may be incomplete as our scripts work to update this information. Please "
+"check back in a few minutes."
+
+msgid "statistics_notice_disabled"
+msgstr ""
+"The Statistics Dashboard is currently disabled. Please check back later."
+
+msgid "statistics_notice_nojavascript"
+msgstr "JavaScript is required to view the Statistics Dashboard graphs."
+
+msgid "statistics_notice_settings_updated"
+msgstr "Your settings have been updated!"
+
+msgid "statistics_pagetitle"
+msgstr "Statistics Dashboard"
+
+msgid "statistics_plot_legend_adu"
+msgstr "Active Daily Users"
+
+msgid "statistics_plot_legend_downloads"
+msgstr "Daily Downloads"
+
+msgid "statistics_plot_options_zoomin_alt"
+msgstr "Zoom In"
+
+msgid "statistics_plot_options_zoomin_title"
+msgstr "Zoom in one month"
+
+msgid "statistics_plot_options_zoomout_alt"
+msgstr "Zoom Out"
+
+msgid "statistics_plot_options_zoomout_title"
+msgstr "Zoom out one month"
+
+#, php-format
+msgid "statistics_rss_description"
+msgstr "Daily summary of statistics for %1$s"
+
+msgid "statistics_rss_title_fulldate"
+msgstr "%A, %B %e, %Y"
+
+#, php-format
+msgid "statistics_rss_title_statsfordate"
+msgstr "Statistics for %1$s"
+
+msgid "statistics_settings_access_description"
+msgstr ""
+"By default, only you and Mozilla can access the information in your "
+"dashboard. You can open this up to the public so that anyone can view your "
+"add-on's data."
+
+msgid "statistics_settings_access_heading"
+msgstr "Dashboard Access"
+
+msgid "statistics_settings_access_private"
+msgstr "Private"
+
+msgid "statistics_settings_access_private_description"
+msgstr "Only you and Mozilla can view this add-on's statistics"
+
+msgid "statistics_settings_access_public"
+msgstr "Public"
+
+msgid "statistics_settings_access_public_description"
+msgstr "Anyone can view this add-on's statistics"
+
+msgid "statistics_settings_change_link"
+msgstr "Change Settings"
+
+msgid "statistics_settings_confidential"
+msgstr "Please treat this information as confidential."
+
+msgid "statistics_settings_currently_private"
+msgstr "This dashboard is currently <b>private</b>."
+
+msgid "statistics_settings_currently_public"
+msgstr "This dashboard is currently <b>public</b>."
+
+msgid "statistics_settings_locked_alt"
+msgstr "Locked"
+
+msgid "statistics_settings_return_link"
+msgstr "Return to Dashboard"
+
+msgid "statistics_settings_save_button"
+msgstr "Save Settings"
+
+#, php-format
+msgid "statistics_settings_title"
+msgstr "Statistics Dashboard Settings for %1$s"
+
+msgid "statistics_settings_unlocked_alt"
+msgstr "Unlocked"
+
+msgid "statistics_shortnames_application"
+msgstr "App"
+
+msgid "statistics_shortnames_os"
+msgstr "OS"
+
+msgid "statistics_shortnames_status"
+msgstr "St"
+
+msgid "statistics_shortnames_unknown"
+msgstr "Uk"
+
+msgid "statistics_shortnames_version"
+msgstr "Ver"
+
+msgid "statistics_summary_downloads_average"
+msgstr "Average Daily Downloads"
+
+msgid "statistics_summary_downloads_heading"
+msgstr "Downloads"
+
+msgid "statistics_summary_downloads_lastcount"
+msgstr "Last Day Count"
+
+msgid "statistics_summary_downloads_lastweek"
+msgstr "Downloads in the last 7 days"
+
+msgid "statistics_summary_downloads_total"
+msgstr "Total Downloads"
+
+#, php-format
+msgid "statistics_summary_downloads_total_sincedate"
+msgstr "Since %1$s"
+
+msgid "statistics_summary_nodata"
+msgstr "No data yet"
+
+msgid "statistics_summary_updatepings_average"
+msgstr "Average Daily Active Users"
+
+msgid "statistics_summary_updatepings_changefromprevious"
+msgstr "Change from previous count"
+
+#, php-format
+msgid "statistics_summary_updatepings_changefromprevious_ondate"
+msgstr "%1$s on %2$s"
+
+msgid "statistics_summary_updatepings_heading"
+msgstr "Active Daily Users"
+
+msgid "statistics_summary_updatepings_total"
+msgstr "Active Daily Users"
+
+#, php-format
+msgid "statistics_summary_updatepings_total_ondate"
+msgstr "On %1$s"
+
+msgid "statistics_summary_updatepings_weekly_average"
+msgstr "Average Daily Users this Week"
+
+#. %s is a percentage, like '+22.33%'.  It sits next to another number, so
+#. the implied meaning is 'percentage change' from the previous stat point.
+msgid "statistics_summary_updatepings_weekly_change"
+msgstr "%s from last week"
+
+#, php-format
+msgid "statistics_title_addon_stats"
+msgstr "%1$s Statistics"
+
+msgid "themes_landing_all_themes"
+msgstr "Alle temaer"
+
+msgid "themes_landing_browse_themes"
+msgstr "Gennemse temaer"
+
+msgid "user_change_email"
+msgstr "Skift e-mail-adresse"
+
+msgid "user_change_password"
+msgstr "Skift adgangskode"
+
+msgid "user_confirmationcode_resent"
+msgstr "Bekræftelseskoden er sendt igen!"
+
+#. %1 is the email address, %2 is the URL of the user registration page
+msgid "user_del_account_deleted"
+msgstr ""
+"Din konto, %1$s, er nu slettet. Hvis du ønsker at vende tilbage "
+"en anden gang, kan du registrere dig igen på <a href=\"%2$s\">"
+"brugerregistreringssiden</a>."
+
+msgid "user_del_community_sad"
+msgstr "Fællesskabet omkring Mozilla Add-ons er kede af at se dig gå."
+
+msgid "user_del_confirm_password"
+msgstr "Bekræft adgangskode"
+
+msgid "user_del_deletenow"
+msgstr "Slet min konto nu"
+
+#. %1 is the URL of the user's info page
+msgid "user_del_error_addons"
+msgstr ""
+"Du kan ikke slette din konto, hvis du står listet som en <a href=\"%1$s"
+"\">forfatter af en eller flere tilføjelser</a>. For at slette din konto er du nødt til at få en anden "
+" person i din udviklergruppe til at slette dig fra listen over forfattere til "
+" dine tilføjelser. Derefter kan du slette din konto her."
+
+#. %1 is a link to the amo-editors mailing list
+msgid "user_del_error_addons_more_questions"
+msgstr "Har du yderligere spørgsmål, kan du kontakte %1$s for mere information."
+
+msgid "user_del_error_checkbox"
+msgstr ""
+"Du skal sætte markering i boksen \"Jeg forstår...\" før vi kan slette din "
+"konto."
+
+msgid "user_del_error_password"
+msgstr "Kontoen blev ikke slettet, da den angivne adgangskode er forkert."
+
+#. %1 is a link to the amo-admins mailing list
+msgid "user_del_error_unknown"
+msgstr ""
+"En ukendt fejl opstod under sletningen af din konto. Kontakt venligst %1$s vedrørende dette "
+"problem, og vi vil slette kontoen for dig. Vi beklager ulejligheden."
+
+msgid "user_del_header_confirm_deletion"
+msgstr "Bekræft sletning af konto"
+
+#. %1 is the user's email address
+msgid "user_del_header_delete_account"
+msgstr "Slet kontoen %1$s"
+
+msgid "user_del_header_farewell"
+msgstr "Farvel!"
+
+msgid "user_del_nologin"
+msgstr "Du vil fremover ikke kunne logge ind på Mozilla Add-ons."
+
+msgid "user_del_permanently_removed_means"
+msgstr ""
+"Ved at klikke på \"slet\" vil du slette din konto <strong>permanent"
+"</strong>. Dette betyder:"
+
+msgid "user_del_reviews_anonymized"
+msgstr ""
+"Dine anmeldelser og bedømmelser vil ikke blive slettet, men de vil ikke længere være "
+"knyttet til dig."
+
+#. %1 is a link to the amo-editors mailing list
+msgid "user_del_specific_problem_editors"
+msgstr ""
+"Har du et specifikt problem, som vi kan hjælpe med, bør du ikke slette din konto nu, "
+"men i stedet kontakte os på %1$s, og vi vil gøre vores bedste for at hjælpe dig "
+"med at løse problemet."
+
+msgid "user_del_understand_permanent"
+msgstr "Jeg forstår at dette trin ikke kan annulleres."
+
+msgid "user_deleted_nickname"
+msgstr "Slettet bruger"
+
+#. %1 is the new email address
+msgid "user_edit_confirm_email_sent"
+msgstr ""
+"En e-mail er sendt til %1$s for at bekræfte din nye e-mail-adresse. Før "
+"ændringen kan gennemføres, skal du klikke på linket i "
+"denne mail. Indtil da skal du fortsat bruge din nuværende e-mail-adresse til at logge ind."
+
+msgid "user_edit_delete_user"
+msgstr "Slet konto"
+
+#. This contains the email sent to users when they signed up for a new
+#. account:
+#. %1 is the confirmation URL, %2 is the current app
+#, php-format
+msgid "user_email_confirm_account_nopass"
+msgstr ""
+"Velkommen til %2$s Add-ons.\n"
+"\n"
+"Før du kan bruge din nye konto, skal du aktivere den - det sikrer, at den "
+"anvendte e-mail-adresse er gyldig og tilhører dig.\n"
+"For at aktivere din konto skal du klikke på linket herunder eller kopiere "
+"hele linket ind i din browsers adresselinje:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Når du har aktiveret din konto, kan du smide denne e-mail "
+"væk.\n"
+"\n"
+"Tak fordi du tilmeldte dig %2$s Add-ons\n"
+"-- %2$s Add-ons"
+
+#. %1 is the confirmation url, %2 is the application name
+msgid "user_email_confirm_emailchange"
+msgstr ""
+"Du anmodede om at ændre din e-mail-adresse hos %2$s Add-ons.\n"
+"\n"
+"For at bekræfte din nye adresse, bedes du klikke på linket herunder eller kopiere det hele "
+"ind i din browsers adresselinje:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Du har to døgn til at bekræfte din nye adresse. Hvis du alligevel ikke ønsker at "
+"ændre din adresse, kan du bare ignorere denne e-mail.\n"
+"\n"
+"Tak!\n"
+"-- %2$s Add-ons"
+
+#, php-format
+msgid "user_email_confirm_subject"
+msgstr "Tak fordi du tilmeldte dig %s Add-ons"
+
+#. This is the password reset email
+#. %1 is the pw reset URL, %2 is the application
+#, php-format
+msgid "user_email_pwreset"
+msgstr ""
+"Nulstilling af adgangskode til %2$s Add-ons\n"
+"\n"
+"Vi modtog en anmodning om at nulstille adgangskoden for denne konto på "
+"addons.mozilla.org. For at ændre din adgangskode bedes du klikke på følgende "
+"link eller kopiere det ind i din browsers adresselinje:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Har du ikke anmodet om denne e-mail, skal du ikke foretage dig noget yderligere.\n"
+"\n"
+"Tak,\n"
+"-- %2$s Add-ons"
+
+#, php-format
+msgid "user_email_pwreset_subject"
+msgstr "Nulstil din adgangskode til %s Add-ons"
+
+msgid "user_emailchange_error"
+msgstr "Fejl!"
+
+#. %1 is the application name
+msgid "user_emailchange_subject"
+msgstr "Bekræft ændring af e-mail-adresse hos %1$s Add-ons"
+
+msgid "user_emailchange_success"
+msgstr "Succes!"
+
+#. %1 is the new email address
+msgid "user_emailchange_successful_description"
+msgstr ""
+"Din e-mail-adresse blev ændret. Fra nu af skal du bruge "
+"%1$s for at logge ind."
+
+msgid "user_form_bio"
+msgstr "Om mig"
+
+msgid "user_form_bio_description"
+msgstr ""
+"Introducer dig selv til fællesskabet, hvis du vil! Denne tekst vil blive vist "
+"offentligt op din brugerside. Linjeskift bevares, men HTML "
+"tillades ikke."
+
+msgid "user_form_confirmpassword"
+msgstr "Bekræft adgangskode"
+
+#, php-format
+msgid "user_form_editprofile"
+msgstr "Ret brugerprofil for %s"
+
+msgid "user_form_email"
+msgstr "E-mail-adresse"
+
+msgid "user_form_firstname"
+msgstr "Fornavn"
+
+msgid "user_form_hideemail"
+msgstr "Skjul e-mail-adresse"
+
+msgid "user_form_homepage"
+msgstr "Website URL"
+
+msgid "user_form_lastname"
+msgstr "Efternavn"
+
+msgid "user_form_login"
+msgstr "Brugerlogin"
+
+msgid "user_form_newpassword"
+msgstr "Ny adgangskode"
+
+msgid "user_form_nickname"
+msgstr "Kaldenavn"
+
+msgid "user_form_oldpassword"
+msgstr "Gammel adgangskode"
+
+msgid "user_form_otheractions"
+msgstr "Andre muligheder"
+
+msgid "user_form_password"
+msgstr "Adgangskode"
+
+msgid "user_form_registration"
+msgstr "Registrering af ny bruger"
+
+msgid "user_form_remember_me"
+msgstr "Husk mig på denne computer"
+
+msgid "user_form_showsandbox"
+msgstr "Vis sandkasse?"
+
+msgid "user_form_submit_edit"
+msgstr "Gem"
+
+msgid "user_form_submit_login"
+msgstr "Log ind"
+
+msgid "user_form_submit_register"
+msgstr "Registrer"
+
+#, php-format
+msgid "user_info_usersince"
+msgstr "Bruger af %s Add-ons siden"
+
+msgid "user_login_register_link"
+msgstr "Opret ny brugerkonto"
+
+msgid "user_notifications_item_compat"
+msgstr "Kompatibilitet vedrørende tilføjelser (anbefales kraftigt)"
+
+msgid "user_notifications_item_events"
+msgstr "Kommende begivenheder og konkurrencer"
+
+msgid "user_notifications_none_available"
+msgstr "Der er i øjeblikket ingen beskeder, som du kan kan konfigurere."
+
+msgid "user_notifications_select_topics"
+msgstr ""
+"Mozilla kan af og til sende e-mails vedrørende kommende udgivelser og "
+"begivenheder relateret til tilføjelser. Vælg hvad du er interesseret i herunder:"
+
+msgid "user_notifications_specific_contact"
+msgstr ""
+"Mozilla forbeholder sig retten til at kontakte dig individuelt vedrørende "
+"dine tilføjelser, som er hostet her."
+
+msgid "user_profile_edit_error"
+msgstr ""
+"Der var fejl i de indtastede ændringer. Ret dem venligst og indsend igen."
+
+msgid "user_profile_saved"
+msgstr "Profil opdateret."
+
+#, php-format
+msgid "user_pwreset_for_email"
+msgstr "Adgangskode nulstillet for %s"
+
+msgid "user_pwreset_header"
+msgstr "Adgangskode nulstillet"
+
+msgid "user_pwreset_link"
+msgstr "Har du glemt din adgangskode?"
+
+msgid "user_pwreset_link_sent"
+msgstr "Linket til nulstilling af adgangskode er sendt til din e-mail-adresse."
+
+msgid "user_pwreset_okay"
+msgstr "Adgangskoden blev nulstillet."
+
+msgid "user_pwreset_submit_changepw"
+msgstr "Indsend ændring af adgangskode"
+
+msgid "user_pwreset_submit_sendlink"
+msgstr "Send link til ændring af adgangskode"
+
+#, php-format
+msgid "user_register_amo_link"
+msgstr "%s Add-ons"
+
+#. %1 is the user's email address, %2 is the current app
+#, php-format
+msgid "user_register_click_confirm_link"
+msgstr ""
+"Et link til aktivering af din brugerkonto er sendt af sted via e-mail til "
+"din adresse, %1$s. Du skal klikke på linket i denne e-mail, før du kan logge ind på %2$s Add-ons."
+
+#. %1 is the user's email address
+#, php-format
+msgid "user_register_confirm_email_sent"
+msgstr ""
+"En e-mail er sendt af sted til din adresse, %1$s, for at bekræfte din konto. "
+"Før du kan logge ind, skal du aktivere kontoen ved at klikke på linket i e-"
+"mailen."
+
+msgid "user_register_confirmation_link_text"
+msgstr "sende bekræftelsesmeddelelsen igen"
+
+msgid "user_register_congratulations"
+msgstr "Tillykke! Din brugerkonto er nu oprettet."
+
+msgid "user_register_details"
+msgstr ""
+"<p>Registrering på AMO er <strong>ikke påkrævet</strong> hvis du bare vil "
+"hente og installere offentlige tilføjelser.</p><p>Du behøver kun at registrere, hvis:</"
+"p><ul><li>Du vil indsende anmeldelser af tilføjelser</li><li>Du er udvikler af en tilføjelse "
+"og ønsker at uploade den til hosting på AMO</li></ul><p>Ved "
+"succesfuld registrering vil du få tilsendt en bekræftelsesmail til den "
+"adresse du opgav. Følg instruktionerne i mailen for at bekræfte din "
+"konto.</p><p>Hvis du vil, kan du læse vores <a href='%1$s' title='Juridiske "
+"betingelser'>juridiske betingelser</a> og <a href='%2$s' title='Privatlivspolitik'>privatlivspolitik"
+"</a>.</p>"
+
+#. %1 is the link to the "resend confirmation code" page
+#, php-format
+msgid "user_register_resend_confirmation_link"
+msgstr ""
+"Hvis du ikke modtog bekræftelsesmailen, bør du kontrollere, at din "
+"maiservice ikke markerede den som \"spam\". Har du behov for det, kan vi %1"
+"$s til din e-mail-adresse, som står herover."
+
+#. %1 is the link to the Mozilla Add-ons front page
+#, php-format
+msgid "user_register_welcome"
+msgstr "Tak fordi du registrerede dig og velkommen til %1$s!"
+
+msgid "user_register_welcome_header"
+msgstr "Velkommen til addons.mozilla.org (AMO)!"
+
+msgid "user_required_firstlast_or_nickname"
+msgstr "Et fornavn, efternavn eller kaldenavn skal angives."
+
+msgid "user_tab_notifications"
+msgstr "Beskeder"
+
+msgid "user_tab_profile"
+msgstr "Brugerprofil"
+
+msgid "user_verified_okay"
+msgstr "Godkendt!"
+
+msgid "users_delete_pagetitle"
+msgstr "Slet konto"
+
+msgid "users_edit_pagetitle"
+msgstr "Redigering af brugerkonto"
+
+msgid "users_info_aboutme"
+msgstr "Om mig"
+
+#, php-format
+msgid "users_info_addons_by_user"
+msgstr "Tilføjelser fra %1$s"
+
+msgid "users_info_author_name"
+msgstr "Navn"
+
+msgid "users_info_author_profile"
+msgstr "Brugerprofil"
+
+msgid "users_info_email"
+msgstr "E-mail-adresser"
+
+msgid "users_info_homepage"
+msgstr "Hjemmeside"
+
+msgid "users_info_nickname"
+msgstr "Kaldenavn"
+
+#, php-format
+msgid "users_info_pagetitle"
+msgstr "Brugerinfo om %1$s"
+
+#. %1 is the user's name
+msgid "users_info_reviews_by_user"
+msgstr "Anmeldelser skrevet af %s"
+
+msgid "users_login_pagetitle"
+msgstr "Log ind"
+
+#. %1 is the link to the sandbox/policy explanation page
+#. This message is for a specific add-on not found
+#, php-format
+msgid "users_login_sandbox_display_warning"
+msgstr ""
+"Den ønskede tilføjelse befinder sig i øjeblikket i sandkassen. Har du "
+"allerede en konto hos Mozilla Add-ons, bedes du logge ind, eller du kan <a "
+"href=\"%1$s\">lære mere om sandkassen.</a>"
+
+#. %1 is the link to the sandbox/policy explanation page
+#. This message is for any given sandbox-related page not found
+#, php-format
+msgid "users_login_sandbox_page_warning"
+msgstr ""
+"Den ønskede side er en del af sandkassen. Har du allerede en konto hos "
+"Mozilla Add-ons, bedes du logge ind, eller du kan <a href=\"%1$s\">lære mere "
+"om sandkassen.</a>"
+
+msgid "users_pwreset_pagetitle"
+msgstr "Nulstilling af adgangskode"
+
+msgid "users_register_pagetitle"
+msgstr "Registrering af ny bruger"
+
+#. %1$s is an addon name, like <a>Firebug</a>
+#. %2$s is a version number, like <a>1.2</a>
+msgid "versions_license_header_source"
+msgstr "Licens for kildekoden til %1$s %2$s"
+
+msgid "view_recently_added"
+msgstr "Vis alle som blev tilføjet fornyligt"
+
+msgid "view_top_downloads"
+msgstr "Vis alle med flest downloads"
+
+msgid "view_top_rated"
+msgstr "Vis alle med de bedste bedømmelser"
+

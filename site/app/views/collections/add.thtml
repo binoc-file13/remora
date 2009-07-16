@@ -1,0 +1,119 @@
+<?php
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Original Code is addons.mozilla.org site.
+ *
+ * The Initial Developer of the Original Code is
+ * The Mozilla Foundation.
+ * Portions created by the Initial Developer are Copyright (C) 2009
+ * the Initial Developer. All Rights Reserved.
+ *
+ * Contributor(s):
+ *   Ryan Doherty <rdoherty@mozilla.com>
+ *   Frederic Wenzel <fwenzel@mozilla.com>
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ *
+ * ***** END LICENSE BLOCK ***** */ 
+?>
+<div id="content" class="collections">
+    <?=$this->renderElement('search');?>
+
+    <div id="content-main" class="full">
+        <p>It's easy to create your own collection of add-ons by filling in a few fields below.</p>
+        
+        <form action="<?=$html->entities($html->url())?>" method="post" id="collections">
+            <?=$html->hiddenSession() ?>   
+            <fieldset>
+                <div>
+                <h3><label for="CollectionName">Collection name</label></h3>
+                <?=$html->input('Collection/name');?>
+                <?=$html->tagErrorMsg('Collection/name', 'You must give your collection a name.') ?>
+                <p>Give your collection a descriptive name, such as "Dave's Favorite Travel Add-ons"</p>
+                </div>
+                
+                <div>
+                <h3><label for="CollectionDescription">Description</label></h3>
+                <?=$html->textarea('Collection/description', array('cols'=>50, 'rows'=>5));?>
+                <?=$html->tagErrorMsg('Collection/description', 'You must provide a description of your collection.') ?>
+                <p>Briefly describe your collection and the kind of add-ons in it</p>
+                </div>
+                
+                <div>
+                <h3>Who can view your collection?</h3>
+                <?=$html->radio('Collection/listed', array(
+                    true => '<label for="listed_1">Everyone can view my collection in the directory</label>',
+                    false => '<label for="listed_0">Only people I invite can view my collection</label>'
+                    ), '<br/>', array('value' => true)
+                )?>
+                <p>By default, collections appear in the public Collection Directory
+                and are discoverable by anyone. If you want to restrict your collection
+                to be viewable only by people who are given a special link, choose
+                that option below.</p>
+                </div>
+                
+                <div id="firstaddons">
+                    <h3>Choose your first add-ons</h3>
+                    <label for="addonname">Add-on name:</label>
+                    <input type="text" name="q" id="addonname"/>
+                    <p>If you already know some add-ons you'd like to put into your
+                    collection, just start typing their name below. If you'd rather
+                    wait and do this later, just click Create Collection now.</p>
+                    
+                    <div id="selectedaddons">
+                        <h3>Selected Add-ons</h3>
+                        <ul></ul>
+                    </div>
+                </div>
+                
+                <div>
+                <label><?=$html->submit('Create Collection', array('class'=>'amo-submit'))?></label>
+                </div>
+            </fieldset>
+        </form>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#selectedaddons')[0].addAddon = function (data) {
+                    $(this).children('ul:first').append(
+                        '<li>'+
+                        '<input type="checkbox" name="addons[]" value="'+data[1]+'" id="addon-'+data[1]+'" checked="true"/>&nbsp;'+
+                        '<label for="addon-'+data[1]+'"><img src="'+data[2]+'"/>&nbsp;'+data[0]+'</label><li>'
+                    )
+                }
+                $('#addonname').autocomplete('<?=$html->url('/collections/addonLookup')?>',
+                    {
+                        minChars: 4,
+                        max: 0,
+                        formatItem: function(row) { return '<img src="' + row[2] + '"/>&nbsp;' + row[0]; },
+                        extraParams: { timestamp: null }
+                    });
+                $('#addonname').result(function(event,data){ $('#selectedaddons')[0].addAddon(data); $(this).val(''); });
+                $('#firstaddons').show();
+            });
+        </script>
+    </div>
+    <?=$this->renderElement('sidebar')?>
+    <?=$this->renderElement('app_chooser')?>
+</div>

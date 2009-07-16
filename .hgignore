@@ -1,0 +1,3 @@
+\.svn/
+^site/app/webroot/files/
+^site/app/tmp/

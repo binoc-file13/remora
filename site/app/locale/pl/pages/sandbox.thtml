@@ -1,0 +1,13 @@
+<h1>Piaskownica &ndash; system ocen</h1>
+<h2>Czym jest piaskownica?</h2>
+<p>Piaskownica jest strefą dla zaawansowanych użytkowników, miejscem do testowania i oceny dodatków przed ich  upublicznieniem. By uzyskać dostęp do piaskownicy, trzeba włączyć to w ustawieniach swojego konta. Instalując dodatki z piaskownicy należy zachować ostrożność. Nie zostały one przetestowane przez redaktorów i mogą uszkodzić komputer instalującego.</p>
+
+<h2>Jaka jest droga dodatku do upublicznienia?</h2>
+<!-- To localize the flowchart image, see http://wiki.mozilla.org/Update:Remora_Sandbox_Flowchart -->
+<div style="text-align: center;">%s</div>
+<ol>
+    <li><b>Wysłanie dodatku z poziomu narzędzi programisty.</b> Dodatek ten natychmiast pojawi się w "Piaskownicy" na stronie Mozilla Add-ons, gdzie doświadczeni użytkownicy przetestują go i wystawią swoją ocenę. Aby widzieć piaskownicę, należy włączyć odpowiednią opcję w ustawieniach swojego konta.</li>
+    <li><b>Nominowanie dodatku do upublicznienia.</b> W narzędziach programisty znajduje się odnośnik do nominowania dodatku. Po nominowaniu dodatku pojawi się on w kolejce do oceny.</li>
+    <li><b>Ocena przez redaktora.</b> Redaktor Mozilla Add-ons zainstaluje dodatek i sprawdzi, czy działa. Redaktor zapozna się również z ocenami wystawionymi przez testerów piaskownicy.</li>
+    <li><b>Upublicznienie dodatku lub zatrzymanie w piaskownicy.</b> Redaktor upublicznia dodatek lub pozostawia go w piaskownicy. Jeśli zostanie zatrzymany w piaskownicy, można nominować go ponownie po wprowadzeniu zmian zasugerowanych przez redaktora w komentarzach. Jeśli zostanie upubliczniony, to nowe wersje dodatku będą pojawiać się w piaskownicy do momentu ich ocenienia przez redaktora i upublicznienia. Raz upublicznionego dodatku nie ma potrzeby nominować ponownie - nowe wersje automatycznie znajdą się w kolejce oczekujących na ocenę.</li>
+</ol>

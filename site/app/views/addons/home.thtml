@@ -1,0 +1,222 @@
+<?php
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Original Code is addons.mozilla.org site.
+ *
+ * The Initial Developer of the Original Code is
+ * The Mozilla Foundation.
+ * Portions created by the Initial Developer are Copyright (C) 2006
+ * the Initial Developer. All Rights Reserved.
+ *
+ * Contributor(s):
+ *   Andrei Hajdukewycz <sancus@off.net> (Original Author)
+ *   Frederic Wenzel <fwenzel@mozilla.com>
+ *   Mike Morgan <morgamic@mozilla.com>
+ *   Wil Clouser <clouserw@mozilla.com>
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ *
+ * ***** END LICENSE BLOCK ***** */
+?>
+
+<div id="content" class="main-page">
+
+<?=$this->renderElement('search')?>
+
+<div id="content-main">
+    <h3><?=_('addons_home_feature_head')?></h3>
+
+    <div id="slider" class="slider_widget">
+        <div class="inner">
+            <div class="viewport">
+                <ul class="item_set">
+                    <?php
+                    $total_features = 5;
+                    for ($idx=1; $idx<=$total_features; $idx++) {
+                        
+                        $prev_idx = $idx - 1;
+                        if ($prev_idx < 1) 
+                            $prev_idx = $total_features;
+                        $next_idx = $idx + 1;
+                        if ($next_idx > $total_features)
+                            $next_idx = 1;
+
+                        $feature1 = array_shift($featureAddons);
+                        ?>
+                        <li id="feature1_<?=$idx?>" class="item addon featured main">
+                            <?=$this->renderElement('feature', array(
+                                'addonIconPath' => $this->controller->Image->getAddonIconURL($feature1['Addon']['id']),
+                                'addonThumbPath' => $this->controller->Image->getHighlightedPreviewURL($feature1['Addon']['id']),
+                                'addonName' => $feature1['Translation']['name']['string'],
+                                'addonSummary' => $feature1['Translation']['summary']['string'],
+                                'addonId' => $feature1['Addon']['id'],
+                                'addonFiles' => $feature1['File'],
+                                'addonEULA' => $feature1['Translation']['eula']['string'],
+                                'addonStatus' => $feature1['Addon']['status'],
+                                'addonAuthors' => $feature1['User'],
+                                'addonTags' => $feature1['Tag'],
+                                'addonWeeklyDownloads' => $feature1['Addon']['weeklydownloads'],
+                                'allPlatforms' => $platforms,
+                                'compatible_apps' => $feature1['compatible_apps'],
+                                'addonType' => $feature1['Addon']['addontype_id'],
+                                'addonRating' => $feature1['Addon']['averagerating'],
+                                'addonReviews' => $feature1['Addon']['totalreviews'],
+                                'addonVersionCreated' => $feature1['Version'][0]['created']
+                            ))?>
+                        </li>
+                        <?php 
+                    } ?>
+                </ul>
+            </div>
+            <div class="controls">
+                <div class="controls_inner">
+                    <a href="#slider" title="Previous" class="prev">
+                        <img src="<?=$html->urlImage("slider-prev-disabled.gif")?>"
+                            width="30" height="30" alt="<?=___('addon_slider_tooltip_previous', 'Previous Add-on')?>"
+                            title="<?=___('addon_slider_tooltip_previous', 'Previous Add-on')?>" /> 
+                    </a>
+                    <span class="indicator">
+                        <span class="index">1</span>
+                        /
+                        <span class="total"><?=$total_features?></span>
+                    </span>
+                    <a href="#slider" title="Next" class="next">
+                        <img src="<?=$html->urlImage("slider-next.gif")?>"
+                            width="30" height="30" alt="<?=___('addon_slider_tooltip_next', 'Next Add-on')?>"
+                            title="<?=___('addon_slider_tooltip_next', 'Next Add-on')?>" /> 
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="vex"><span><!-- bottom edge --></span></div>
+    </div>
+    
+    <div id="secondaries">
+        <?php
+        foreach($featureAddons as $id => $addon):
+            $idx = $id + 2;
+        ?>
+        <div id="feature<?=$idx?>" class="addon featured sub">
+            <div class="irk">
+            <?=$this->renderElement('feature', array(
+                'addonIconPath' => $this->controller->Image->getAddonIconURL($addon['Addon']['id']),
+                'addonThumbPath' => $this->controller->Image->getHighlightedPreviewURL($addon['Addon']['id']),
+                'addonName' => $addon['Translation']['name']['string'],
+                'addonSummary' => $addon['Translation']['summary']['string'],
+                'addonId' => $addon['Addon']['id'],
+                'addonEULA' => $addon['Translation']['eula']['string'],
+                'addonStatus' => $addon['Addon']['status'],
+                'addonAuthors' => $addon['User'],
+                'addonWeeklyDownloads' => $addon['Addon']['weeklydownloads'],
+                'allPlatforms' => $platforms,
+                'addonType' => $addon['Addon']['addontype_id'],
+                'addonRating' => $addon['Addon']['averagerating'],
+                'addonReviews' => $addon['Addon']['totalreviews']
+            ))?>
+            </div>
+            <div class="vex"><span><!-- bottom edge --></span></div>
+        </div>
+        <?php endforeach; ?>
+    </div><!-- /#secondaries -->
+    
+    <div id="content-extra">
+
+<?php
+    /**
+     * Developer tools
+     * Shows links to dev cp and admin stuff depending on user permissions.
+     * If the user is not logged in, they won't see any of this.
+     */
+    if ($this->controller->Session->check('User')) {
+?>
+        <div id="developer" class="extra">
+            <h3><?=(!empty($welcomeName) ? sprintf(_('sidebar_navlink_welcome_name'), $welcomeName) : _('sidebar_navlink_welcome'))?></h3>
+            <ul>
+                <li><?=$html->link(_('sidebar_navlink_developer_tools'), '/developers')?></li>
+                <?php if ($this->controller->SimpleAcl->actionAllowed('Editors', '%', $this->controller->Session->read('User'))): ?>
+                <li><?=$html->link(_('sidebar_navlink_editor_tools'), '/editors')?></li>
+                <?php endif;
+                if ($this->controller->SimpleAcl->actionAllowed('Localizers', '%', $this->controller->Session->read('User'))): ?>
+                <li><?=$html->link('Localizer Tools', '/localizers')?></li>
+                <?php endif;
+                if ($this->controller->SimpleAcl->actionAllowed('Admin', '%', $this->controller->Session->read('User'))): ?>
+                    <li><?=$html->link(_('sidebar_navlink_admin_tools'), '/admin')?></li>
+                <?php endif; ?>
+            </ul>
+        </div>
+<?php
+    }
+?>
+
+        <div id="recs" class="extra">
+            <h3><?=_('addons_home_recommended_header')?></h3>
+            <ul>
+                <? foreach ($recAddons as $recAddon): ?>
+                <li><?=$html->link($recAddon['Translation']['name']['string'], "/addon/{$recAddon['Addon']['id']}")?><br />
+                <span><?=isset($recAddon['Tag'][0]['Translation']['name']['string']) ? $recAddon['Tag'][0]['Translation']['name']['string'] : ''; ?></span>
+                </li>
+                <? endforeach; ?>
+            </ul>
+            <p class="view-all"><a href="<?=$html->url('/recommended')?>" class="view" title="<?=_('addons_home_view_all_recommended_title')?>"><?=_('addons_home_view_all')?></a></p>
+            
+            <h3><?=_('addons_home_popular_header')?></h3>
+            <ul>
+                <? foreach ($popAddons as $popAddon): ?>
+                <li><?=$html->link($popAddon['Translation']['name']['string'], "/addon/{$popAddon['Addon']['id']}")?><br />
+                     <span><?=isset($popAddon['Tag'][0]['Translation']['name']['string']) ? $popAddon['Tag'][0]['Translation']['name']['string'] : ''; ?></span>
+                </li>
+                <? endforeach; ?>
+            </ul>
+            <p class="view-all"><a href="<?=$html->url("/browse/type:1/cat:all?sort=popular")?>" class="view" title="<?=_('addons_home_view_all_popular_title')?>"><?=_('addons_home_view_all')?></a></p>
+            
+            <h3><?=___('addons_home_newest_header','Newest:')?></h3>
+            <ul>
+                <? foreach ($newAddons as $newAddon): ?>
+                <li><?=$html->link($newAddon['Translation']['name']['string'], "/addon/{$newAddon['Addon']['id']}")?> <br />
+	                    <span><?= isset($newAddon['Tag'][0]['Translation']['name']['string']) ? $newAddon['Tag'][0]['Translation']['name']['string'] : '' ; ?></span>
+	               </li>
+                <? endforeach; ?>
+            </ul>
+            <p class="view-all"><a href="<?=$html->url("/browse/type:1/cat:all?sort=newest")?>" class="view" title="<?=_('addons_home_view_all_newest_title')?>"><?=_('addons_home_view_all')?></a></p>
+            
+            <h3><?=___('addons_home_updated_header', 'Recently Updated:')?></h3>
+            <ul>
+                <? foreach ($updAddons as $updAddon): ?>
+                <li><?=$html->link($updAddon['Translation']['name']['string'], "/addon/{$updAddon['Addon']['id']}")?><br />
+	                    <span><?= $updAddon['Tag'][0]['Translation']['name']['string']; ?></span>
+	               </li>
+                <? endforeach; ?>
+            </ul>
+            <p class="view-all"><a href="<?=$html->url("/browse/type:1/cat:all?sort=updated")?>" class="view" title="<?=_('addons_home_view_all_updated_title')?>"><?=_('addons_home_view_all')?></a></p>
+        </div>
+    </div><!-- /#content-extra -->
+
+</div><!-- /#content-main -->
+
+<?=$this->renderElement('sidebar', array('pitch'=>true))?>
+
+<?=$this->renderElement('app_chooser')?>
+
+</div><!-- /#content -->

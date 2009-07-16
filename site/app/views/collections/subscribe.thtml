@@ -1,0 +1,11 @@
+<div id="content" class="collections">
+<?=$this->renderElement('search');?>
+<div id="content-main" class="full">
+<a href="<?php echo $html->url('/collections/'); ?>">Collections Home</a>
+    <p>You have subscribed.</p>
+
+</div><!-- /#content-main -->
+
+<?=$this->renderElement('sidebar')?>
+<?=$this->renderElement('app_chooser')?>
+</div><!-- /#content -->

@@ -1,0 +1,63 @@
+<h2>REFERENCES ABOUT OPEN SOURCE LICENSES</h2>
+<p>
+  Do you need more information about the various open source licenses? Are you
+  confused as to which license you should select? What rights does a specific
+  license grant? While nothing replaces reading the full terms of a license,
+  below are some sites that contain information about some of the key open
+  source licenses that may help you sort out the differences between them. These
+  sites are being provided solely for your convenience and as a reference for
+  your personal use. These resources do not constitute legal advice nor should
+  they be used in lieu of such advice. Mozilla neither guarantees nor is
+  responsible for the content of these sites or your reliance on such content.
+</p>
+<dl>
+  <dt>
+    <a href="http://www.mozilla.org/MPL/">http://www.mozilla.org/MPL/</a>
+  </dt>
+  <dd>
+    In addition to the full text of the Mozilla Public License
+    (&#8220;MPL&#8221;), this also provides an annotated version of the MPL and an
+    <abbr title="Frequently Asked Questions">FAQ</abbr> to help you if you want
+    to use or distribute code licensed under it.
+  </dd>
+  <dt>
+    <a href="http://developer.kde.org/documentation/licensing/licenses_summary.html">
+      http://developer.kde.org/documentation/licensing/licenses_summary.html
+    </a>
+  </dt>
+  <dd>
+    A table summarizing and comparing how some of the key open source licenses
+    treat distributions, proprietary software linking, and redistribution of
+    code with changes.
+  </dd>
+  <dt>
+    <a href="http://www.fsf.org/licensing/licenses/">
+      http://www.fsf.org/licensing/licenses/
+    </a>
+  </dt>
+  <dd>
+    Free Software Foundation provides short summaries of the key open source
+    licenses, including whether the license qualifies as a free software license
+    or a copyleft license.  Also includes a discussion of what constitutes a
+    free software license or a copyleft license  (e.g., a Copyleft license is a
+    general method for making a program or other work free, and requiring all
+    modified and extended versions of the program to be free as well.)
+  </dd>
+  <dt>
+    <a href="http://www.opensource.org/licenses/category">
+      http://www.opensource.org/licenses/category
+    </a>
+  </dt>
+  <dd>
+    Open Source Initiative provides the terms of some of the key open source
+    licenses.
+  </dd>
+  <dt>
+    <a href="http://en.wikipedia.org/wiki/Open_source_license">
+      http://en.wikipedia.org/wiki/Open_source_license
+    </a>
+  </dt>
+  <dd>
+    Wikipedia discussion of BSD style licenses.
+  </dd>
+</dl>
