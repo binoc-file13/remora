@@ -119,7 +119,7 @@
             <?php if ($loggedin): ?>
                 <div class="details-link"><a href="#" onclick="compatibility.viewDeveloperDetails();"><?=___('compatibility_developers_check_status', 'Check Status of My Add-ons')?></a></div>
             <?php else: ?>
-                <p class="login"><?=sprintf(___('compatibility_developers_login_first', 'If you have add-ons hosted on Mozilla Add-ons, <a href="%1$s">please login</a> to analyze the status of your add-ons for %2$s.'), $html->url($html->login_url()), APP_PRETTYNAME." {$version}")?></p>
+                <p class="login"><?=sprintf(___('compatibility_developers_login_first', 'If you have add-ons hosted on Instantbird Add-ons, <a href="%1$s">please login</a> to analyze the status of your add-ons for %2$s.'), $html->url($html->login_url()), APP_PRETTYNAME." {$version}")?></p>
             <?php endif; ?>
         </div>
         

@@ -420,21 +420,6 @@
      <?php endif; ?>
 
     </div>
-    <!-- /#more-addons-->
-    <div class="collections-add">
-        Add to a collection:
-        <form action="<?= $html->url('/collections/addtocollection') ?>" method="post">
-            <?=$html->hiddenSession() ?>
-            <input id="addon_id" name="data[addon_id]" type="hidden" value="<?= $addon['Addon']['id'] ?>" />
-            <select name="data[collection_uuid]">
-                <?php foreach($userCollections as $collection) { ?>
-                    <option value="<?=$collection['Collection']['uuid'] ?>"><?=$collection['Translation']['name']['string'] ?></option>
-                <?php } ?>
-            </select>
-            <p><input type="submit" value="Do it &rarr;" /></p>
-        </form>
-    </div>
-
   
     </div>
     <!-- /#content-extra -->

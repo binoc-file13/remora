@@ -68,11 +68,11 @@ if ($loggedin) {
         echo '</ul>';
     }
     else {
-        echo '<p class="login">'.___('compatibility_developers_no_addons', 'You do not have any add-ons hosted on Mozilla Add-ons.').'</p>';
+        echo '<p class="login">'.___('compatibility_developers_no_addons', 'You do not have any add-ons hosted on Instantbird Add-ons.').'</p>';
     }
 }
 else {
-    echo '<p class="login">'.sprintf(__('compatibility_developers_login_first', 'If you have add-ons hosted on Mozilla Add-ons, <a href="%1$s">please login</a> to analyze the status of your add-ons for %2$s.'), $html->url($html->login_url()), APP_PRETTYNAME." {$version}").'</p>';
+    echo '<p class="login">'.sprintf(__('compatibility_developers_login_first', 'If you have add-ons hosted on Instantbird Add-ons, <a href="%1$s">please login</a> to analyze the status of your add-ons for %2$s.'), $html->url($html->login_url()), APP_PRETTYNAME." {$version}").'</p>';
 }
 ?>
 <?php if ($format != 'ajax'): ?>

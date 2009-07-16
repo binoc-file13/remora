@@ -96,22 +96,6 @@ if (count($addonFiles) < 1) {
     
     $versionId = $addonFiles[0]['version_id'];
     
-    // If we're looking at thunderbird pages, and there is no EULA, show the TB
-    // install instructions.  Bug 401272 fixed the button so it downloads instead of
-    // installs, but it doesn't hurt to have these instructions still.
-    if (APP_ID == APP_THUNDERBIRD && empty($addonEULA) && $showInstructions) {
-        echo '<div class="app_install">';
-        echo '<h3>'._('addons_install_in_thunderbird_title').'</h3>';
-        echo _('addons_install_in_thunderbird');
-        echo '</div>';
-    }
-    if (APP_ID == APP_SUNBIRD && empty($addonEULA) && $showInstructions) {
-        echo '<div class="app_install">';
-        echo '<h3>'._('addons_install_in_sunbird_title').'</h3>';
-        echo _('addons_install_in_sunbird');
-        echo '</div>';
-    }
-    
     echo '<div id="install-'.$versionId.'" class="install-container">';
     foreach ($addonFiles as $file) {
         // never display files with invalid statuses (bug 427176)

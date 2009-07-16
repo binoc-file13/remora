@@ -102,7 +102,7 @@
 ?>
 
 <div id="branding">
-  <h4 id="moz"><a href="http://www.mozilla.com/<?=LANG?>/" title="mozilla.com" accesskey="1"><?=$html->image('template/moz-com-logo.png', array('alt' => 'Mozilla Corporation', 'title' => 'Mozilla Corporation', 'height' => '38', 'width' => '89'))?></a></h4>
+  <h4 id="moz"><a href="http://www.instantbird.com/" title="instantbird.com" accesskey="1"><?=$html->image('template/moz-com-logo.png', array('alt' => 'Instantbird Official Website', 'title' => 'Instantbird Official Website', 'height' => '38', 'width' => '89'))?></a></h4>
   
 <?php if (isset($bigHeader) && $bigHeader) { ?>
     <div id="page-title" class="<?=APP_SHORTNAME?>">
@@ -123,7 +123,7 @@
             <?php echo $html->image('app-icons/'.LAYOUT_NAME.'.png', array('alt' => $main_header)); ?>
             <?php
             if (LAYOUT_NAME == 'generic' || LAYOUT_NAME == 'developers') {
-                echo 'Mozilla Add-ons</a></h1>';
+                echo 'Instantbird Add-ons</a></h1>';
                 if (!empty($subpagetitle)) {
                     echo '<h2>'.$subpagetitle.'</h2>';
                 }

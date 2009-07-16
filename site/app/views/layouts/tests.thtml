@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" version="-//W3C//DTD XHTML 1.1//EN" xml:lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>AMO Tests</title>
+    <title>AIO Tests</title>
     <?=$html->css('tests')?>
     <?=$html->css('admin')?>
     <?=$javascript->link('jquery-compressed.js')?>
@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="menu">
-        <span class="title">AMO 'Project Remora' Test Suite</span>
+        <span class="title">AIO 'Project Remora' Test Suite</span>
         <span class="items">
             <?=$html->link('Tests Main', '/tests')?> | 
             <?=$html->link('Run All Tests', '/tests/all')?> | 

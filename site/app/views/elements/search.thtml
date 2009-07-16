@@ -58,12 +58,16 @@ if (!isset($appid)) {
 } 
 
 $min_display_version_by_app = array( // eventually this information should be kept in DB
-    APP_INSTANTBIRD => "0.2",
+    APP_INSTANTBIRD => "0.2"
 );
 
 $new_versions = array();
 foreach ($app_shortnames as $n => $k) {
 // AmoVersions is from controller->beforeRender()
+    if (!empty($AmoVersions[$k])) foreach ($AmoVersions[$k] as $version) {
+        $versions_parts = explode(".", $version);
+        $second_part = (isset($versions_parts[1])) ? ".".intval($versions_parts[1]) : "";
+    }
     if (!empty($new_versions[$k]))
         $new_versions[$k] = array_unique($new_versions[$k]);
 }

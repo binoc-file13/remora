@@ -68,7 +68,7 @@ echo $this->renderElement('rss_listitem', array(
     'title' => sprintf(_('statistics_rss_title_statsfordate'), strftime(_('statistics_rss_title_fulldate'))),
     'url' => SITE_URL.$html->url('/statistics/addon/'.$addon['Addon']['id']),
     'description' => "<![CDATA[{$summary}]]>",
-    'author' => 'Mozilla Add-ons',
+    'author' => 'Instantbird Add-ons',
     'pubDate' => $time->toRss($today),
     'permalink' => SITE_URL.$html->url('/statistics/addon/'.$addon['Addon']['id']).'/'.date('Ymd', $today)
     ));

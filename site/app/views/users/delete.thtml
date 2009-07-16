@@ -92,7 +92,7 @@
     
     <h1><?php echo sprintf(___('user_del_header_delete_account', 'Delete User Account %s'), $useremail)?></h1>
     
-    <p><?=___('user_del_community_sad', 'The Mozilla Add-ons community is sad to see you go.')?></p>
+    <p><?=___('user_del_community_sad', 'The Instantbird Add-ons community is sad to see you go.')?></p>
     
     <p><?php sprintf(___('user_del_specific_problem_editors', 'If you have a '
     .'specific problem we may help you with, please do not delete your account '
@@ -105,7 +105,7 @@
     <p><?=___('user_del_permanently_removed_means', 'By clicking "delete" your '
         .'account is going to be <strong>permanently removed</strong>. That means:')?>
     <ul>
-        <li><?=___('user_del_nologin', 'You will not be able to log into Mozilla Add-ons anymore.')?></li>
+        <li><?=___('user_del_nologin', 'You will not be able to log into Instantbird Add-ons anymore.')?></li>
         <li><?=___('user_del_reviews_anonymized', 'Your reviews and ratings will '
             .'not be deleted, but they will no longer be associated with you.')?></li>
     </ul>
