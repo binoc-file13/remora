@@ -734,7 +734,7 @@ class DevelopersController extends AppController
             $supportedApps = array(
                 0 => array(
                         'Application' => array(
-                            'id' => APP_FIREFOX
+                            'id' => APP_INSTANTBIRD
                         )
                     )
             );

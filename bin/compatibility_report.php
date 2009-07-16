@@ -152,7 +152,7 @@ foreach ($compatibility_versions as $compatibility_version) {
 
     $versions_qry = $db->query("SELECT id, version
                                 FROM appversions
-                                WHERE application_id = ".APP_FIREFOX." AND
+                                WHERE application_id = ".APP_INSTANTBIRD." AND
                                       (".compatibleVersions($compatibility_version).")
                                 ORDER BY version");
     $versions = array();

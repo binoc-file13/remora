@@ -1,5 +1,5 @@
 ~$
 \.svn/
-^site/app/webroot/files/
+^site/app/webroot/files($|/)
 ^site/app/tmp/
 ^site/app/config/config.php$

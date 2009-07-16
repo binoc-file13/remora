@@ -132,7 +132,7 @@ class CompatibilityController extends AppController
             
             if (!empty($addon_ids)) {
                 $relatedVersions = $this->Appversion->getRelatedVersions($version);
-                $appversions = $this->Versioncompare->getCompatibilityGrades($version, $relatedVersions[APP_FIREFOX]);
+                $appversions = $this->Versioncompare->getCompatibilityGrades($version, $relatedVersions[APP_INSTANTBIRD]);
                 
                 foreach ($addon_ids as $addon_id => $addon_name) {
                     $stats = $this->Addon->query("SELECT date, count, application FROM update_counts WHERE addon_id = {$addon_id} ORDER BY date DESC LIMIT 1");
@@ -157,7 +157,7 @@ class CompatibilityController extends AppController
                     $addons[$addon_id]['percentage'] = round(($addons[$addon_id]['versionCount'] / $addons[$addon_id]['totalCount'] * 100), 2);
                     
                     // Get latest version's compatibility
-                    $compat = $this->Addon->query("SELECT appversions.version, versions.id FROM versions INNER JOIN applications_versions ON applications_versions.version_id = versions.id INNER JOIN appversions ON appversions.id = applications_versions.max WHERE versions.addon_id={$addon_id} AND applications_versions.application_id = ".APP_FIREFOX." ORDER BY versions.created DESC LIMIT 1");
+                    $compat = $this->Addon->query("SELECT appversions.version, versions.id FROM versions INNER JOIN applications_versions ON applications_versions.version_id = versions.id INNER JOIN appversions ON appversions.id = applications_versions.max WHERE versions.addon_id={$addon_id} AND applications_versions.application_id = ".APP_INSTANTBIRD." ORDER BY versions.created DESC LIMIT 1");
                     
                     $addons[$addon_id]['appversion'] = $compat[0]['appversions']['version'];
                     $addons[$addon_id]['latestVersion'] = $compat[0]['versions']['id'];

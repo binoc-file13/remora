@@ -58,26 +58,12 @@ if (!isset($appid)) {
 } 
 
 $min_display_version_by_app = array( // eventually this information should be kept in DB
-    APP_FIREFOX => "1.0",
-    APP_THUNDERBIRD => "1.0",
-    APP_SEAMONKEY => "1.0",
-    APP_SUNBIRD => "0.2"
+    APP_INSTANTBIRD => "0.2",
 );
 
 $new_versions = array();
 foreach ($app_shortnames as $n => $k) {
 // AmoVersions is from controller->beforeRender()
-    if (!empty($AmoVersions[$k])) foreach ($AmoVersions[$k] as $version) {
-        $versions_parts = explode(".", $version);
-        $second_part = (isset($versions_parts[1])) ? ".".intval($versions_parts[1]) : "";
-        if (!isset($min_display_version_by_app[$k])
-            || $min_display_version_by_app[$k] <= $versions_parts[0].$second_part ) {
-            
-            if ($k != APP_FIREFOX || $versions_parts[0].$second_part !== '1.4') { // yuck. Baz didn't like FF 1.4
-                $new_versions[$k][] = $versions_parts[0].$second_part;  
-            }
-        }
-    }
     if (!empty($new_versions[$k]))
         $new_versions[$k] = array_unique($new_versions[$k]);
 }
@@ -266,25 +252,6 @@ if (!isset($category)) $category = array(0, 0);
     // JS to do browser detection to determine default low range to be current browser if applicable
 ?>
 
-    var current_app_id = 0;
-    var uapattern = /Mozilla.*(?:Firefox|Minefield|Shiretoko|GranParadiso|BonEcho|Iceweasel)\/([^\s]*).*$/;
-    var ua = navigator.userAgent;
-    var uamatch = uapattern.exec(ua);
-    if (uamatch != null) {
-        version = uamatch[1].split(".");
-        low_appversion = version[0]+"."+parseInt(version[1]);
-        current_app_id = <?=APP_FIREFOX ?>;
-    }
-
-    uapattern = /Mozilla.*(?:SeaMonkey|Iceape)\/([^\s]*).*$/;
-    ua = navigator.userAgent;
-    uamatch = uapattern.exec(ua);
-    if (uamatch != null) {
-        version = uamatch[1].split(".");
-        low_appversion = version[0]+"."+parseInt(version[1]);
-        current_app_id = <?=APP_SEAMONKEY ?>;
-    }
-    
     default_low = ('<?=$oldver ?>' == '' && current_app_id == <?=APP_ID; ?>) ? low_appversion : <?=$lver ?>;      
  
     <?php

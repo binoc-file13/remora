@@ -273,23 +273,6 @@ if (count($addonFiles) < 1) {
         $versionsPage = true;
     }		
 		
-    // show add-on compatibility hints for Firefox
-    if (APP_ID == APP_FIREFOX && !empty($compatible_apps)) {
-        $fromVer = $toVer = null;
-        foreach ($compatible_apps as $app) {
-            if ($app['Application']['application_id'] == APP_FIREFOX) {
-                $fromVer = $app['Min_Version']['version'];
-                $toVer = $app['Max_Version']['version'];
-            }
-        }
-        if ($fromVer && $toVer) { 
-            // show "ignore" link for logged in users only
-            $_loggedin = $this->controller->Session->check('User');
-            echo "addCompatibilityHints('{$addonId}', '{$versionId}', "
-                ."'{$fromVer}', '{$toVer}', '{$_loggedin}', '{$versionsPage}');";
-        }
-
-    }
     echo "},0);".
          '</script>';
     ?>

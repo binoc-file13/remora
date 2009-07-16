@@ -261,7 +261,7 @@ class SharingApiController extends AppController
         if (!empty($app_shortnames[$params['app']])) {
             $appid = $app_shortnames[$params['app']];
         } else {
-            $appid = APP_FIREFOX;
+            $appid = APP_INSTANTBIRD;
         }
 
         $data = array(

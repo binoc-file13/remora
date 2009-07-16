@@ -270,7 +270,7 @@ class CollectionsController extends AppController
      */
     function interactive() {
         // this is Firefox only, for now.
-        if (APP_ID != APP_FIREFOX) {
+        if (true) {
             $this->redirect('/');
             exit();
         }
