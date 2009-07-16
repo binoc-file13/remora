@@ -139,14 +139,16 @@ h4#moz a { display: block; height: 44px; width: 100px; padding-left: 10px;}
 
 #search-bubble-inner { height: 71px; margin:0; padding: 0; width: 6px; float: left; }
 .html-ltr #standard-search { padding: 20px 4px 15px 14px;}
-.html-rtl #standard-search { padding: 20px 20px 15px 4px;} 
+.html-rtl #standard-search { padding: 20px 20px 15px 4px;}
+
+#standard-search > label { color: white;}
 
 #search-bubble-outer legend { display: none; }
 #search-form ol { margin: 0; padding: 0; }
 #search-form #search-query { width: 55%; }
 
 #search-form #search-query label, #search-mini #search-query label { display: none; } /* label is hidden by default when JS isn't available */
-#search-mini #search-query label { font-style:  italic; color: #46651f;}
+#search-mini #search-query label { font-style:  italic; color: #666666;}
 #search-form #search-query label, #search-mini #search-query label { position: absolute;  top: 20px; }
 #search-mini #search-query label {top: 2px;}
 .html-ltr #search-form #search-query label { left: 17px; padding: .2em 5px .2em 30px; }
@@ -190,11 +192,11 @@ form.asclosed {display: none;}
 #search-mini {
     display: inline;
     float: right;
-    border: 1px solid #8cb956;
+    border: 1px solid #3f76ac;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
-    background: #91ce43 url('../img/sprite.png?20090430') no-repeat right -23px;
+    background: #045190 url('../img/sprite.png?20090430') no-repeat right -23px;
     padding: 5px;
     position: relative;
     -moz-box-shadow: 2px 2px 3px -1px #888888;
@@ -217,8 +219,13 @@ form.asclosed {display: none;}
 .html-ltr #search-mini #search-query label { left: 9px; padding: 0.39em 15px 0.2em 5px;}
 .html-rtl #search-mini #search-query label { right: 9px; padding: 0.39em 5px 0.2em 15px;}
 
+#search-mini label {
+    color: white;
+}
+
 #search-mini-submit {
-    border: 1px solid #6d9041;
+    color: white;
+    border: 1px solid white;
     background: url('../img/sprite.png?20090430') no-repeat right -23px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -773,8 +780,8 @@ form.asclosed {display: none;}
 #slider .item_set .addon .exp-loggedout .install-button,
 #slider .item_set .addon .exp-confirmed .install-button { padding-top: 0; padding-left: 0; }
 #slider .item_set .addon .count { border-top:1px solid #CCCCCC; bottom:4px; height:35px; margin-left:-240px; position:absolute; }
-#slider .controls { border-top: 1px solid #ccc; width: 100%; }
-#slider .controls_inner { font-size: 140%; text-align: center; padding-top: 6px; border-left: 1px solid #ccc; border-right: 1px solid #ccc }
+#slider .controls { border-top: 1px solid #d8dad6; width: 100%; }
+#slider .controls_inner { font-size: 140%; text-align: center; padding-top: 6px; border-left: 1px solid #d8dad6; border-right: 1px solid #d8dad6 }
 #slider .controls a { text-decoration: none; padding: 0 0.5em; }
 #slider .controls a img { border: none; vertical-align: top }
 #slider .vex { background: transparent url("../img/sprite.png?20090430") right bottom no-repeat; width: 100%; }
