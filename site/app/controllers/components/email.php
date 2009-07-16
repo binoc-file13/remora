@@ -10,8 +10,8 @@ class EmailComponent
 /**
  * Send email using SMTP Auth by default.
  */
-    var $from         = 'nobody@mozilla.org'; 
-    var $fromName     = 'Mozilla Add-ons';
+    var $from         = 'nobody@instantbird.org'; 
+    var $fromName     = 'Instantbird Add-ons';
     var $sender       = null;
     //var $smtpUserName = 'username';  // SMTP username
     //var $smtpPassword = 'password'; // SMTP password

@@ -782,7 +782,7 @@ class SharingApiController extends AppController
         $this->publish('message', $params['message']);
         $this->Email->fromName = null;
         $this->Email->from = $senderemail;
-        $this->Email->sender = '"Mozilla Add-ons" <nobody@mozilla.org>';
+        $this->Email->sender = '"Instantbird Add-ons" <nobody@instantbird.org>';
         $this->Email->template = 'email/recommend_email';
         $this->Email->subject = sprintf('%1$s recommends %2$s',
             $this->auth_user['email'], $addon['Translation']['name']['string']);

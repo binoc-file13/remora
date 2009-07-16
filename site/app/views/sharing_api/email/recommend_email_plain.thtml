@@ -1,8 +1,8 @@
 <?php
-$recommendation_url = 'https://addons.mozilla.org'.$html->url('/addon/'.$addon['Addon']['id']);
+$recommendation_url = 'https://addons.instantbird.org'.$html->url('/addon/'.$addon['Addon']['id']);
 
 ?>
-<?=$senderemail?> wants you to know about the <?=$addon['Translation']['name']['string']?> add-on for Mozilla Firefox.
+<?=$senderemail?> wants you to know about the <?=$addon['Translation']['name']['string']?> add-on for Instantbird.
 
 <?php if (!empty($message)): ?>
 Comments from sender: <?=$message?>
@@ -16,8 +16,8 @@ Information about <?=$addon['Translation']['name']['string']?>:
 
 ---
 
-Add-ons are third party enhancements to Firefox that add new features or modify existing functionality. You can learn more about add-ons at the Firefox Add-ons website: https://addons.mozilla.org .
+Add-ons are third party enhancements to Instantbird that add new features or modify existing functionality. You can learn more about add-ons at the Instantbird Add-ons website: https://addons.instantbird.org .
 
 ---
 
-Sent by Firefox Add-ons on behalf of <?=$senderemail?>
+Sent by Instantbird Add-ons on behalf of <?=$senderemail?>

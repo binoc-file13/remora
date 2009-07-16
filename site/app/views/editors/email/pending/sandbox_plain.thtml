@@ -1,4 +1,4 @@
-The following files of <?=$info['name']?> <?=$info['version']?> have been retained in the sandbox by a Mozilla Add-ons editor:
+The following files of <?=$info['name']?> <?=$info['version']?> have been retained in the sandbox by a Instantbird Add-ons editor:
 
 
 Review Information:
@@ -9,7 +9,7 @@ Tested on <?=$info['os']?> with <?=$info['apps']?>
 Comments: <?=$info['comments']?>
 
 
-If you have questions about this review, please e-mail amo-editors@mozilla.org or join #addons on irc.mozilla.org.
+If you have questions about this review, please e-mail contact@instantbird.org or join #instantbird on irc.mozilla.org.
 
-Mozilla Add-ons
-http://addons.mozilla.org
+Instantbird Add-ons
+http://addons.instantbird.org
