@@ -119,7 +119,7 @@ class ImageComponent extends Object {
             }
         }
         else {
-            return "{$this->controller->base}/en-US/firefox/images/addon_icon/{$addon_id}/".strtotime($addon['Addon']['modified']);
+            return "{$this->controller->base}/en-US/instantbird/images/addon_icon/{$addon_id}/".strtotime($addon['Addon']['modified']);
         }
     }
     
@@ -138,7 +138,7 @@ class ImageComponent extends Object {
         if (empty($collection['Collection']['icontype'])) {
             return SITE_URL."/img/collection.png";
         } else {
-            return SITE_URL."/en-US/firefox/images/collection_icon/{$collection_id}/".strtotime($collection['Collection']['modified']);
+            return SITE_URL."/en-US/instantbird/images/collection_icon/{$collection_id}/".strtotime($collection['Collection']['modified']);
         }
     }
     
@@ -188,9 +188,9 @@ class ImageComponent extends Object {
             return "{$this->controller->base}/img/no-preview.png";
         }
         else {
-            // Always use en-US and firefox and append modified timestamp for
+            // Always use en-US and instantbird and append modified timestamp for
             // best caching results. Serves 150-200 million. Refrigerate after serving.
-            return "{$this->controller->base}/en-US/firefox/images/{$type['url']}/{$preview_id}/".strtotime($preview['Preview']['modified']);
+            return "{$this->controller->base}/en-US/instantbird/images/{$type['url']}/{$preview_id}/".strtotime($preview['Preview']['modified']);
         }
     }
     
