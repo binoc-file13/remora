@@ -1,6 +1,6 @@
 <h1>Frequently Asked Questions</h1>
 
-<p>This FAQ for the <a href="http://addons.mozilla.org">AMO site</a> addresses some topics not currently covered by the Firefox Support website. The Support website includes introductory information about <a href="http://support.mozilla.com/kb/Customizing+Firefox+with+add-ons">customizing Firefox with add-ons</a> as well as articles on:</p>
+<p>This FAQ for the <a href="http://addons.mozilla.org">AIO site</a> addresses some topics not currently covered by the Firefox Support website. The Support website includes introductory information about <a href="http://support.mozilla.com/kb/Customizing+Firefox+with+add-ons">customizing Firefox with add-ons</a> as well as articles on:</p>
 
 <ul>
     <li> Troubleshooting <a href="http://support.mozilla.com/kb/Unable+to+install+add-ons">add-on installation</a>, <a href="http://support.mozilla.com/kb/Troubleshooting+plugins">plugins</a> &amp; <a href="http://support.mozilla.com/kb/Troubleshooting+extensions+and+themes">general issues</a>.</li>
@@ -70,7 +70,7 @@
 <dd>Experimental add-ons are marked with an "experimental" label and show a warning when you install them.</dd>
 
 <dt id="recommended-addons">What are Recommended and Featured add-ons?</dt>
-<dd>The AMO team recommends a set of add-ons which represent some of the best add-ons in terms of utility and overall experience.  These Recommended add-ons appear on the individual category pages.  Some of these add-ons are also rotated onto the front page of AMO as Featured add-ons.  This is by no means a comprehensive list, and we update the list monthly to continue to show our users a fresh set of add-ons.  Some things we consider when we recommend add-ons: quality, popularity, uniqueness, and whether or not the add-on has already been recommended.</dd>
+<dd>The AIO team recommends a set of add-ons which represent some of the best add-ons in terms of utility and overall experience.  These Recommended add-ons appear on the individual category pages.  Some of these add-ons are also rotated onto the front page of AIO as Featured add-ons.  This is by no means a comprehensive list, and we update the list monthly to continue to show our users a fresh set of add-ons.  Some things we consider when we recommend add-ons: quality, popularity, uniqueness, and whether or not the add-on has already been recommended.</dd>
 
 </dl>
 
