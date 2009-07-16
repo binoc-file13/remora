@@ -143,31 +143,17 @@ if (!defined('DISABLE_AMO'))
 /**
  * Applications
  */
-define('APP_FIREFOX', 1);
-define('APP_THUNDERBIRD', 18);
-define('APP_SEAMONKEY', 59);
-define('APP_SUNBIRD', 52);
-define('APP_FENNEC', 60);
+define('APP_INSTANTBIRD', 1);
 global $app_shortnames; // shortnames are used in URLs
 $app_shortnames = array(
-    'firefox'       => APP_FIREFOX,
-    'thunderbird'   => APP_THUNDERBIRD,
-    'seamonkey'     => APP_SEAMONKEY,
-    'sunbird'       => APP_SUNBIRD,
-    'fennec'        => APP_FENNEC
+    'instantbird'       => APP_INSTANTBIRD
     );
 global $app_prettynames;
 $app_prettynames = array( // Overridden with L10n in bootstrap.php
-    'firefox' => "Firefox",
-    'thunderbird' => "Thunderbird",
-    'seamonkey' => "SeaMonkey",
-    'sunbird' => "Sunbird",
-    'fennec' => "Fennec"
+    'instantbird' => "Instantbird"
     );
 global $browser_apps; // browser applications; for non-browser apps, use !in_array()
 $browser_apps = array(
-    APP_FIREFOX,
-    APP_SEAMONKEY
 );
 global $other_layouts; // non-app top-level layouts in URLs
 // controller => header
@@ -178,7 +164,7 @@ $other_layouts = array(
     'localizers' => 'generic',
     'statistics' => 'developers'
 );
-global $valid_layouts; // used in URLs, like /en-US/firefox or /en-US/developers
+global $valid_layouts; // used in URLs, like /en-US/instantbird or /en-US/developers
 $valid_layouts = array_merge($other_layouts, $app_shortnames);
 
 /**
@@ -214,12 +200,9 @@ define('COLLECTION_ROLE_PUBLISHER', 0);
 /* hybrid categories (extensions + other add-on types) */
 global $hybrid_categories;
 $hybrid_categories = array(
-    APP_FIREFOX => array(
+   APP_INSTANTBIRD => array(
         13  => ADDON_SEARCH
-    ),
-    APP_SEAMONKEY => array(
-        47  => ADDON_SEARCH
-    )
+   ),
 );
 
 // We could pull these out of the database based on whether or not there are any of a given
@@ -227,11 +210,8 @@ $hybrid_categories = array(
 // for very little gain.
 global $app_listedtypes;
 $app_listedtypes = array(
-    APP_FIREFOX => array(ADDON_EXTENSION, ADDON_THEME, ADDON_DICT, ADDON_SEARCH, ADDON_PLUGIN),
-    APP_THUNDERBIRD => array(ADDON_EXTENSION, ADDON_THEME, ADDON_DICT),
-    APP_SEAMONKEY => array(ADDON_EXTENSION, ADDON_THEME, ADDON_DICT, ADDON_SEARCH, ADDON_PLUGIN),
-    APP_SUNBIRD => array(ADDON_EXTENSION, ADDON_THEME, ADDON_DICT)
-    );
+	APP_INSTANTBIRD => array(ADDON_EXTENSION, ADDON_THEME, ADDON_DICT, ADDON_SEARCH, ADDON_PLUGIN),
+);
 
 /**
  * Add-on and File Statuses
@@ -261,7 +241,7 @@ define('PLATFORM_SUN', '6');
 /**
  * Default ACL user.  They have access to nothing.
  */
-define('DEFAULT_ACL_USER','nobody@addons.mozilla.org');
+define('DEFAULT_ACL_USER','nobody@instantbird.org');
 
 /**
  * Regular expressions used in model validations.

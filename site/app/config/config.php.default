@@ -51,20 +51,20 @@
 
 /**
  * Site URL
- * Example: http://addons.mozilla.org
+ * Example: http://addons.instantbird.org
  * Example: http://khan-vm.mozilla.org (dev)
  * Example of getting a full controller url:
  *     echo SITE_URL.$html->url('/users/register');
- * Will default to http://addons.mozilla.org unless defined below
+ * Will default to http://addons.instantbird.org unless defined below
  */
-// define('SITE_URL', '');
+define('SITE_URL', 'http://t2.undoso.eu');
 
 /**
  * Services URL.
- * Example: http://addons.mozilla.org/services
+ * Example: http://addons.instantbird.org/services
  * Example: http://khan-vm.mozilla.org/amo/services (dev)
  */
-define('SERVICE_URL','');
+define('SERVICE_URL', 'http://t2.undoso.eu/services');
 
 /**
  * Site State
@@ -73,7 +73,7 @@ define('SERVICE_URL','');
  * Example: dev
  * All uses should default to dev
  */
-//define('SITE_STATE', 'production');
+define('SITE_STATE', 'dev');
  
 /**
  * Files
@@ -90,7 +90,7 @@ define('SERVICE_URL','');
  * Host, including http://.  Should be everything leading up to addon ids.
  * Example: http://releases.mozilla.org/addons
   */
-define('FILES_HOST', 'http://releases.mozilla.org/pub/mozilla.org/addons');       
+define('FILES_HOST', 'http://t2.undoso.eu/files/');
 
 /**
  * Relative web path of the files directory.  Tacking this on to FILES_HOST should get you
@@ -106,7 +106,7 @@ define('FILES_HOST', 'http://releases.mozilla.org/pub/mozilla.org/addons');
  * File path for storing XPI/JAR files (or any files associated with an add-on).
  * Example: /data/www/app/webroot/files
  */
-define('REPO_PATH', '');
+define('REPO_PATH', '/www/remora/site/app/webroot/files');
 
 /**
  * File path for storing public files to be rsynced for updates
@@ -118,7 +118,7 @@ define('REPO_PATH', '');
  * The path to the gnu diff program (or any diff program able to create a unified diff).
  * If left commented out, it will use the xdiff package
  */
-//define('DIFF_PATH', '/usr/bin/diff');
+define('DIFF_PATH', '/usr/bin/diff');
 
 /**
  * Path to directory where detailed logfiles are kept. Files will be created in
@@ -145,10 +145,10 @@ define('FB_API_SECRET', '');
 define('FB_URL', 'http://apps.facebook.com/add-ons');
 
 // Facebook Image site - where images are pulled from
-define('FB_IMAGE_SITE', 'https://addons.mozilla.org');
+define('FB_IMAGE_SITE', 'https://addons.instantbird.org');
 
 // Facebook Install site - where the add-on install page goes
-define('FB_INSTALL_SITE', 'https://addons.mozilla.org');
+define('FB_INSTALL_SITE', 'https://addons.instantbird.org');
 
 // Facebook Bounce Percentage - percent of hits to bounce
 //define('FB_BOUNCE_PERCENTAGE', 0);
@@ -161,9 +161,9 @@ define('FB_INSTALL_SITE', 'https://addons.mozilla.org');
  * DB_USER, DB_PASS, DB_NAME, DB_HOST, DB_PORT
  * This database has read/write capabilities.  Host and port default to localhost and 3306.
  */
-define('DB_USER','');
-define('DB_PASS','');
-define('DB_NAME','');
+define('DB_USER','remora');
+define('DB_PASS','password');
+define('DB_NAME','remora');
 
 /**
  * SHADOW_DB_USER, SHADOW_DB_PASS, SHADOW_DB_NAME, SHADOW_DB_HOST, SHADOW_DB_PORT
@@ -176,14 +176,14 @@ define('DB_NAME','');
  */
 global $shadow_databases;
 $shadow_databases = array(
-    0 => array(
+   0 => array(
         'DB_HOST' => '',
         'DB_PORT' => 3306,
         'DB_NAME' => '',
         'DB_USER' => '',
         'DB_PASS' => '',
         'DB_WEIGHT' => 0
-    )
+	)
 );
 
 /**
@@ -199,14 +199,17 @@ $shadow_databases = array(
  */
 global $memcache_config;
 $memcache_config = array(
-    'localhost' => array(
+	'localhost' => array(
        'port' => '11211',
        'persistent' => true,
        'weight' => '1',
        'timeout' => '1',
        'retry_interval' => 15
-    )
+       )
 );
+
+// Desactivate memcache
+define('QUERY_CACHE', false);
 
 /**
  * Recaptcha (recaptcha.net) configuration
@@ -218,15 +221,10 @@ define('RECAPTCHA_PUBLIC_KEY', '...');
 /**
  * Compatibility Center Versions
  */
-define('COMPAT_DEFAULT_VERSION', '3.5');
+define('COMPAT_DEFAULT_VERSION', '3.1');
 global $compatibility_versions;
 $compatibility_versions = array(
-    '3.0', '3.5', '3.6'
-);
-// Consider all the mapped versions to be the same as the key.
-global $version_aliases;
-$version_aliases = array(
-    '3.5' => array('3.1', '3.5')
+    '3.0', '3.1'
 );
 
 ?>

@@ -67,13 +67,13 @@ global $rtl_languages;
  * mapping uses underscores not dashes - chances are good this is what you want.
  */
 $supported_languages = array( 
-    'ar'    => 'ar_EG.utf8',
+			     /*    'ar'    => 'ar_EG.utf8',
     'ca'    => 'ca_ES.utf8',
     'cs'    => 'cs_CZ.utf8',
     'da'    => 'da_DK.utf8',
-    'de'    => 'de_DE.utf8',
+    'de'    => 'de_DE.utf8',*/
     'en-US' => 'en_US.utf8',
-    'el'    => 'el_GR.utf8',
+    /*    'el'    => 'el_GR.utf8',
     'es-ES' => 'es_ES.utf8',
     'eu'    => 'eu_ES.utf8',
     'fa'    => 'fa_IR.utf8',
@@ -99,19 +99,21 @@ $supported_languages = array(
     'uk'    => 'uk_UA.utf8',
     'vi'    => 'vi_VN.utf8',
     'zh-CN' => 'zh_CN.utf8',
-    'zh-TW' => 'zh_TW.utf8'
+    'zh-TW' => 'zh_TW.utf8'*/
 );
 
 // Languages that work, but to which we won't send a user ourselves (dropdown, lang sniffing)
 $valid_languages = array(
-    'cy'    => 'cy_GB.utf8',
-    'tr'    => 'tr_TR.utf8'
+			 /*    'cy'    => 'cy_GB.utf8',
+			       'tr'    => 'tr_TR.utf8'*/
 );
 
 /**
  * If a supported language is displayed right to left, add it to this array.
  */
-$rtl_languages = array( 'ar', 'fa', 'fa-IR', 'he' );
+$rtl_languages = array( 
+		       /*		       'ar', 'fa', 'fa-IR', 'he'*/
+);
 
 /**
  * Windows uses ISO Alpha-3 locales found here:

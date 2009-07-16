@@ -65,7 +65,7 @@ require_once ROOT.DS.APP_DIR.DS.'config'.DS.'language.inc.php';
 header('X-AMO-ServedBy: ' . php_uname('n'));
 
 if (DISABLE_AMO) {
-    if ($_GET['url'] != 'en-US/firefox/disabled.php') {
+    if ($_GET['url'] != 'en-US/instantbird/disabled.php') {
         global $webpath;
         if (is_null($webpath)) {
             require_once(CAKE.DS.'dispatcher.php');
@@ -202,7 +202,7 @@ if (array_key_exists($buf[0],$valid_languages)) {
     }
 } elseif (!empty($buf[1]) && array_key_exists($buf[1], $valid_layouts)) {
     // The first URL param isn't a language but the second one is an application/layout.
-    // Best guess is they went to an unsupported language, like /xx/firefox/
+    // Best guess is they went to an unsupported language, like /xx/instantbird/
     array_shift($buf);
     $lang = $language_config->detectCurrentLanguage(true);
     array_unshift($buf, $lang);
@@ -220,12 +220,12 @@ if (array_key_exists($buf[0],$valid_languages)) {
 // Now make sure that there's a known app/layout in the second position.
 if (count($buf) < 2 || !array_key_exists($buf[1], $valid_layouts)) {
     // No app or unknown app, so we see if this is seamonkey, otherwise stick
-    // firefox in the place of honour and redirect.
+    // instantbird in the place of honour and redirect.
     if (array_key_exists('HTTP_USER_AGENT', $_SERVER) && 
         strpos($_SERVER['HTTP_USER_AGENT'], 'SeaMonkey') !== false) {
         array_splice($buf, 1, 0, "seamonkey");
     } else {
-        array_splice($buf, 1, 0, "firefox");
+        array_splice($buf, 1, 0, "instantbird");
     }
     redirectWithNewLocaleAndExit($buf);
 }
@@ -240,8 +240,8 @@ if (array_key_exists(SITE_LAYOUT, $other_layouts)) {
         define('APP_SHORTNAME', $_COOKIE['AMOappName']);
     }
     else {
-        // App wasn't set, so default to Firefox
-        define('APP_SHORTNAME', 'firefox');
+        // App wasn't set, so default to Instantbird
+        define('APP_SHORTNAME', 'instantbird');
     }
     define('LAYOUT_NAME', $other_layouts[SITE_LAYOUT]);
 }
@@ -271,11 +271,7 @@ if (in_array(LANG, $rtl_languages)) {
 
 global $app_prettynames;
 $app_prettynames = array(
-    'firefox' => ___('main_prettyname_firefox'),
-    'thunderbird' => ___('main_prettyname_thunderbird'),
-    'sunbird' => ___('main_prettyname_sunbird'),
-    'seamonkey' => ___('main_prettyname_seamonkey'),
-    'fennec' => ___('main_prettyname_fennec')
+    'instantbird' => ___('main_prettyname_instantbird')
     );
 define('APP_PRETTYNAME', $app_prettynames[APP_SHORTNAME]);
 
