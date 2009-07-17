@@ -43,7 +43,7 @@
  * Site URL default
  */
 if (!defined('SITE_URL'))
-    define('SITE_URL', 'https://addons.mozilla.org');
+    define('SITE_URL', 'https://addons.instantbird.org');
 
 /**
  * Site State default
@@ -241,7 +241,7 @@ define('PLATFORM_SUN', '6');
 /**
  * Default ACL user.  They have access to nothing.
  */
-define('DEFAULT_ACL_USER','nobody@instantbird.org');
+define('DEFAULT_ACL_USER','nobody@addons.instantbird.org');
 
 /**
  * Regular expressions used in model validations.
