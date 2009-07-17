@@ -1,8 +1,8 @@
-<h2>What is addons.mozilla.org?</h2>
+<h2>What is addons.instantbird.org?</h2>
 <p>
-  addons.mozilla.org (AIO) is Mozilla's official site for add-ons for Mozilla
-  applications.  Add-ons let you add new features to Firefox, Thunderbird,
-  SeaMonkey, and Sunbird.  From AIO, you can browse and download thousands of
+  addons.instantbird.org (AIO) is Instantbird's official site for add-ons.
+  Add-ons let you add new features to FiInstantbird.
+  From AIO, you can browse and download thousands of
   add-ons to change the way you use the internet.
 </p>
 
@@ -16,9 +16,9 @@
 
 <h2>How do I keep up on what's going on with AIO?</h2>
 <p>
-  Our <a href="http://blog.mozilla.com/addons/">blog</a> is regularly updated,
+  Our <a href="http://blog.instantbird.org/">blog</a> is regularly updated,
   and we often feature posts from the general community.  We also have a
-  <a href="https://addons.mozilla.org/newsletter">newsletter</a> which gets sent
+  <a href="https://addons.instantbird.org/newsletter">newsletter</a> which gets sent
   out on a monthly basis.
 </p>
 
@@ -27,32 +27,26 @@
   There are plenty of ways to get involved:
 </p>
 <ul>
-  <li>
+  <!--li>
     <a href="https://wiki.mozilla.org/AIO:Editors/Applying">Become an
     editor</a>.  Our editors are AIO fans with a technical background who
     review add-ons for code quality and stability.
-  </li>
+  </li-->
   <li>
-    <a href="http://developer.mozilla.org/">Make your own add-on</a>.  AIO
+    <a href="http://wiki.instantbird.org/Instantbird:Extension">Make your own add-on</a>.  AIO
     provides free hosting and update services and can help you reach a large
     audience of users.
   </li>
   <li>
-    Tell your friends!  <a href="http://spreadfirefox.com/">Spread Firefox</a>
+    Tell your friends!  <a href="http://getinstantbird.com/">Spread Instantbird</a>
     and let people know which add-ons you use.
-  </li>
-  <li>
-    Submit bugs and fixes.
-    <a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=addons">Bugzilla</a>
-    contains all of our current AIO bugs.  You can submit ones that haven't
-    been found yet or contribute patches.
   </li>
 </ul>
 
 <h2>I have a question.</h2>
 <p>
   A good place to start is our
-  <a href="https://addons.mozilla.org/pages/faq"><abbr title="Frequently Asked Questions">FAQ</abbr></a>.  If you don't find
+  <a href="https://addons.instantbird.org/pages/faq"><abbr title="Frequently Asked Questions">FAQ</abbr></a>.  If you don't find
   an answer there use the contact information at the bottom of this page.  For
   questions about a specific add-on use the contact information found on each add-on's listing page.
 </p>
@@ -60,6 +54,5 @@
 <h2>Contact Us</h2>
 <dl>
   <dt>Using <abbr title="Internet Relay Chat">IRC</abbr>:</dt>
-  <dd><a href="irc://irc.mozilla.org/#addons">#addons</a> on irc.mozilla.org for general questions and review questions</dd>
-  <dd><a href="irc://irc.mozilla.org/#amo">#amo</a> on irc.mozilla.org for administrative or development concerns</dd>
+  <dd><a href="irc://irc.mozilla.org/#instantbird">#instantbird</a> on irc.mozilla.org</dd>
 </dl>
