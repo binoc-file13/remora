@@ -165,7 +165,7 @@ if ($action == 'results') {
     <div class="frame">
         <h1>Detect Installed Add-ons</h1>
         <p>Select the add-ons below that you'd like to add to your list of favorite add-ons.<br><a href="#" onClick="document.getElementById('missing-addons').style.display=''; this.style.display='none';">Why are some of my add-ons missing?</a></p>
-        <p id="missing-addons" style="display: none;">If some of your installed add-ons aren't detected, it's probably because they are not hosted on <a href="http://addons.mozilla.org">Mozilla Add-ons</a>. Only add-ons hosted on <a href="http://addons.mozilla.org">Mozilla Add-ons</a> can be detected and listed in Rock Your Firefox.</p>
+        <p id="missing-addons" style="display: none;">If some of your installed add-ons aren't detected, it's probably because they are not hosted on <a href="http://addons.instantbird.org">Instantbird Add-ons</a>. Only add-ons hosted on <a href="http://addons.instantbird.org">Instantbird Add-ons</a> can be detected and listed in Rock Your Instantbird.</p>
         <form action="<?=SITE_URL.$html->url('/facebookinstall/import/'.$fbUserSession.'/favorites')?>" method="post" id="form">
         <table id="addons" width="100%">
         <tr><td width="50%" valign="top">
@@ -184,7 +184,7 @@ if ($action == 'results') {
                 echo '>';
                 echo "<b>{$addon['translations']['localized_string']}</b>";
                 if ($addon['facebook_detected']['disabled'] == 1)
-                    echo ' (Disabled in Browser)';
+                    echo ' (Disabled in IM Client)';
                 if ($this->controller->FacebookFavorite->isFavorite($fbUser, $addon['addons']['id'], true))
                     echo ' (Already Added)';
                 echo '</label></div>';
@@ -217,13 +217,13 @@ else {
     <div id="content" class="dialog">
     <div class="frame">
         <h1>Detect Installed Add-ons</h1>
-        <p>Rock Your Firefox can attempt to detect add-ons currently installed in your browser. Just follow the steps below to provide the necessary information.
+        <p>Rock Your Instantbird can attempt to detect add-ons currently installed in your IM client. Just follow the steps below to provide the necessary information.
         <br><a href="#" onClick="document.getElementById('how-it-works').style.display=''; this.style.display='none';">How does this work?</a></p>
         <p id="how-it-works" style="display: none;">A cookie has been placed on your computer that will be read when you check your add-ons for updates and record the add-ons that you check for updates.</p>
         <div id="step1" class="step">
             <img src="<?=FB_IMAGE_SITE?>/img/facebook/detect-step1.png" align="right">
             <h2>Step 1</h2>
-            <div>In Firefox, open the <b>Tools</b> menu and click <b>Add-ons</b> to open the Add-on Manager.</div>
+            <div>In Instantbird, open the <b>Tools</b> menu and click <b>Add-ons</b> to open the Add-on Manager.</div>
         </div>
         <div id="step2" class="step">
             <img src="<?=FB_IMAGE_SITE?>/img/facebook/detect-step2.png" align="right">
@@ -232,7 +232,7 @@ else {
         </div>
         <div id"step3" class="step">
             <h2>Step 3</h2>
-            When Firefox is finished checking for updates, close the Add-ons Manager and click <b>Continue</b> below.
+            When Instantbird is finished checking for updates, close the Add-ons Manager and click <b>Continue</b> below.
             <div id="continue">
                 <input type="button" class="inputbutton" onClick="window.location='<?=SITE_URL.'/facebookinstall/import/'.$fbUserSession.'/results'?>';" value="Continue"><br>
                 <a href="<?=FB_URL?>">Cancel</a>

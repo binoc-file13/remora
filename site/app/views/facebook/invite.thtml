@@ -40,12 +40,12 @@ $nextURL = urlencode('?ref=invitation');
 $api = FB_API_KEY;
 
 $fbml = <<<FBML
-Rock Your Firefox allows us to share our favorite Firefox add-ons with each other and discover new ways to customize Firefox.
+Rock Your Instantbird allows us to share our favorite Instantbird add-ons with each other and discover new ways to customize Instantbird.
 Add the application and start adding add-ons to your favorites list! If you don't use any add-ons, now's the perfect time to start!
-<fb:req-choice url="http://www.facebook.com/add.php?api_key=$api&next=$nextURL" label="Rock My Firefox!" />
+<fb:req-choice url="http://www.facebook.com/add.php?api_key=$api&next=$nextURL" label="Rock My Instantbird!" />
 FBML;
 ?>
 
 <fb:request-form type="Browser Add-ons" action="<?=FB_URL?>" method="post" content="<?=htmlentities($fbml)?>" invite="true">
-	<fb:multi-friend-selector max="20" actiontext="Invite friends to Rock their Firefox!" showborder="true" rows="3" exclude_ids="<?=$exclude?>" />
+	<fb:multi-friend-selector max="20" actiontext="Invite friends to Rock their Instantbird!" showborder="true" rows="3" exclude_ids="<?=$exclude?>" />
 </fb:request-form>

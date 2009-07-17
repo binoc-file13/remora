@@ -99,30 +99,51 @@ ksort($other_contributors);
 <div class="corner-box">
 <?php
     echo '<h4>'._('credits_section_developers').'</h4>';
+?>
+<a href="https://addons.mozilla.org/en-US/firefox/user/969639">Alex Buchanan</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/112675">Frederic Wenzel</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/4043307">Jeff Balogh</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/9945">Justin Scott</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/435335">Laura Thomson</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/332">Michael Morgan</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/864775">Ryan Doherty</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/10482">Wil Clouser</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/1604115">l.m. orchard</a>
+<?php
     echo implode(', ', $developers);
 ?>
 </div>
+<?php
+if ($localizers)
+{
+?>
 <div class="corner-box">
 <?php
     echo '<h4>'._('credits_section_localizers').'</h4>';
     echo implode(', ', $localizers);
 ?>
 </div>
+<?php
+}
+if ($editors)
+{
+?>
 <div class="corner-box">
 <?php
     echo '<h4>'._('credits_section_editors').'</h4>';
     echo implode(', ', $editors);
 ?>
 </div>
+<?php
+}
+?>
 <div class="corner-box">
 <?php
     echo '<h4>'._('credits_section_other_contributors').'</h4>';
+?>
+<a href="https://addons.mozilla.org/en-US/firefox/user/56371">Cesar Olivirea</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/4787391">Clearleft </a>, <a href="https://addons.mozilla.org/en-US/firefox/user/235431">Dave Garrett</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/593">David Miller</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/11267">Jeremy Jeremy</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/34234">Justin Fitzhugh</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/4787719">Natalie Downe</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/184608">Nick Nguyen</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/4678475">Paul Lloyd</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/2077082">Rey Bango</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/235535">Stephen Donner</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/346">Wladimir Palant</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/4339369">k r</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/124632">matthew zeier</a>
+<?php
     echo implode(', ', $other_contributors);
 ?>
 </div>
 <div class="corner-box">
 <?php
     echo '<h4>'._('credits_section_past_developers').'</h4>';
+?>
+<a href="https://addons.mozilla.org/en-US/firefox/user/112681">Andrei Hajdukewycz</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/25830">Basil Hashem</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/473">Cameron Roy</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/1">Chris Crews</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/714633">Chris Pollett</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/355">Colin Ogilvie</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/143">Giorgio Maone</a>, <a href="https://addons.mozilla.org/en-US/firefox/user/10270">Mike Shaver</a>
+<?php
     echo implode(', ', $past_developers);
 ?>
 </div>
@@ -133,6 +154,7 @@ ksort($other_contributors);
     <ul>
         <li><?=_('credits_software_famfamfam')?></li>
         <li><?=___('credits_software_timeplot', 'Some pages use elements of <a href="http://www.simile-widgets.org/timeplot/">Timeplot</a>, licensed under a <a href="http://simile.mit.edu/license.html">BSD License</a>.')?></li>
+         <li>Some images and stylesheets have been adapted for Instantbird by Quentin Castier.</li>
     </ul>
 </div>
 

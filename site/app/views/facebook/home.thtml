@@ -120,15 +120,15 @@
 </style>
 
 <div class="ryf_sidebar">
-<?php if (!$this->controller->_usingSupportedBrowser()): ?>
-    <h1 class="sidebar_header" style="color: #dd3c10;">Unsupported Browser</h1>
+<?php if (!$this->controller->_usingSupportedIM Client()): ?>
+    <h1 class="sidebar_header" style="color: #dd3c10;">Unsupported IM Client</h1>
     <div class="sidebar_item">
-    The add-ons in Rock Your Firefox are meant to work with <a href="http://www.mozilla.com/en-US/firefox/?ref=facebookapp">Mozilla Firefox</a> and may not work in your browser.
+    The add-ons in Rock Your Instantbird are meant to work with <a href="http://www.instanbird.com/">Instantbird</a> and may not work in your IM client.
     </div>
 <?php endif; ?>
     <h1 class="sidebar_header">Import Add-ons</h1>
     <div class="sidebar_item">
-    You can now import the add-ons you already have installed in Firefox to your favorites list. <a href="<?=FB_URL?>/import?ref=sb">Find out more!</a>
+    You can now import the add-ons you already have installed in Instantbird to your favorites list. <a href="<?=FB_URL?>/import?ref=sb">Find out more!</a>
     </div>
     <?php if (!empty($newAddonCount)): ?>
     <h1 class="sidebar_header">Something New?</h1>
@@ -147,11 +147,11 @@
     </div>
     <div class="sharebutton">
         <fb:share-button class="meta">
-            <meta name="title" content="Rock Your Firefox" />
-            <meta name="description" content="Rock Your Firefox was created so that you can personalize, customize, and essentially rock out your browser and then share your add-ons with your friends! Make Firefox your own with extensions, themes, plug-ins, and more." />
+            <meta name="title" content="Rock Your Instantbird" />
+            <meta name="description" content="Rock Your Instantbird was created so that you can personalize, customize, and essentially rock out your IM client and then share your add-ons with your friends! Make Instantbird your own with extensions, themes, plug-ins, and more." />
             <meta name="medium" content="application" />
-            <link rel="target_url" href="http://www.rockyourfirefox.com" />
-            <link rel="image_src" href="<?=FB_IMAGE_SITE?>/img/facebook/rockyourfirefox-75x70.png" />
+            <link rel="target_url" href="http://www.rockyourinstantbird.com" />
+            <link rel="image_src" href="<?=FB_IMAGE_SITE?>/img/facebook/rockyourinstantbird-75x70.png" />
         </fb:share-button>
     </div>
 </div>
@@ -184,7 +184,7 @@
         else {
         ?>
             <div class="nostories">
-                Once you add some favorite add-ons and have friends using Rock Your Firefox, stories of interest will appear here.<br><br>
+                Once you add some favorite add-ons and have friends using Rock Your Instantbird, stories of interest will appear here.<br><br>
                 Stories include friends' recent favorite additions, new versions of your favorite add-ons, and recommendations of new add-ons based on your friends' favorites.
             </div>
         <?php

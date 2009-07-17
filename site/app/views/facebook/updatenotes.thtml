@@ -80,7 +80,7 @@
         <div class="update">
             <h2>0.5<span class="date">September 28, 2007</span></h2>
             <ul>
-                <li><a href="<?=FB_URL?>/invite?ref=un">Invitation tool</a> - invite your friends to Rock their Firefox!</li>
+                <li><a href="<?=FB_URL?>/invite?ref=un">Invitation tool</a> - invite your friends to Rock their Instantbird!</li>
                 <li>Full size previews can now be viewed by clicking on the preview thumbnail</li>
                 <li>Newsfeed stories when friends add the application</li>
                 <li>Favorite removal confirmation dialog</li>
@@ -114,7 +114,7 @@
         </div>
     </div>
     
-    <div class="credits">Some icons used in Rock Your Firefox are from the
+    <div class="credits">Some icons used in Rock Your Instantbird are from the
     <a href="http://www.famfamfam.com/lab/icons/silk/">famfamfam Silk Icon Set</a>,
     licensed under a <a href="http://creativecommons.org/licenses/by/2.5/">Creative
     Commons Attribution 2.5 License</a>.</div>

@@ -64,14 +64,14 @@
 <?php endif; ?>
 
 <div id="footer-legal">
-    <p id="copyright"><?=_('footer_copyright')?> <span title="<?=php_uname('n')?>">&#169;</span> 2005&#8211;<?=date('Y')?> Mozilla. <?=_('footer_all_rights_reserved')?></p>
+    <p id="copyright"><?=_('footer_copyright')?> <span title="<?=php_uname('n')?>">&#169;</span> 2005&#8211;<?=date('Y')?> Mozilla & Instantbird. <?=_('footer_all_rights_reserved')?></p>
     <ul id="nav-legal">
-        <li><?=$html->link(_('footer_privacy_policy'), '/pages/privacy');?></li>
-        <li><a href="http://www.mozilla.com/<?=LANG?>/about/legal.html"><?=_('footer_legal_notices')?></a></li>
+        <!--li><?=$html->link(_('footer_privacy_policy'), '/pages/privacy');?></li-->
+        <!--li><a href="http://www.mozilla.com/<?=LANG?>/about/legal.html"><?=_('footer_legal_notices')?></a></li-->
         <?php if (!isset($suppressCredits) || !$suppressCredits): ?><li><?=$html->link(_('footer_credits'), '/pages/credits')?></li><?php endif; ?>
         <li><?=$html->link(___('footer_a_about'), '/pages/about')?></li>
         <li><?=$html->link('<abbr title="'.___('footer_abbr_faq').'">'.___('footer_a_faq').'</abbr>', '/pages/faq')?></li>
-        <li><a href="http://blog.mozilla.com/addons"><?=___('footer_a_blog')?></a></li>
+        <li><a href="http://blog.instantbird.org/"><?=___('footer_a_blog')?></a></li>
     </ul>
     <p id="footer-disclaimer"><?=_('footer_disclaimer')?></p>
 </div>

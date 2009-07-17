@@ -179,7 +179,7 @@
             </div>
             <?php   
                 if (!$this->controller->_usingSupportedBrowser()) {
-                    echo '<div style="text-align: center;"><a href="http://www.mozilla.com/en-US/firefox/?ref=facebookapp"><img src="'.SITE_URL.'/img/facebook/non-firefox-box.png" border=0></a></div>';
+                    echo '<div style="text-align: center;"><a href="http://www.instantbird.com/"><img src="'.SITE_URL.'/img/facebook/non-instantbird-box.png" border=0></a></div>';
                 }
                 else {
                     if (strpos($_SERVER['HTTP_USER_AGENT'], 'Win') !== false)

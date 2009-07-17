@@ -72,18 +72,18 @@
     <h1>Import Add-ons</h1>
     
     <div class="info">
-        <p>If you have add-ons already installed in Firefox, now it's easy to automatically detect and import them to your favorite add-ons list.
+        <p>If you have add-ons already installed in Instantbird, now it's easy to automatically detect and import them to your favorite add-ons list.
         By following 3 simple steps, you'll be able to see a list of your installed add-ons and select your favorites.
         After you've imported them, anytime you install new add-ons you can simply come back and re-scan for your new add-ons.</p>
         
         <p>Get started by clicking Detect My Add-ons below!</p>
         
         <div style="text-align: center;">
-        <?php if ($this->controller->_usingSupportedBrowser()): ?>
+        <?php if ($this->controller->_usingSupportedIM Client()): ?>
             <div class="detect"><a href="<?=FB_INSTALL_SITE.$html->url('/facebookinstall/import/'.$key)?>">Detect My Add-ons</a></div>
         <?php else: ?>
             <div class="detect disabled">Detect My Add-ons</div>
-            <div class="unsupported">This ability is only available to Firefox users. You are using an unsupported browser.</div>
+            <div class="unsupported">This ability is only available to Instantbird users. You are using an unsupported IM client.</div>
         <?php endif; ?>
             <div><a href="<?=FB_URL?>/home">Back to home</a></div>
         </div>

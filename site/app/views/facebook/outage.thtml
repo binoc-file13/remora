@@ -67,13 +67,13 @@
 
 <div class="body">
     <div class="outage-notice">
-        Rock Your Firefox is currently unavailable due to high volume of users.
+        Rock Your Instantbird is currently unavailable due to high volume of users.
     </div>
     <div class="outage-details">
         We'll be up and running again shortly.<br>Thanks for your patience!
     </div>
     <div class="outage-alternative">
         In the meantime, check out all the other great ways that you can listen to music, check the weather, upload photos, block stuff you don't like,
-        and do whatever you like to do best on the web with <a href="http://addons.mozilla.org">Firefox Add-ons</a>.
+        and do whatever you like to do best on the web with <a href="http://addons.instantbird.org">Instantbird Add-ons</a>.
     </div>
 </div>
