@@ -41,8 +41,7 @@
 
 // Mozilla datacenter IPs to filter
 $datacenters = array(
-                    'NL' => array('63.245.213.'),
-                    'CN' => array('59.151.50.')
+                    'IB1' => array('88.191.15.42'),
                     );
 
 // Include class files
@@ -157,7 +156,7 @@ class Log_Parser {
             $pattern = 'GET [A-Za-z/-]*collections';
             
         // Strip relevant lines out of log file and write to a temp file
-        exec("gzip -cd {$logfile} | grep '{$pattern}' > {$tempFile}");
+        exec("gzip -cd {$logfile} | grep -a '{$pattern}' > {$tempFile}");
         if (!$fp = fopen($tempFile, 'r'))
             die('Failed to open temp file');
         
@@ -203,7 +202,7 @@ class Log_Parser {
             return false;
 
         // Match line patterns
-        preg_match("/^(\S+) (\S+) (\S+)\s+\[([^:]+):(\d+:\d+:\d+) ([^\]]+)\] \"(\S+) (.*?) (\S+)\" (\S+) (\S+) (\".*?\") (\".*?\") (\".*?\")$/", $line, $matches);
+        preg_match("/^(\S+) (\S+) (\S+)\s+\[([^:]+):(\d+:\d+:\d+) ([^\]]+)\] \"(\S+) (.*?) (\S+)\" (\S+) (\S+) (\".*?\") (\".*?\")(?: (\".*?\"))?$/", $line, $matches);
 
         if (empty($matches[0])) {
             outputIfVerbose("Could not match log entry to pattern: {$line}\n");
