@@ -565,7 +565,7 @@ msgstr "View all recently updated add-ons"
 #: views/elements/install.thtml:111
 msgid "addons_install_in_sunbird"
 msgstr ""
-"<ol><li>Click the link below to save the file.</li><li>In Mozilla Sunbird, "
+"<ol><li>Click the link below to save the file.</li><li>In Instantbird Sunbird, "
 "open Add-ons from the Tools menu.</li><li>Click the Install button, and "
 "locate/select the file you downloaded and click \"OK\".</li></ol>"
 
@@ -577,7 +577,7 @@ msgstr "How to Install in Sunbird"
 msgid "addons_install_in_thunderbird"
 msgstr ""
 "<ol><li>Right-click the link below and choose \"Save Link As...\" to "
-"download and save the file to your hard disk.</li><li>In Mozilla "
+"download and save the file to your hard disk.</li><li>In Instantbird "
 "Thunderbird, open Add-ons from the Tools menu.</li><li>Click the Install "
 "button, and locate/select the file you downloaded and click \"OK\".</li></ol>"
 
@@ -618,7 +618,7 @@ msgstr "for Windows"
 msgid "addons_plugins_looking_for_more"
 msgstr ""
 "This page only lists some of the most common and most popular plugins. For "
-"more information about other plugins available for Mozilla-based Browsers, "
+"more information about other plugins available for Mozilla-based IMs, "
 "visit %1$s"
 
 #: views/addons/plugins.thtml:152
@@ -628,7 +628,7 @@ msgstr "Looking for a plugin not listed here?"
 #: views/addons/plugins.thtml:53
 msgid "addons_plugins_main_description"
 msgstr ""
-"Plugins help your browser perform specific functions like viewing special "
+"Plugins help your IM perform specific functions like viewing special "
 "graphic formats or playing multimedia files. Plugins are slightly different "
 "from extensions, which modify or add to existing functionality."
 
@@ -694,7 +694,7 @@ msgstr "Instantbird's Developer Center"
 #: views/pages/js_constants.js.thtml:60
 msgid "addons_searchengines_error_mozilla_browser_required"
 msgstr ""
-"Sorry, you need a Mozilla-based browser (such as Instantbird) to install a "
+"Sorry, you need a Mozilla-based IM (such as Instantbird) to install a "
 "search plugin."
 
 #: views/addons/searchengines.thtml:49
@@ -1448,7 +1448,7 @@ msgstr "wiki page"
 msgid "credits_intro"
 msgstr ""
 "The Instantbird's team & Mozilla would like to thank the following people for"
-" their contributions to the addons.mozilla.org project over the years:"
+" their contributions to the addons.instantbird.org project over the years:"
 
 #: views/pages/credits.thtml:101
 msgid "credits_section_developers"
@@ -2549,7 +2549,7 @@ msgstr ""
 msgid "devcp_error_invalid_version"
 msgstr ""
 "The version of this add-on is invalid: please see the <a href=\"http://"
-"developer.mozilla.org/en/docs/Toolkit_version_format\">specification</a>"
+"developer.instantbird.org/en/docs/Toolkit_version_format\">specification</a>"
 
 #: controllers/components/developers.php:531
 msgid "devcp_error_invalid_version_spaces"
@@ -3380,7 +3380,7 @@ msgstr "No account found for that email address."
 msgid "devcp_verify_search_engine_error"
 msgstr ""
 "Either the XML is invalid or required fields are missing.  Please <a href="
-"\"https://developer.mozilla.org/en/Creating_OpenSearch_plugins_for_Instantbird"
+"\"https://developer.instantbird.org/en/Creating_OpenSearch_plugins_for_Instantbird"
 "\">read the documentation</a>, verify your add-on, and try again."
 
 #: views/developers/versions.thtml:75
@@ -5083,7 +5083,7 @@ msgstr "all add-ons"
 
 #: views/elements/search.thtml:171 views/elements/search.thtml:183
 #: views/elements/search_mini.thtml:43 views/elements/search_mini.thtml:49
-#: views/layouts/mozilla.thtml:188
+#: views/layouts/instantbird.thtml:188
 msgid "search_form_default_text"
 msgstr "search for add-ons"
 
@@ -5802,7 +5802,7 @@ msgstr ""
 "Before you can use your new account you must activate it - this ensures the "
 "e-mail address you used is valid and belongs to you.\n"
 "To activate your account, click the link below or copy and paste the whole "
-"thing into your browser's location bar:\n"
+"thing into your IM's location bar:\n"
 "\n"
 "%1$s\n"
 "\n"
@@ -5819,7 +5819,7 @@ msgstr ""
 "You requested a change to your email address at %2$s Add-ons.\n"
 "\n"
 "In order to confirm the new address, please click the link below or copy and "
-"paste the whole thing into your browser's location bar:\n"
+"paste the whole thing into your IM's location bar:\n"
 "\n"
 "%1$s\n"
 "\n"
@@ -5843,8 +5843,8 @@ msgstr ""
 "%2$s Add-ons Password Reset\n"
 "\n"
 "A request was received to reset the password for this account on addons."
-"mozilla.org. To change this password please click on the following link, or "
-"paste it into your browser's location bar:\n"
+"instantbird.org. To change this password please click on the following link, or "
+"paste it into your IM's location bar:\n"
 "\n"
 "%1$s\n"
 "\n"
@@ -6104,7 +6104,7 @@ msgstr "Thanks for registering and welcome to %1$s!"
 
 #: views/users/register.thtml:49
 msgid "user_register_welcome_header"
-msgstr "Welcome to addons.mozilla.org (AIO)!"
+msgstr "Welcome to addons.instantbird.org (AIO)!"
 
 #: views/users/register.thtml:81 views/users/edit.thtml:106
 msgid "user_required_firstlast_or_nickname"
