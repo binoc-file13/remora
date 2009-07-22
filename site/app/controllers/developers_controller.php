@@ -1497,7 +1497,7 @@ class DevelopersController extends AppController
                 );
                 $this->publish('info', $emailInfo, false);
                 $this->Email->template = '../editors/email/inforequest_reply';
-                $this->Email->subject = sprintf('Mozilla Add-ons: %s %s', $emailInfo['name'], $emailInfo['version']);
+                $this->Email->subject = sprintf('Instantbird Add-ons: %s %s', $emailInfo['name'], $emailInfo['version']);
                 foreach ($recipients as &$recipient) {
                     $this->Email->to = $recipient;
                     $this->Email->send();

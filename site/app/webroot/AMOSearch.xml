@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>Mozilla Add-ons</ShortName>
+  <ShortName>Instantbird Add-ons</ShortName>
   <Url type="text/html" 
        method="get"
        template="http://addons.mozilla.org/search/?q={searchTerms}">

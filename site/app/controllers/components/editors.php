@@ -137,7 +137,7 @@ class EditorsComponent extends Object {
         if ($data['Approval']['ActionField'] != 'superreview') {
             $this->controller->Email->template = 'email/nominated/'.$data['Approval']['ActionField'];
             $this->controller->Email->to = $emailInfo['email'];
-            $this->controller->Email->subject = sprintf('Mozilla Add-ons: %s Nomination', $emailInfo['name']);
+            $this->controller->Email->subject = sprintf('Instantbird Add-ons: %s Nomination', $emailInfo['name']);
         }
         else {
             $this->controller->Email->template = 'email/superreview';
@@ -267,7 +267,7 @@ class EditorsComponent extends Object {
         if ($data['Approval']['ActionField'] != 'superreview') {
             $this->controller->Email->template = 'email/pending/'.$data['Approval']['ActionField'];
             $this->controller->Email->to = $emailInfo['email'];
-            $this->controller->Email->subject = sprintf('Mozilla Add-ons: %s %s', $emailInfo['name'], $emailInfo['version']);
+            $this->controller->Email->subject = sprintf('Instantbird Add-ons: %s %s', $emailInfo['name'], $emailInfo['version']);
         }
         else {
             $this->controller->Email->template = 'email/superreview';
@@ -322,7 +322,7 @@ class EditorsComponent extends Object {
         $this->controller->publish('info', $emailInfo, false);
         $this->controller->Email->template = 'email/inforequest';
         $this->controller->Email->to = implode(', ', $authors);
-        $this->controller->Email->subject = sprintf('Mozilla Add-ons: %s %s', $emailInfo['name'], $emailInfo['version']);
+        $this->controller->Email->subject = sprintf('Instantbird Add-ons: %s %s', $emailInfo['name'], $emailInfo['version']);
         $this->controller->Email->send();
     }
     
@@ -387,7 +387,7 @@ class EditorsComponent extends Object {
         $this->controller->publish('info', $emailInfo, false);
         
         $this->controller->Email->template = '../editors/email/notify_update';
-        $this->controller->Email->subject = sprintf('Mozilla Add-ons: %s Updated', $emailInfo['name']);
+        $this->controller->Email->subject = sprintf('Instantbird Add-ons: %s Updated', $emailInfo['name']);
         
         foreach ($subscribers as &$subscriber) {
             $this->controller->Email->to = $subscriber['User']['email'];

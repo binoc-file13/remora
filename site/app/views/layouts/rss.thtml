@@ -7,7 +7,7 @@
         <language><?=strtolower(LANG) ?></language>
         <pubDate><?=$time->toRss(gmmktime()) ?></pubDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <genInstantbirdMozilla Add-ons</generator>
+        <generator>Instantbird Add-ons</generator>
         
         <?php echo $content_for_layout; ?>
 
