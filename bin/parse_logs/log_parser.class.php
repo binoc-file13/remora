@@ -151,7 +151,7 @@ class Log_Parser {
         if ($this->type == 'downloads')
             $pattern = 'downloads/file/';
         elseif ($this->type == 'updatepings')
-            $pattern = 'VersionCheck.php';
+            $pattern = 'services/update.php';
         elseif ($this->type == 'collections')
             $pattern = 'GET [A-Za-z/-]*collections';
             
@@ -234,13 +234,13 @@ class Log_Parser {
         $log_data['bytes'] = $matches[11];
         $log_data['referer'] = $matches[12];
         $log_data['agent'] = $matches[13];
-        $log_data['otherstuff'] = $matches[14];
+        $log_data['otherstuff'] = key_exists(14, $matches) ? $matches[14] : '';
       
         // It's awesome that strtotime can't parse a standard apache timestamp
         $log_data['unixtime'] = strtotime(str_replace('/', ' ', $log_data['date'])." {$log_data['time']}");
       
         // Break up URL into pieces we need for download counts or update pings
-        preg_match("/(file|VersionCheck\.php)(\/([0-9]*))?(\?reqVersion=([^&]+)&id=([^&]+)(&version=([^&]+))?(&maxAppVersion=([^&]+))?(&status=([^&]+))?(&appID=([^&]+))?(&appVersion=([^&]+))?(&appOS=([^&]+))?(&appABI=(\S*))?)?/", $log_data['path'], $matches);
+        preg_match("/(file|services\/update\.php)(\/([0-9]*))?(\?reqVersion=([^&]+)&id=([^&]+)(&version=([^&]+))?(&maxAppVersion=([^&]+))?(&status=([^&]+))?(&appID=([^&]+))?(&appVersion=([^&]+))?(&appOS=([^&]+))?(&appABI=(\S*))?)?/", $log_data['path'], $matches);
         
         if (empty($matches)) {
             // If that first crazy regex fails, let's see if it's a collection
@@ -253,7 +253,7 @@ class Log_Parser {
         // Set request type
         if ($matches[1] == 'file')
             $log_data['type'] = 'downloads';
-        elseif ($matches[1] == 'VersionCheck.php')
+        elseif ($matches[1] == 'services/update.php')
             $log_data['type'] = 'updatepings';
         elseif ($matches[1] == 'collections')
             $log_data['type'] = 'collections';
