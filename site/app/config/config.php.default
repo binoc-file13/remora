@@ -57,14 +57,14 @@
  *     echo SITE_URL.$html->url('/users/register');
  * Will default to http://addons.instantbird.org unless defined below
  */
-define('SITE_URL', 'http://t2.undoso.eu');
+define('SITE_URL', 'http://addons.instantbird.org');
 
 /**
  * Services URL.
  * Example: http://addons.instantbird.org/services
  * Example: http://khan-vm.mozilla.org/amo/services (dev)
  */
-define('SERVICE_URL', 'http://t2.undoso.eu/services');
+define('SERVICE_URL', 'http://addons.instantbird.org/services');
 
 /**
  * Site State
@@ -90,7 +90,7 @@ define('SITE_STATE', 'dev');
  * Host, including http://.  Should be everything leading up to addon ids.
  * Example: http://releases.mozilla.org/addons
   */
-define('FILES_HOST', 'http://t2.undoso.eu/files/');
+define('FILES_HOST', 'http://addons.instantbird.org/files/');
 
 /**
  * Relative web path of the files directory.  Tacking this on to FILES_HOST should get you
