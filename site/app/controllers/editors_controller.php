@@ -370,7 +370,11 @@ class EditorsController extends AppController
             $this->flash(_('error_addon_notfound'), '/editors/queue');
             return;
         }
-        
+	$tmp = $this->Addon->getAuthors($version['Version']['addon_id'], false);
+	$addon['User'] = array();
+	foreach ($tmp as $tmp_infos)
+		$addon['User'][] = $tmp_infos['User'];
+
         //Make sure user is not an author (or is an admin)
         $session = $this->Session->read('User');
         if (!$this->SimpleAcl->actionAllowed('*', '*', $session)) {
