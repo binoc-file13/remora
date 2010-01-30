@@ -3,3 +3,5 @@
 ^site/app/webroot/files($|/)
 ^site/app/tmp/
 ^site/app/config/config.php$
+^logs/
+^mod_rewrite/

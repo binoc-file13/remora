@@ -106,7 +106,7 @@ define('FILES_HOST', 'http://addons.instantbird.org/files/');
  * File path for storing XPI/JAR files (or any files associated with an add-on).
  * Example: /data/www/app/webroot/files
  */
-define('REPO_PATH', '/www/remora/site/app/webroot/files');
+define('REPO_PATH', '/www/instantbird/addons/site/app/webroot/files');
 
 /**
  * File path for storing public files to be rsynced for updates
