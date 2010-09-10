@@ -689,7 +689,7 @@ msgstr "Additional Resources"
 #. link text devmo
 #: views/addons/searchengines.thtml:141
 msgid "addons_searchengines_devmo_link"
-msgstr "Instantbird's Developer Center"
+msgstr "Mozilla's Developer Center"
 
 #: views/pages/js_constants.js.thtml:60
 msgid "addons_searchengines_error_mozilla_browser_required"
