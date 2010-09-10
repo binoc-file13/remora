@@ -83,7 +83,7 @@
     }
 ?>
     
-    <link rel="search" type="application/opensearchdescription+xml" href="<?=$html->url('/AMOSearch.xml', null, false, false)?>" title="Instantbird Add-ons"/>
+    <link rel="search" type="application/opensearchdescription+xml" href="<?=$html->url('/AIOSearch.xml', null, false, false)?>" title="Instantbird Add-ons"/>
     <?php if (isset($addon) && ($addon['Addon']['addontype_id'] == ADDON_SEARCH)) : ?>
         <link rel="search" type="application/opensearchdescription+xml" href="<?=$html->urlFile($addon['Version'][0]['File'][0]['id'], $addon['Version'][0]['File'][0]['filename'])?>" locale="<?=$addon['Translation']['name']['locale']?>" title="<?=$addon['Translation']['name']['string']?>"/>
     <?php endif; ?>
