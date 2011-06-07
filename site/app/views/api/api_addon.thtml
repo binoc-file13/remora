@@ -62,7 +62,14 @@
     foreach ($addon['User'] as $author) {
         $authorName = (!empty($author['nickname'])) ? $author['nickname'] : $author['firstname'].' '.$author['lastname'];
 ?>
+<?php if ($api_version < 1.5 ) { ?>
           <author><?php echo $authorName; ?></author>
+<?php } else { ?>
+          <author id="<?php echo $author['id']; ?>">
+            <name><?php echo $authorName; ?></name>
+            <link>https://addons.instantbird.org/en-US/instantbird/user/<?php echo $author['id']; ?></link>
+          </author>
+<?php } ?>
 <?php
     }
 ?>    </authors>      
