@@ -96,7 +96,7 @@
             else {
                 // Admin Disabled Add-on
                 echo '<p>'.sprintf(___('devcp_dashboard_disabled_status'), '<span class ="'.STATUS_DISABLED.'">'.$statuses[STATUS_DISABLED].'</span>').'</p>';
-                echo '<p>'.sprintf(___('devcp_dashboard_disabled_questions'), 'amo-admins@mozilla.org').'</p>';
+                echo '<p>'.sprintf(___('devcp_dashboard_disabled_questions'), 'team@instantbird.org').'</p>';
             }
             ?>
             </div>

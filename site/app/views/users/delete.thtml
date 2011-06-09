@@ -83,7 +83,7 @@
             echo sprintf(___('user_del_error_unknown', 'An unknown error occured '
                 .'deleting your account. Please contact %1$s with the issue and '
                 .'we will delete it for you. We apologize for the inconvenience.'),
-                $link->email('amo-admins@mozilla.org'));
+                $link->email('team@instantbird.org'));
             break;
         }
     ?>

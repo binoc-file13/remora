@@ -141,7 +141,7 @@ class EditorsComponent extends Object {
         }
         else {
             $this->controller->Email->template = 'email/superreview';
-            $this->controller->Email->to = 'amo-admins@mozilla.org';
+            $this->controller->Email->to = 'team@instantbird.org';
             //Doesn't need to be localized
             $this->controller->Email->subject = "Super-review requested: {$emailInfo['name']}";  
         }
@@ -271,7 +271,7 @@ class EditorsComponent extends Object {
         }
         else {
             $this->controller->Email->template = 'email/superreview';
-            $this->controller->Email->to = 'amo-admins@mozilla.org';
+            $this->controller->Email->to = 'team@instantbird.org';
             //Doesn't need to be localized
             $this->controller->Email->subject = "Super-review requested: {$emailInfo['name']}";  
         }

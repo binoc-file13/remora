@@ -86,7 +86,7 @@
                         break;
                         
                     case STATUS_DISABLED:
-                        echo sprintf(___('devcp_addon_status_switch_disabled'), 'amo-admins@mozilla.org');
+                        echo sprintf(___('devcp_addon_status_switch_disabled'), 'team@instantbird.org');
                         break;
                     }
                 ?>
