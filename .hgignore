@@ -5,3 +5,4 @@
 ^site/app/config/config.php$
 ^logs/
 ^mod_rewrite/
+~$
