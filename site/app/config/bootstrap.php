@@ -219,14 +219,9 @@ if (array_key_exists($buf[0],$valid_languages)) {
 
 // Now make sure that there's a known app/layout in the second position.
 if (count($buf) < 2 || !array_key_exists($buf[1], $valid_layouts)) {
-    // No app or unknown app, so we see if this is seamonkey, otherwise stick
-    // instantbird in the place of honour and redirect.
-    if (array_key_exists('HTTP_USER_AGENT', $_SERVER) && 
-        strpos($_SERVER['HTTP_USER_AGENT'], 'SeaMonkey') !== false) {
-        array_splice($buf, 1, 0, "seamonkey");
-    } else {
-        array_splice($buf, 1, 0, "instantbird");
-    }
+    // No app or unknown app, stick instantbird in the place of honour and
+    // redirect.
+    array_splice($buf, 1, 0, "instantbird");
     redirectWithNewLocaleAndExit($buf);
 }
 
